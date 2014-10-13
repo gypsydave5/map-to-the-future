@@ -40,4 +40,18 @@ describe Event do
     end
   end
 
+  context "exporting geoJSON data" do
+    it "should have a method to export as geoJSON data" do
+      event = Event.new(title: "event", description: "event", date: DateTime.new(1900), geometry: { type: "Point", coordinates: [1.0, 1.0] })
+      event.save
+      expect(event.export_geojson).to eq('{"type":"Feature","properties":{"title":"event","description":"event","date":"1900-01-01T00:00:00+00:00"},"geometry":{"type":"Point","coordinates":[1.0,1.0]}}')
+    end
+
+    it "should have a method to export a geoJSON-Feature-ready hash object" do
+      event = Event.new(title: "event", description: "event", date: DateTime.new(1900), geometry: { type: "Point", coordinates: [1.0, 1.0] })
+      event.save
+      expect(event.geojson_feature_hash).to eq({type: "Feature",properties:{title:"event",description:"event",date:DateTime.new(1900)},geometry:{type:"Point",coordinates:[1.0,1.0]}})
+    end
+  end
+
 end
