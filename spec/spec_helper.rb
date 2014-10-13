@@ -26,18 +26,18 @@ RSpec.configure do |config|
   # assertion/expectation library such as wrong or the stdlib/minitest
   # assertions if you prefer.
 
-  #config.before(:suite) do
-    #DatabaseCleaner.strategy = :transaction
-    #DatabaseCleaner.clean_with(:truncation)
-  #end
+  config.before(:suite) do
+    DatabaseCleaner.strategy = :transaction
+    DatabaseCleaner.clean_with(:truncation)
+  end
 
-  #config.before(:each) do
-    #DatabaseCleaner.start
-  #end
+  config.before(:each) do
+    DatabaseCleaner.start
+  end
 
-  #config.after(:each) do
-    #DatabaseCleaner.clean
-  #end
+  config.after(:each) do
+    DatabaseCleaner.clean
+  end
 
   config.expect_with :rspec do |expectations|
     # This option will default to `true` in RSpec 4. It makes the `description`
