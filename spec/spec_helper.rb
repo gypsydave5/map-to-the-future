@@ -19,7 +19,8 @@
 ENV["RACK_ENV"] = 'Test'
 
 require 'database_cleaner'
-require './lib/map_to_the_future.rb'
+require './lib/event_router.rb'
+# require 'capybara'
 
 RSpec.configure do |config|
   # rspec-expectations config goes here. You can use an alternate

@@ -1,4 +1,3 @@
-ruby '2.1.0'
 source 'https://rubygems.org'
 
 gem 'data_mapper'
@@ -9,9 +8,10 @@ gem 'sinatra'
 gem 'sinatra-partial'
 
 group :development, :test do
-	gem 'shotgun'
 	gem 'capybara'
-	gem "database_cleaner"
-  	gem "rspec"
-  	gem "cucumber-sinatra"
+  gem "cucumber-sinatra"
+  gem "database_cleaner"
+  gem "rack-test"
+  gem "rspec"
+  gem 'shotgun'
  end
