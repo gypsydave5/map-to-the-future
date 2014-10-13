@@ -1,10 +1,8 @@
 class Event
 
+  include DataMapper::Resource
 
-
-include DataMapper::Resource
-
-  property :id,     		Serial 
+  property :id,     		Serial
   property :title,  		String
   property :description,    Text
   property :category,    	String

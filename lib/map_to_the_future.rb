@@ -1,4 +1,6 @@
 require 'sinatra/base'
+require 'data_mapper'
+require 'datamapper_setup'
 
 class MapToTheFuture < Sinatra::Base
   get '/' do
