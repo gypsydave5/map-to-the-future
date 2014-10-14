@@ -5,6 +5,10 @@ require './lib/datamapper_setup'
 ENV['TZ'] = 'utc'
 
 class MapToTheFuture < Sinatra::Base
+
+  set :views, Proc.new { File.join(File.dirname(__FILE__), "../views") }
+
+
   get '/events' do
     all_the_events = Event.all
     features_collection_json(all_the_events)
@@ -12,6 +16,10 @@ class MapToTheFuture < Sinatra::Base
 
   get '/upload' do
     haml :upload
+  end
+
+  get '/' do
+    erb :layout
   end
 
   run! if app_file == $0

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="us">
+<head>
+  <meta charset="utf-8">
+  <title>jQuery UI Example Page</title>
+  <link href="jquery-ui.css" rel="stylesheet">
+
+</head>
+<body>
+
+
+
+<!-- Slider -->
+<h2 class="demoHeaders">Slider</h2>
+<div id="slider"></div>
+<p>Current Date: <span id="date"></span></p>
+
+
+
+<script src="external/jquery/jquery.js"></script>
+<script src="jquery-ui.js"></script>
+<script>
+
+
+$('document').ready( function(){
+  $( "#slider" ).slider({
+    min: new Date("1900").getFullYear(),
+    max: new Date("2019").getFullYear(),
+    step: 1,
+    value: new Date("1970").getFullYear(),
+    create: function(event, ui){
+      $('#date').text((new Date($("#slider").slider("option", "value")).getFullYear()));
+    },
+    slide: function(event, ui){
+      $('#date').text(ui.value);
+      console.log(ui.value);
+    }
+  });
+});
+
+//console.log($("#date").val( $( "#slider" ).slider( "value" ) ));
+
+</script>
+</body>
+</html>
