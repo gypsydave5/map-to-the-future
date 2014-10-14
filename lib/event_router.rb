@@ -10,6 +10,10 @@ class MapToTheFuture < Sinatra::Base
     features_collection_json(all_the_events)
   end
 
+  get '/upload' do
+    haml :upload
+  end
+
   run! if app_file == $0
 
 
