@@ -7,24 +7,30 @@ ENV['TZ'] = 'utc'
 class MapToTheFuture < Sinatra::Base
   get '/events' do
     all_the_events = Event.all
-    features_response_json(all_the_events[0])
+    features_collection_json(all_the_events)
   end
 
-  # start the server if ruby file executed directly
   run! if app_file == $0
 
 
-def features_response_json(event)
+end
+
+def features_collection_json(array)
+  feature_array = array.map {|feature_hash| feature_json(feature_hash)}
   {
     type: "FeatureCollection",
-    features: [
-      type: "Feature",
-      properties: {title: event.title, description: event.description, date: event.date},
-      geometry: event.geometry
-    ]
+    features: feature_array
   }.to_json
 end
 
-
-
+def feature_json(hash)
+      {
+          type: "Feature",
+        properties: {
+            title: hash.title,
+            description: hash.description,
+            date: hash.date
+          },
+        geometry: hash.geometry
+      }
 end
