@@ -10,19 +10,16 @@ describe 'router' do
   end
 
   it 'should return an event' do
-    event = {title: "event", description: "event", date: DateTime.new(1900), geometry: { type: "Point", coordinates: [1.0, 1.0] }}
-    Event.create(event)
+    event = point_event("event", "description", "event", 1900, [1.0, 1.0])
     get '/events'
     events_array = [event]
     expect(last_response.body).to eq features_response_json(events_array)
   end
 
   it 'should return all the events in a FeatureCollection' do
-    event = {title: "event", description: "event", date: DateTime.new(1900), geometry: { type: "Point", coordinates: [1.0, 1.0] }}
-    another_event  = {title: "more", description: "more", date: DateTime.new(1901), geometry: { type: "Point", coordinates: [2.0, 2.0] }}
+    event = point_event("event", "description", "event", 1900, [1.0, 1.0])
+    another_event = point_event("Marty", "McFly", "Character", 1985, [1.0, 1.0])
     events_array = [event, another_event]
-    Event.create(event)
-    Event.create(another_event)
     get '/events'
     expect(last_response.body).to eq features_response_json(events_array)
   end
@@ -45,6 +42,10 @@ describe 'router' do
             },
           geometry: hash[:geometry]
         }
+  end
+
+  def point_event(name, description, category, year, coords)
+    Event.create({title: name, description: description, category: category, date: DateTime.new(year), geometry: { type: "Point", coordinates: coords }})
   end
 
 end
