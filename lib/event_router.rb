@@ -14,6 +14,20 @@ class MapToTheFuture < Sinatra::Base
     haml :upload
   end
 
+  post '/upload' do
+    upload = JSON.parse(params[:geoJSON][:tempfile].read)
+    upload["features"].each do |feature|
+      Event.create({
+        title: feature["properties"]["title"] || "",
+        description: feature["properties"]["description"] || "",
+        category: feature["properties"]["category"] || "",
+        date: DateTime.new(feature["properties"]["date"].to_i) || DateTime.new,
+        geometry: feature["geometry"] || ""
+      })
+    end
+    "File uploaded!" + upload.to_s
+  end
+
   run! if app_file == $0
 
 
