@@ -2,6 +2,8 @@ require 'sinatra/base'
 require 'data_mapper'
 require './lib/datamapper_setup'
 
+ENV['TZ'] = 'utc'
+
 class MapToTheFuture < Sinatra::Base
   get '/events' do
     all_the_events = Event.all
