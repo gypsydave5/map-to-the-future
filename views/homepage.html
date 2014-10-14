@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.2/mapbox.js'></script>
+	<script src='bower_components/jquery/dist/jquery.min.js'></script>
+	<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.2/mapbox.css' rel='stylesheet' />
+	<style>
+      body { margin:0; padding:0; font-family: 'Menlo' }
+      #map {
+        width:100%;
+        height: 500px;
+        }
+      p {
+        text-align: center
+      }
+      .do_stuff {
+        padding: 5px 10px;
+        margin: 3px;
+        border: 2px dotted teal;
+        background: turquoise;
+        border-radius: 5px;
+      }
+      .do_stuff:hover {
+        cursor: pointer
+      }
+    </style>
+	<title>Map to the Future!</title>
+</head>
+<body>
+	<div id='map'></div>
+	<script> 
+   	L.mapbox.accessToken = "pk.eyJ1IjoiYmluYXJ5YmVycnkiLCJhIjoiVFFGaVhVRSJ9.Ji2eb0SFcAKpHCc_B3voLA";
+      var map = L.mapbox.map('map', 'binaryberry.jp14jb9e')
+      $(document).ready(function(){
+      	map})
+
+	</script>
+</body>
+</html>
+
+
+
+<!-- map id: binaryberry.jp14jb9e -->
