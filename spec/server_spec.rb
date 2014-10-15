@@ -13,32 +13,37 @@ describe 'router' do
     event = point_event("Occurance", "description", ["event"], 1900, 1900, "year", [1.0, 1.0])
     get '/events'
     events_array = [event]
-    expect(last_response.body).to eq features_response_json(events_array)
+    expect(last_response.body).to eq features_response(events_array).to_json
   end
 
   it 'should return all the events in a FeatureCollection' do
     event = point_event("Occurance", "description", ["event"], 1900, 1900, "year", [1.0, 1.0])
     another_event = point_event("Marty", "McFly", ["character"], 1985, 1985, "year", [1.0, 1.0])
     events_array = [event, another_event]
+    response = features_response(events_array)
+    response[:features][0][:properties][:id] = 5
+    response[:features][1][:properties][:id] = 6
     get '/events'
-    expect(last_response.body).to eq features_response_json(events_array)
+    expect(last_response.body).to eq response.to_json
   end
 
   it 'should reuturn events for a particular date from the database' do
-    event_1900 = point_event("Occurance", "description", ["event"], 1900, 1900, "year", [1.0, 1.0])
+    point_event("Occurance", "description", ["event"], 1900, 1900, "year", [1.0, 1.0])
     event_1985 = point_event("Marty", "McFly", ["character"], 1985, 1985, "year", [1.0, 1.0])
     events_array = [event_1985]
+    response = features_response(events_array)
+    response[:features][0][:properties][:id] = 8
     get '/events/year/1985'
-    expect(last_response.body).to eq features_response_json(events_array)
+    expect(last_response.body).to eq response.to_json
   end
 
 
-  def features_response_json(array)
+  def features_response(array)
     feature_array = array.map {|feature_hash| feature_json(feature_hash)}
     {
       type: "FeatureCollection",
       features: feature_array
-    }.to_json
+    }
   end
 
   def feature_json(event)

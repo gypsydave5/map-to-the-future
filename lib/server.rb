@@ -9,6 +9,7 @@ class MapToTheFuture < Sinatra::Base
   #set :views, Proc.new { File.join(File.dirname(__FILE__), "/views") }
 
   get '/events' do
+    p Event.all
     all_the_events = Event.all
     change_to_features_collection_json(all_the_events)
   end
@@ -18,7 +19,7 @@ class MapToTheFuture < Sinatra::Base
   end
 
   get '/events/year/:year' do
-    events = Event.all(:date.gte => DateTime.new(params[:year].to_i), :date.lt => DateTime.new((params[:year]).to_i + 1))
+    events = Event.all(:startdate.gte => DateTime.new(params[:year].to_i), :startdate.lt => DateTime.new((params[:year]).to_i + 1))
     change_to_features_collection_json(events)
   end
 
@@ -27,8 +28,14 @@ class MapToTheFuture < Sinatra::Base
     upload["features"].each do |feature|
       event = { geometry: feature["geometry"] }
       feature["properties"].keys.each do |key|
-        if key == "date"
+        if key =~ /date/
           event[key.to_sym] = DateTime.new(feature["properties"][key].to_i)
+        elsif key == "tags"
+          event[key.to_sym] = feature["properties"][key].map{|tag| Tag.first_or_create(name: tag)}
+        elsif key == "events"
+          event[key.to_sym] = feature["properties"][key].map do |linked_event|
+            Event.get(linked_event["id"].to_i)
+          end
         else
           event[key.to_sym] = feature["properties"][key]
         end
