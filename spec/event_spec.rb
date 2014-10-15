@@ -5,8 +5,9 @@ describe Event do
   def create_event
       @event = Event.new( title: "Eiffel Tower",
         description: "Pioneer of aerodynamics Georges Eiffel created this tower for Universal Exhibition of 1889.",
-        category: "Monument",
-        date: DateTime.new(1889, 3,15),
+        tags: [Tag.first_or_create(name: "Monument")],
+        startdate: DateTime.new(1889, 3,15),
+        enddate: DateTime.new(1889, 3,15),
         geometry: { type: "Point",
                     coordinates: [2.294694, 48.858093] })
   end
@@ -21,11 +22,11 @@ describe Event do
       create_event
       @event.save
       expect(Event.count).to eq 1
-      expect(Event.first(title: "Eiffel Tower").category).to eq "Monument"
+      expect(Event.first(title: "Eiffel Tower").tags.first.name).to eq "Monument"
     end
 
     it "must have an title, description, date and geometry" do
-      bad_event1 = Event.new( title: "", description: "", category: "Bob" )
+      bad_event1 = Event.new( title: "", description: "", tags: [Tag.first_or_create( name: "Bob" )] )
       expect(bad_event1.save).to be false
     end
 
@@ -41,16 +42,10 @@ describe Event do
   end
 
   context "exporting geoJSON data" do
-    it "should have a method to export as geoJSON data" do
-      event = Event.new(title: "event", description: "event", date: DateTime.new(1900), geometry: { type: "Point", coordinates: [1.0, 1.0] })
-      event.save
-      expect(event.export_geojson).to eq('{"type":"Feature","properties":{"title":"event","description":"event","date":"1900-01-01T00:00:00+00:00"},"geometry":{"type":"Point","coordinates":[1.0,1.0]}}')
-    end
-
     it "should have a method to export a geoJSON-Feature-ready hash object" do
-      event = Event.new(title: "event", description: "event", date: DateTime.new(1900), geometry: { type: "Point", coordinates: [1.0, 1.0] })
+      event = Event.new(title: "event", description: "event", startdate: DateTime.new(1900), enddate: DateTime.new(1900), geometry: { type: "Point", coordinates: [1.0, 1.0] })
       event.save
-      expect(event.to_geojson_feature).to eq({type: "Feature",properties:{title:"event",description:"event",date:DateTime.new(1900)},geometry:{type:"Point",coordinates:[1.0,1.0]}})
+      expect(event.to_geojson_feature).to eq({type: "Feature",properties:{id: 3, title:"event",description:"event", startdate:DateTime.new(1900), enddate:DateTime.new(1900), timescale: nil, tags: [], events: []},geometry:{type:"Point",coordinates:[1.0,1.0]}})
     end
   end
 

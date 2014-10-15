@@ -1,6 +1,6 @@
 require 'dm-validations'
 
-class Event
+class Tag
 
   include DataMapper::Resource
 

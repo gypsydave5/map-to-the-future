@@ -10,23 +10,23 @@ describe 'router' do
   end
 
   it 'should return an event' do
-    event = point_event("event", "description", "event", 1900, [1.0, 1.0])
+    event = point_event("Occurance", "description", ["event"], 1900, 1900, "year", [1.0, 1.0])
     get '/events'
     events_array = [event]
     expect(last_response.body).to eq features_response_json(events_array)
   end
 
   it 'should return all the events in a FeatureCollection' do
-    event = point_event("event", "description", "event", 1900, [1.0, 1.0])
-    another_event = point_event("Marty", "McFly", "Character", 1985, [1.0, 1.0])
+    event = point_event("Occurance", "description", ["event"], 1900, 1900, "year", [1.0, 1.0])
+    another_event = point_event("Marty", "McFly", ["character"], 1985, 1985, "year", [1.0, 1.0])
     events_array = [event, another_event]
     get '/events'
     expect(last_response.body).to eq features_response_json(events_array)
   end
 
   it 'should reuturn events for a particular date from the database' do
-    event_1900 = point_event("event", "description", "event", 1900, [1.0, 1.0])
-    event_1985 = point_event("Marty", "McFly", "Character", 1985, [1.0, 1.0])
+    event_1900 = point_event("Occurance", "description", ["event"], 1900, 1900, "year", [1.0, 1.0])
+    event_1985 = point_event("Marty", "McFly", ["character"], 1985, 1985, "year", [1.0, 1.0])
     events_array = [event_1985]
     get '/events/year/1985'
     expect(last_response.body).to eq features_response_json(events_array)
@@ -41,28 +41,38 @@ describe 'router' do
     }.to_json
   end
 
-  def feature_json(hash)
+  def feature_json(event)
         {
             type: "Feature",
           properties: {
-              title: hash[:title],
-              description: hash[:description],
-              date: hash[:date]
+              id: 4,
+              title: event[:title],
+              description: event[:description],
+              startdate: event[:startdate],
+              enddate: event[:enddate],
+              timescale: event[:timescale],
+              events: [],
+              tags: event.tags.map(&:name)
             },
-          geometry: hash[:geometry]
+          geometry: event[:geometry]
         }
   end
 
-  def point_event(name, description, category, year, coords)
-    Event.create({title: name, description: description, category: category, date: DateTime.new(year), geometry: { type: "Point", coordinates: coords }})
+  def point_event(name, description, tags, start_date, end_date, timescale, coords)
+    Event.create({title: name,
+                  description: description,
+                  tags: tags.map{|tag| Tag.first_or_create(name: tag)},
+                  startdate: DateTime.new(start_date),
+                  enddate: DateTime.new(end_date),
+                  geometry: { type: "Point", coordinates: coords }})
   end
 
-  def linestring_event(name, description, category, year, coords)
-    Event.create({title: name, description: description, category: category, date: DateTime.new(year), geometry: { type: "LineString", coordinates: coords }})
+  def line_event(name, description, tags, start_date, end_date, timescale, coords)
+    Event.create({title: name, description: description, tags: tags, startdate: DateTime.new(start_date), enddate: DateTime.new(end_date), geometry: { type: "LineString", coordinates: coords }})
   end
 
-  def polygon_event(name, description, category, year, coords)
-    Event.create({title: name, description: description, category: category, date: DateTime.new(year), geometry: { type: "Polygon", coordinates: coords }})
+  def polygon_event(name, description, tags, start_date, end_date, timescale, coords)
+    Event.create({title: name, description: description, tags: tags, date: DateTime.new(start_date), enddate: DateTime.new(end_date), geometry: { type: "Polygon", coordinates: coords }})
   end
 
 end
