@@ -41,9 +41,7 @@
             console.log(ui.value);
               $.ajax({url: "events/year/" + ui.value}).done(function(geojson){
               console.log(JSON.parse(geojson));
-              monkey = L.geoJson().addTo(map);
-              monkey.addData(JSON.parse(geojson));
-              // L.mapbox.featureLayer(geojson).addTo(map);
+              L.geoJson().addTo(map).addData(JSON.parse(geojson));
             });
           }
         });
