@@ -25,7 +25,11 @@ require 'capybara/poltergeist'
 
 #Poltergeist settings to test JS features
 
+<<<<<<< HEAD
 Capybara.default_wait_time = 10
+=======
+Capybara.default_wait_time = 5
+>>>>>>> added slider test
 
 Capybara.app = MapToTheFuture
 
@@ -43,7 +47,10 @@ Capybara.register_driver :poltergeist do |app|
 end
 
 Capybara.default_driver = :poltergeist
+<<<<<<< HEAD
 
+=======
+>>>>>>> added slider test
 
 RSpec.configure do |config|
   # rspec-expectations config goes here. You can use an alternate
