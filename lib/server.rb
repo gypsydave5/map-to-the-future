@@ -18,7 +18,7 @@ class MapToTheFuture < Sinatra::Base
   end
 
   get '/events/year/:year' do
-    events = Event.all(:date.gt => DateTime(params[:year].to_s), :date.lt => DateTime((params[:year] + 1).to_s))
+    events = Event.all(:date.gte => DateTime.new(params[:year].to_i), :date.lt => DateTime.new((params[:year]).to_i + 1))
     change_to_features_collection_json(events)
   end
 
