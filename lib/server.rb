@@ -10,11 +10,16 @@ class MapToTheFuture < Sinatra::Base
 
   get '/events' do
     all_the_events = Event.all
-    features_collection_json(all_the_events)
+    change_to_features_collection_json(all_the_events)
   end
 
   get '/upload' do
     haml :upload
+  end
+
+  get '/events/year/:year' do
+    events = Event.all(:date.gt => DateTime(params[:year].to_s), :date.lt => DateTime((params[:year] + 1).to_s))
+    change_to_features_collection_json(events)
   end
 
   post '/upload' do
@@ -42,7 +47,7 @@ class MapToTheFuture < Sinatra::Base
 
 end
 
-def features_collection_json(array)
+def change_to_features_collection_json(array)
   feature_array = array.map {|feature_hash| feature_json(feature_hash)}
   {
     type: "FeatureCollection",
