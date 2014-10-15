@@ -14,4 +14,6 @@ group :development, :test do
   gem "rack-test"
   gem "rspec"
   gem 'shotgun'
+  gem 'poltergeist'
+  gem "capybara-webkit"
  end
