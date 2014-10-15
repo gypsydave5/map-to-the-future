@@ -15,10 +15,10 @@ class Event
   validates_presence_of :title, :description, :geometry
 
   def export_geojson
-    geojson_feature_hash.to_json
+    to_geojson_feature.to_json
   end
 
-  def geojson_feature_hash
+  def to_geojson_feature
     {
       type: "Feature",
       properties: {

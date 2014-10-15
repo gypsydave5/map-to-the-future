@@ -48,21 +48,9 @@ class MapToTheFuture < Sinatra::Base
 end
 
 def change_to_features_collection_json(array)
-  feature_array = array.map {|feature_hash| feature_json(feature_hash)}
+  feature_array = array.map {|event| event.to_geojson_feature}
   {
     type: "FeatureCollection",
     features: feature_array
   }.to_json
-end
-
-def feature_json(hash)
-      {
-          type: "Feature",
-        properties: {
-            title: hash.title,
-            description: hash.description,
-            date: hash.date
-          },
-        geometry: hash.geometry
-      }
 end
