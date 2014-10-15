@@ -27,7 +27,7 @@ describe 'router' do
     expect(last_response.body).to eq response.to_json
   end
 
-  it 'should reuturn events for a particular date from the database' do
+  it 'should return events for a particular date from the database' do
     point_event("Occurance", "description", ["event"], 1900, 1900, "year", [1.0, 1.0])
     event_1985 = point_event("Marty", "McFly", ["character"], 1985, 1985, "year", [1.0, 1.0])
     events_array = [event_1985]
