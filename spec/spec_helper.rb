@@ -20,16 +20,44 @@ ENV["RACK_ENV"] = 'Test'
 
 require 'database_cleaner'
 require './lib/server.rb'
-#require 'capybara'
+require 'capybara'
+require 'capybara/poltergeist'
+
+#Poltergeist settings to test JS features
+
+Capybara.default_wait_time = 5
+
+Capybara.app = MapToTheFuture
+
+Capybara.javascript_driver = :poltergeist
+
+Capybara.register_driver :poltergeist do |app|
+    options = {
+        :js_errors => false,
+        :timeout => 120,
+        :debug => false,
+        :phantomjs_options => ['--load-images=no', '--disk-cache=false'],
+        :inspector => true,
+    }
+    Capybara::Poltergeist::Driver.new(app, options)
+end
+
+Capybara.default_driver = :poltergeist
+
 
 RSpec.configure do |config|
   # rspec-expectations config goes here. You can use an alternate
   # assertion/expectation library such as wrong or the stdlib/minitest
   # assertions if you prefer.
+  config.include Capybara::DSL
 
   config.before(:suite) do
     DatabaseCleaner.strategy = :transaction
     DatabaseCleaner.clean_with(:truncation)
+  end
+
+  config.before(:each, :js => true) do
+    DatabaseCleaner.strategy = :truncation
   end
 
   config.before(:each) do
