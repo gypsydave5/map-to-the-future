@@ -54,5 +54,9 @@ class Event
 
   end
 
+  def self.fetch_relevant_events(year)
+    all(:startdate.gte => DateTime.new(year.to_i), :startdate.lt => DateTime.new(year.to_i + 1))
+  end
+
 end
 
