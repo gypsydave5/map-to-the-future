@@ -39,6 +39,12 @@
           slide: function(event, ui){
             $('#date').text(ui.value);
             console.log(ui.value);
+              $.ajax({url: "events/year/" + ui.value}).done(function(geojson){
+              console.log(JSON.parse(geojson));
+              monkey = L.geoJson().addTo(map);
+              monkey.addData(JSON.parse(geojson));
+              // L.mapbox.featureLayer(geojson).addTo(map);
+            });
           }
         });
       });
