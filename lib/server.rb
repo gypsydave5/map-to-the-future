@@ -19,29 +19,12 @@ class MapToTheFuture < Sinatra::Base
   end
 
   get '/events/year/:year' do
-    event = Event.fetch_relevant_events(params[:year])
+    events = Event.fetch_relevant_events(params[:year])
     change_to_features_collection_json(events)
   end
 
   post '/upload' do
-    upload = JSON.parse(params[:geoJSON][:tempfile].read)
-    upload["features"].each do |feature|
-      event = { geometry: feature["geometry"] }
-      feature["properties"].keys.each do |key|
-        if key =~ /date/
-          event[key.to_sym] = DateTime.new(feature["properties"][key].to_i)
-        elsif key == "tags"
-          event[key.to_sym] = feature["properties"][key].map{|tag| Tag.first_or_create(name: tag)}
-        elsif key == "events"
-          event[key.to_sym] = feature["properties"][key].map do |linked_event|
-            Event.get(linked_event["id"].to_i)
-          end
-        else
-          event[key.to_sym] = feature["properties"][key]
-        end
-      end
-      Event.create(event)
-    end
+    upload = Event.add_geojson_events(params[:geoJSON][:tempfile].read)
     "File uploaded!" + upload.to_s
   end
 
