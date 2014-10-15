@@ -48,4 +48,12 @@ describe 'router' do
     Event.create({title: name, description: description, category: category, date: DateTime.new(year), geometry: { type: "Point", coordinates: coords }})
   end
 
+  def linestring_event(name, description, category, year, coords)
+    Event.create({title: name, description: description, category: category, date: DateTime.new(year), geometry: { type: "LineString", coordinates: coords }})
+  end
+
+  def polygon_event(name, description, category, year, coords)
+    Event.create({title: name, description: description, category: category, date: DateTime.new(year), geometry: { type: "Polygon", coordinates: coords }})
+  end
+
 end

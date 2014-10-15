@@ -2,13 +2,21 @@
 
 ENV['RACK_ENV'] = 'Test'
 
-require File.join(File.dirname(__FILE__), '..', '..', 'lib/event_router.rb')
+require File.join(File.dirname(__FILE__), '..', '..', 'lib/server.rb')
 
 require 'capybara'
 require 'capybara/cucumber'
+require 'capybara/poltergeist'
 require 'rspec'
 
 Capybara.app = MapToTheFuture
+Capybara.register_driver :poltergeist do |app|
+  Capybara::Poltergeist::Driver.new(app, {
+    js_errors: false
+  })
+end
+Capybara.javascript_driver = :poltergeist
+Capybara.default_wait_time = 1
 
 class MapToTheFutureWorld
   include Capybara::DSL
