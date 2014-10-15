@@ -9,7 +9,6 @@ class MapToTheFuture < Sinatra::Base
   #set :views, Proc.new { File.join(File.dirname(__FILE__), "/views") }
 
   get '/events' do
-    p Event.all
     all_the_events = Event.all
     change_to_features_collection_json(all_the_events)
   end
