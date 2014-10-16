@@ -16,6 +16,25 @@
     	<script>
        	L.mapbox.accessToken = "pk.eyJ1IjoiYmluYXJ5YmVycnkiLCJhIjoiVFFGaVhVRSJ9.Ji2eb0SFcAKpHCc_B3voLA";
         var map = L.mapbox.map('map', 'binaryberry.jp14jb9e');
+        var onload = {}
+        var eventMarker = L.Marker.extend({
+            options: {
+            event_id: "id"
+            }
+          });
+        var loadLayerOptions = {
+          pointToLayer: function(feature, latlng){
+            return new eventMarker(latlng, {event_id: feature.properties.event_id})
+          },
+          onEachFeature: function(feature, layer){
+             layer.bindPopup(
+               "<h1>" + feature.properties.title + "</h1>" +
+               "<p>" + feature.properties.description + "</p>" +
+               "<p><strong>tags: </strong>" + feature.properties.tags.join() + "</p>" +
+               "<h5>Linked Events</h5><p>" + feature.properties.events.join() + "</p>"
+               )
+           }
+        }
         var eventLayer = L.geoJson().addTo(map);
     	</script>
 
@@ -43,7 +62,8 @@
                 url: "events/year/" + ui.value,
                 beforeSend: function(){eventLayer.clearLayers();}
               }).done(function(geojson){
-                eventLayer.addData(JSON.parse(geojson));
+                var features = JSON.parse(geojson);
+                var eventLayer = L.geoJson(features, loadLayerOptions).addTo(map);
             });
           }
         });
