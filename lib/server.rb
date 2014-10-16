@@ -1,12 +1,11 @@
 require 'sinatra/base'
 require 'data_mapper'
 require './lib/datamapper_setup'
+require 'haml'
 
 ENV['TZ'] = 'utc'
 
 class MapToTheFuture < Sinatra::Base
-
-  #set :views, Proc.new { File.join(File.dirname(__FILE__), "/views") }
 
   get '/events' do
     all_the_events = Event.all
@@ -19,6 +18,7 @@ class MapToTheFuture < Sinatra::Base
 
   get '/events/year/:year' do
     events = Event.fetch_relevant_events(params[:year])
+    events ||= []
     change_to_features_collection_json(events)
   end
 
@@ -32,7 +32,6 @@ class MapToTheFuture < Sinatra::Base
   end
 
   run! if app_file == $0
-
 
 end
 

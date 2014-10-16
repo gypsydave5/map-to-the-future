@@ -52,6 +52,7 @@ module EventHelpers
         :startdate.lt => DateTime.new(year.to_i + 1)
       })
     end
+
   end
 
   def export_geojson
@@ -97,7 +98,5 @@ module EventHelpers
       }
     end
   end
-
-
 
 end
