@@ -3,6 +3,7 @@ require 'data_mapper'
 require './lib/datamapper_setup'
 require 'haml'
 
+
 ENV['TZ'] = 'utc'
 
 class MapToTheFuture < Sinatra::Base
@@ -36,7 +37,10 @@ class MapToTheFuture < Sinatra::Base
     linkedevents = params["linkedevents"].split(",").map do |linkedevent|
       Event.first(title: "#{linkedevent}") 
     end
-    Event.create(title:title, description:description)
+    geometry = geojson_look_alike(longitude, latitude)
+
+    Event.create(title:title, description:description, geometry:geometry)
+
     upload = Event.add_geojson_events(params[:geoJSON][:tempfile].read)
     "File uploaded!" + upload.to_s
   end
@@ -55,4 +59,14 @@ def change_to_features_collection_json(array)
     type: "FeatureCollection",
     features: feature_array
   }.to_json
+end
+
+def geojson_look_alike(long, lat)
+    geojson_hash = {
+      geometry: '{
+              "type": "Point",
+              "coordinates": [#{long}, #{lat}]
+      }'
+    }
+    return geojson_hash
 end
