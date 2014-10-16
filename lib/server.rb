@@ -39,8 +39,7 @@ class MapToTheFuture < Sinatra::Base
     end
     geometry = geojson_look_alike(longitude, latitude)
 
-    Event.create(title:title, description:description, geometry:geometry)
-
+    Event.create(title:title, description:description, geometry: geometry, timescale:timescale,startdate:startdate,enddate:enddate,tags:tags, linkedevent:linkedevent)
     upload = Event.add_geojson_events(params[:geoJSON][:tempfile].read)
     "File uploaded!" + upload.to_s
   end
