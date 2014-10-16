@@ -1,0 +1,37 @@
+
+<div id='map'></div>
+
+<script>
+    L.mapbox.accessToken = "pk.eyJ1IjoiYmluYXJ5YmVycnkiLCJhIjoiVFFGaVhVRSJ9.Ji2eb0SFcAKpHCc_B3voLA";
+      var map = L.mapbox.map('map', 'binaryberry.jp14jb9e')
+      $(document).ready(function(){
+        map})
+</script>
+
+<h2 class="demoHeaders">Slider</h2>
+<div id="slider"></div>
+<p>Current Date: <span id="date"></span></p>
+
+<script src="javascript/jquery-ui/jquery-ui.js"></script>
+
+<script>
+  $('document').ready( function(){
+    $( "#slider" ).slider({
+      min: new Date("1900").getFullYear(),
+      max: new Date("2019").getFullYear(),
+      step: 1,
+      value: new Date("1970").getFullYear(),
+      create: function(event, ui){
+        $('#date').text((new Date($("#slider").slider("option", "value")).getFullYear()));
+      },
+      slide: function(event, ui){
+        $('#date').text(ui.value);
+        console.log(ui.value);
+          $.ajax({url: "events/year/" + ui.value}).done(function(geojson){
+          console.log(JSON.parse(geojson));
+          L.geoJson().addTo(map).addData(JSON.parse(geojson));
+        });
+      }
+    });
+  });
+</script>
