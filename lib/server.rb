@@ -23,29 +23,42 @@ class MapToTheFuture < Sinatra::Base
     change_to_features_collection_json(events)
   end
 
-  post '/upload' do
+  post "/upload/formpost" do
+    p "HELLLO"
     title = params["title"]
     description = params["description"]
     longitude = params["longitude"]
     latitude = params["latitude"]
     timescale = params["timescale"]
-    startdate = params["startdate"] 
-    enddate = params["enddate"]
-    tags = params["tags"].split(",").map do |tag|
-      Tag.first_or_create(text: tag)
-    end
-    linkedevents = params["linkedevents"].split(",").map do |linkedevent|
-      Event.first(title: "#{linkedevent}") 
-    end
+    startdate = DateTime.new(params["startdate"].to_i)
+    enddate = DateTime.new(params["enddate"].to_i)
+      tags = params["tags"].split(",").map do |tag|
+        Tag.first_or_create(name: tag.strip)
+      end
+      linkedevents = params["linkedevents"].split(",").map do |linkedevent|
+        Event.first(title: "#{linkedevent}".strip) 
+      end
     geometry = geojson_look_alike(longitude, latitude)
+    uploaded_event = {
+      title:title,
+      description:description,
+      geometry: geometry,
+      timescale:timescale,
+      startdate:startdate,
+      enddate:enddate,
+      tags:tags, 
+    }
+    p uploaded_event
+    p Event.create(uploaded_event)
+  end  
 
-    Event.create(title:title, description:description, geometry: geometry, timescale:timescale,startdate:startdate,enddate:enddate,tags:tags, linkedevent:linkedevent)
+  post '/upload' do
     upload = Event.add_geojson_events(params[:geoJSON][:tempfile].read)
     "File uploaded!" + upload.to_s
   end
 
   get '/' do
-    erb :layout
+    erb :layout 
   end
 
   run! if app_file == $0
@@ -61,11 +74,8 @@ def change_to_features_collection_json(array)
 end
 
 def geojson_look_alike(long, lat)
-    geojson_hash = {
-      geometry: '{
-              "type": "Point",
-              "coordinates": [#{long}, #{lat}]
-      }'
-    }
-    return geojson_hash
+    {
+              type: "Point",
+              coordinates: [long, lat]
+      }
 end
