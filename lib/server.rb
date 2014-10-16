@@ -23,6 +23,20 @@ class MapToTheFuture < Sinatra::Base
   end
 
   post '/upload' do
+    title = params["title"]
+    description = params["description"]
+    longitude = params["longitude"]
+    latitude = params["latitude"]
+    timescale = params["timescale"]
+    startdate = params["startdate"] 
+    enddate = params["enddate"]
+    tags = params["tags"].split(",").map do |tag|
+      Tag.first_or_create(text: tag)
+    end
+    linkedevents = params["linkedevents"].split(",").map do |linkedevent|
+      Event.first(title: "#{linkedevent}") 
+    end
+    Event.create(title:title, description:description)
     upload = Event.add_geojson_events(params[:geoJSON][:tempfile].read)
     "File uploaded!" + upload.to_s
   end
