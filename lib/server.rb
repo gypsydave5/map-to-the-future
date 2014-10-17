@@ -41,7 +41,7 @@ class MapToTheFuture < Sinatra::Base
     end
     linkedevents = []
     params["linkedevents"].split(",").each do |linkedevent|
-       linkedevents << Event.first(title: linkedevent.strip) if Event.first(title: linkedevent.strip) 
+       linkedevents << Event.first(title: linkedevent.strip) if Event.first(title: linkedevent.strip)
     end
     geometry = geojson_look_alike(longitude, latitude)
     uploaded_event = {

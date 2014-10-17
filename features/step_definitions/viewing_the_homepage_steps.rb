@@ -17,12 +17,13 @@ When(/^I click on the marker$/) do
 end
 
 Then(/^I should see a marker$/) do
-  expect(page).to have_css('.leaflet-marker-icon')
-  
+  expect(page).to have_css('img.leaflet-marker-icon')
 end
 
 Then(/^I should not see a marker$/) do
-  expect(page).not_to have_css('.leaflet-marker-icon')
+  sleep(2)
+  expect(page.evaluate_script("Object.keys(eventLayer._layers).length")).to eq(0)
+  #expect(page).not_to have_css('img.leaflet-marker-icon')
 end
 
 

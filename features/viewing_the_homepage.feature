@@ -25,6 +25,8 @@ Feature: Viewing the homepage
     Scenario: Moving the slider removes events
         Given I am on the homepage
         And that the Timeline app knows The Battle of Dresden anniversary
-        When I move the slider to "1913"
-        And I move the slider to "1914"
+        And I move the slider to "1913"
+        #When I move the slider to "1913"
+        #Then I should see a marker
+        When I move the slider to "1914"
         Then I should not see a marker

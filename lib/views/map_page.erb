@@ -35,7 +35,7 @@
                )
            }
         }
-        var eventLayer = L.geoJson().addTo(map);
+        var eventLayer = L.mapbox.featureLayer()
     	</script>
 
     <h2 class="demoHeaders">Slider</h2>
@@ -56,15 +56,17 @@
           },
           slide: function(event, ui) {
             $('#date').text(ui.value);
+            eventLayer.clearLayers();
           },
           change: function(event, ui){
-            eventLayer.clearLayers();
+          console.log("HELLO MUM!");
+          console.log(eventLayer);
             $.ajax({
                 url: "events/year/" + ui.value,
                 beforeSend: function(){eventLayer.clearLayers();}
               }).done(function(geojson){
                 var features = JSON.parse(geojson);
-                var eventLayer = L.geoJson(features, loadLayerOptions).addTo(map);
+                eventLayer = L.mapbox.featureLayer(features).addTo(map);
             });
           }
         });
