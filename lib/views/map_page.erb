@@ -47,10 +47,10 @@
       <script>
       $('document').ready( function(){
         $( "#slider" ).slider({
-          min: new Date("1900").getFullYear(),
-          max: new Date("2019").getFullYear(),
+          min: new Date("1583").getFullYear(),
+          max: new Date("1997").getFullYear(),
           step: 1,
-          value: new Date("1970").getFullYear(),
+          value: new Date("1583").getFullYear(),
           create: function(event, ui){
             $('#date').text((new Date($("#slider").slider("option", "value")).getFullYear()));
           },
