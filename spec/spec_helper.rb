@@ -25,7 +25,7 @@ require 'capybara/poltergeist'
 
 #Poltergeist settings to test JS features
 
-Capybara.default_wait_time = 5
+Capybara.default_wait_time = 10
 
 Capybara.app = MapToTheFuture
 

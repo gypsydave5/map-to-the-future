@@ -16,7 +16,11 @@ Capybara.register_driver :poltergeist do |app|
   })
 end
 Capybara.javascript_driver = :poltergeist
-Capybara.default_wait_time = 1
+Capybara.default_wait_time = 3
+
+Capybara.register_driver :selenium do |app|
+  Capybara::Selenium::Driver.new(app, :browser => :chrome)
+end
 
 class MapToTheFutureWorld
   include Capybara::DSL

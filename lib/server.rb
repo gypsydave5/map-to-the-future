@@ -9,6 +9,7 @@ ENV['TZ'] = 'utc'
 class MapToTheFuture < Sinatra::Base
 
   get '/events' do
+    content_type :json
     all_the_events = Event.all
     change_to_features_collection_json(all_the_events)
   end
@@ -34,12 +35,13 @@ class MapToTheFuture < Sinatra::Base
     latitude = params["latitude"]
     timescale = params["timescale"]
     startdate = DateTime.new(params["startdate"].to_i)
-    enddate = params("enddate") ? DateTime.new(params["enddate"].to_i) : DateTime.new(params["startdate"].to_i)
+    enddate = params["enddate"] ? DateTime.new(params["enddate"].to_i) : DateTime.new(params["startdate"].to_i)
     tags = params["tags"].split(",").map do |tag|
       Tag.first_or_create(name: tag.strip)
     end
-    linkedevents = params["linkedevents"].split(",").map do |linkedevent|
-      Event.first(title: linkedevent.strip)
+    linkedevents = []
+    params["linkedevents"].split(",").each do |linkedevent|
+       linkedevents << Event.first(title: linkedevent.strip) if Event.first(title: linkedevent.strip) 
     end
     geometry = geojson_look_alike(longitude, latitude)
     uploaded_event = {
