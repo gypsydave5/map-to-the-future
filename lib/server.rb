@@ -24,20 +24,19 @@ class MapToTheFuture < Sinatra::Base
   end
 
   post "/upload/formpost" do
-    p "HELLLO"
     title = params["title"]
     description = params["description"]
     longitude = params["longitude"]
     latitude = params["latitude"]
     timescale = params["timescale"]
     startdate = DateTime.new(params["startdate"].to_i)
-    enddate = DateTime.new(params["enddate"].to_i)
-      tags = params["tags"].split(",").map do |tag|
-        Tag.first_or_create(name: tag.strip)
-      end
-      linkedevents = params["linkedevents"].split(",").map do |linkedevent|
-        Event.first(title: "#{linkedevent}".strip) 
-      end
+    enddate = params("enddate") ? DateTime.new(params["enddate"].to_i) : DateTime.new(params["startdate"].to_i)
+    tags = params["tags"].split(",").map do |tag|
+      Tag.first_or_create(name: tag.strip)
+    end
+    linkedevents = params["linkedevents"].split(",").map do |linkedevent|
+      Event.first(title: linkedevent.strip)
+    end
     geometry = geojson_look_alike(longitude, latitude)
     uploaded_event = {
       title:title,
@@ -46,11 +45,11 @@ class MapToTheFuture < Sinatra::Base
       timescale:timescale,
       startdate:startdate,
       enddate:enddate,
-      tags:tags, 
+      tags:tags,
+      events: linkedevents
     }
-    p uploaded_event
-    p Event.create(uploaded_event)
-  end  
+    Event.create(uploaded_event)
+  end
 
   post '/upload' do
     upload = Event.add_geojson_events(params[:geoJSON][:tempfile].read)
@@ -58,7 +57,7 @@ class MapToTheFuture < Sinatra::Base
   end
 
   get '/' do
-    erb :layout 
+    erb :layout
   end
 
   run! if app_file == $0
