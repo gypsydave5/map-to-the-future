@@ -27,5 +27,4 @@ Feature: Viewing the homepage
         And that the Timeline app knows The Battle of Dresden anniversary
         When I move the slider to "1913"
         And I move the slider to "1914"
-        And I wait for all Ajax requests to complete
         Then I should not see a marker

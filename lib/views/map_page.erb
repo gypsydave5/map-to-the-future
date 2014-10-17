@@ -58,6 +58,7 @@
             $('#date').text(ui.value);
           },
           change: function(event, ui){
+            eventLayer.clearLayers();
             $.ajax({
                 url: "events/year/" + ui.value,
                 beforeSend: function(){eventLayer.clearLayers();}

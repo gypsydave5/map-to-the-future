@@ -25,12 +25,6 @@ Then(/^I should not see a marker$/) do
   expect(page).not_to have_css('.leaflet-marker-icon')
 end
 
-When(/^I wait for all Ajax requests to complete$/) do
-  wait_until do
-    page.evaluate_script('$.active') == 0
-  end
-end
-
 
 
 def point_event(name, description, tags, start_date, end_date, timescale, coords)
