@@ -13,7 +13,8 @@ When(/^I move the slider to "(.*?)"$/) do |year|
 end
 
 When(/^I click on the marker$/) do
-  page.execute_script("map.fireEvent('click', {latlng: L.latLng(51.033333, 13.733333)});")
+  sleep(3)
+  page.execute_script("eventLayer.eachLayer(function(marker) { marker.openPopup() });")
 end
 
 Then(/^I should see a marker$/) do
@@ -21,7 +22,7 @@ Then(/^I should see a marker$/) do
 end
 
 Then(/^I should not see a marker$/) do
-  sleep(2)
+  sleep(3)
   expect(page.evaluate_script("Object.keys(eventLayer._layers).length")).to eq(0)
 end
 
