@@ -2,7 +2,7 @@ Then(/^I see a map$/) do
   expect(page).to have_css('div.leaflet-container')
 end
 
-Given(/^that the Timeline app knows The Battle of Dresden anniversary$/) do
+Given(/^the Timeline app knows The Battle of Dresden Anniversary$/) do
   point_event("The Battle of Dresden Anniversary",
     "Marshall Saint-Cyr defends Dresden from the Allied assault, and is relieved by Napoleon and the dashing Marshall Murat, who inflict a heavy defeat on the Austrians but fail to pursue due to Napoleon's ill-health",
     ["Battle"], 1913, 1913, "year", [13.733333, 51.033333])
@@ -23,9 +23,7 @@ end
 Then(/^I should not see a marker$/) do
   sleep(2)
   expect(page.evaluate_script("Object.keys(eventLayer._layers).length")).to eq(0)
-  #expect(page).not_to have_css('img.leaflet-marker-icon')
 end
-
 
 
 def point_event(name, description, tags, start_date, end_date, timescale, coords)

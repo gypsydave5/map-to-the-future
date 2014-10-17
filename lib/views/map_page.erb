@@ -59,8 +59,6 @@
             eventLayer.clearLayers();
           },
           change: function(event, ui){
-          console.log("HELLO MUM!");
-          console.log(eventLayer);
             $.ajax({
                 url: "events/year/" + ui.value,
                 beforeSend: function(){eventLayer.clearLayers();}
