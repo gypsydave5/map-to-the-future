@@ -17,6 +17,10 @@ class MapToTheFuture < Sinatra::Base
     haml :upload
   end
 
+  get '/test_layout' do
+    erb :test_layout
+  end
+
   get '/events/year/:year' do
     events = Event.fetch_relevant_events(params[:year])
     events ||= []
@@ -58,7 +62,7 @@ class MapToTheFuture < Sinatra::Base
   end
 
   get '/' do
-    erb :layout 
+    erb :map_page
   end
 
   run! if app_file == $0
