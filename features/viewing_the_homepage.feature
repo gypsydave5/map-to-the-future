@@ -29,7 +29,7 @@ Feature: Viewing the homepage
     When I move the slider to "1914"
     Then I should not see a marker
 
-  @javascript
+  @javascript @selenium
   Scenario: Opening a pop up
     Given I am on the homepage
     And the Timeline app knows The Battle of Dresden Anniversary
