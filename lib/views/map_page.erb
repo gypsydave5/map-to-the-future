@@ -7,45 +7,18 @@
 	<script src='javascript/jquery/dist/jquery.min.js'></script>
 	<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.2/mapbox.css' rel='stylesheet' />
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/map_box.css">
+  <link rel="stylesheet" href="css/popup.css">
   <link href="javascript/jquery-ui/themes/le-frog/jquery-ui.css" rel="stylesheet">
 	<title>Map to the Future!</title>
 </head>
 
   <body>
-  	<div id='map'></div>
-    	<script>
-      L.mapbox.accessToken = "pk.eyJ1IjoiZ3lwc3lkYXZlNSIsImEiOiIxTmJIeHJNIn0.a1tH004BEEbTs0k5UhIF0Q";
-      var mapOptions = {
-         minZoom: 2,
-         maxZoom: 10,
-         maxBounds: [[-90.0,-180.0],[90.0,180.0]]
-        }
-        var map = L.mapbox.map('map', 'gypsydave5.jnnf7a4f', mapOptions);
-        var onload = {}
-        var eventMarker = L.Marker.extend({
-            options: {
-            event_id: "id"
-            }
-          });
-        var loadLayerOptions = {
-          pointToLayer: function(feature, latlng){
-            return new eventMarker(latlng, {event_id: feature.properties.event_id})
-          },
-          onEachFeature: function(feature, layer){
-             layer.bindPopup(
-               "<h1>" + feature.properties.title + "</h1>" +
-               "<p>" + feature.properties.description + "</p>" +
-               "<p><strong>tags: </strong>" + feature.properties.tags.join() + "</p>" +
-               "<h5>Linked Events</h5><p>" + feature.properties.events.join() + "</p>"
-               )
-           }
-        }
-        var eventLayer = L.mapbox.featureLayer()
-    	</script>
+  	<div id='map' class="map"></div>
+    	<script type='text/javascript' src="scripts/map_box.js"></script>
       <section id="timeline-container">
-        <%#<h2 class="demoHeaders">Slider</h2>%>
+        <p id="date-line">Current Date: <span id="date"></span></p>
         <div id="slider"></div>
-        <p>Current Date: <span id="date"></span></p>
       </section>
 
       <script src="javascript/jquery-ui/jquery-ui.js"></script>
@@ -56,22 +29,17 @@
           min: new Date("1583").getFullYear(),
           max: new Date("1997").getFullYear(),
           step: 1,
-          value: new Date("1583").getFullYear(),
+          value: new Date("1900").getFullYear(),
           create: function(event, ui){
-            $('#date').text((new Date($("#slider").slider("option", "value")).getFullYear()));
+            $('#date').text((new Date($("#slider").slider("option", "value"))));
+            getMapData("year", "1900", eventLayer);
           },
           slide: function(event, ui) {
             $('#date').text(ui.value);
             eventLayer.clearLayers();
           },
           change: function(event, ui){
-            $.ajax({
-                url: "events/year/" + ui.value,
-                beforeSend: function(){eventLayer.clearLayers();}
-              }).done(function(geojson){
-                var features = JSON.parse(geojson);
-                eventLayer = L.mapbox.featureLayer(features).addTo(map);
-            });
+            getMapData("year", ui.value, eventLayer);
           }
         });
       });
