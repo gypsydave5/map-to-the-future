@@ -1,4 +1,3 @@
-style.css
 body {
   margin:0;
   padding:0;
@@ -6,6 +5,20 @@ body {
 }
 
 #map {
-  width:100%;
-  height: 700px;
+    position:absolute;
+    top:0;
+    bottom:10%;
+    width:100%;
+}
+
+#timeline-container {
+
+}
+
+#slider {
+    position: absolute;
+    top: 95%;
+    bottom:0;
+    width: 90%;
+    height: 2%;
 }

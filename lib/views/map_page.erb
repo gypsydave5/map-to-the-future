@@ -14,8 +14,13 @@
   <body>
   	<div id='map'></div>
     	<script>
-       	L.mapbox.accessToken = "pk.eyJ1IjoiZ3lwc3lkYXZlNSIsImEiOiIxTmJIeHJNIn0.a1tH004BEEbTs0k5UhIF0Q";
-        var map = L.mapbox.map('map', 'gypsydave5.jnnf7a4f');
+      L.mapbox.accessToken = "pk.eyJ1IjoiZ3lwc3lkYXZlNSIsImEiOiIxTmJIeHJNIn0.a1tH004BEEbTs0k5UhIF0Q";
+      var mapOptions = {
+         minZoom: 2,
+         maxZoom: 10,
+         maxBounds: [[-90.0,-180.0],[90.0,180.0]]
+        }
+        var map = L.mapbox.map('map', 'gypsydave5.jnnf7a4f', mapOptions);
         var onload = {}
         var eventMarker = L.Marker.extend({
             options: {
@@ -37,10 +42,11 @@
         }
         var eventLayer = L.mapbox.featureLayer()
     	</script>
-
-    <h2 class="demoHeaders">Slider</h2>
-    <div id="slider"></div>
-     <p>Current Date: <span id="date"></span></p>
+      <section id="timeline-container">
+        <%#<h2 class="demoHeaders">Slider</h2>%>
+        <div id="slider"></div>
+        <p>Current Date: <span id="date"></span></p>
+      </section>
 
       <script src="javascript/jquery-ui/jquery-ui.js"></script>
 
