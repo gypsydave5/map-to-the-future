@@ -1,7 +1,7 @@
 Given(/^MapToTheFuture knows about the Boston Tea Party$/) do
   point_event("Boston Tea Party",
     "Boat unloads a lot of tea",
-    ["Civil War"], 1773, 1773, "year", [-71.0597732, 42.3584308], "Declaration of Independance")
+    ["Civil War"], 1773, 1773, "year", [-71.0597732, 42.3584308], ["Declaration of Independance"])
 end
 
 Given(/^MapToTheFuture knows about the Declaration of Independence$/) do
@@ -21,5 +21,5 @@ def point_event(name, description, tags, start_date, end_date, timescale, coords
                 startdate: DateTime.new(start_date),
                 enddate: DateTime.new(end_date),
                 geometry: { type: "Point", coordinates: coords },
-                events: linkedevents.map{|linkedevent| Event.first(title: linkedevents)}})
+                events: events.map{|event| Event.first_or_create(title: event)}})
 end
