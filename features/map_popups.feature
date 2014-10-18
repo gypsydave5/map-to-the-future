@@ -11,6 +11,7 @@ Feature: Interacting with map pop ups
     When I click on the marker
     Then I should see "Dresden"
 
+  @javascript
   Scenario: Links between events
     Given I am on the homepage
     And MapToTheFuture knows about the Boston Tea Party
