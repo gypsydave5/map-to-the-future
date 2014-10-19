@@ -29,11 +29,6 @@ class MapToTheFuture < Sinatra::Base
   end
 
   post "/upload/formpost" do
-    title = params["title"]
-    description = params["description"]
-    longitude = params["longitude"]
-    latitude = params["latitude"]
-    timescale = params["timescale"]
     startdate = DateTime.new(params["startdate"].to_i)
     enddate = params["enddate"] ? DateTime.new(params["enddate"].to_i) : DateTime.new(params["startdate"].to_i)
     tags = params["tags"].split(",").map do |tag|
@@ -43,12 +38,11 @@ class MapToTheFuture < Sinatra::Base
     params["linkedevents"].split(",").each do |linkedevent|
        linkedevents << Event.first(title: linkedevent.strip) if Event.first(title: linkedevent.strip)
     end
-    geometry = geojson_look_alike(longitude, latitude)
     uploaded_event = {
-      title:title,
-      description:description,
-      geometry: geometry,
-      timescale:timescale,
+      title: params["title"],
+      description:["description"],
+      geometry: geojson_geometry(params["longitude"], params["latitude"]),
+      timescale: params["timescale"],
       startdate:startdate,
       enddate:enddate,
       tags:tags,
@@ -78,7 +72,7 @@ def change_to_features_collection_json(array)
   }.to_json
 end
 
-def geojson_look_alike(long, lat)
+def geojson_geometry(long, lat)
     {
               type: "Point",
               coordinates: [long, lat]
