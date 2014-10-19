@@ -7,7 +7,7 @@ end
 Given(/^MapToTheFuture knows about the Declaration of Independence$/) do
   point_event("Declaration of Independence",
     "American colonies declare independence from Great Britain",
-    ["Civil War"], 1776, 1776, "year", [-75.15, 39.948889], ["Declaration of Independence"])
+    ["Civil War"], 1776, 1776, "year", [-75.15, 39.948889], [])
 end
 
 When(/^I click on the marker for "(.*?)"$/) do |marker_title|
@@ -18,6 +18,7 @@ end
 When(/^I click on the "(.*?)" tab$/) do |arg1|
   sleep(3)
   page.execute_script("$('input##{arg1}').click()")
+  sleep(3)
 end
 
 def point_event(name, description, tags, start_date, end_date, timescale, coords, events)
