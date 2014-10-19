@@ -17,7 +17,6 @@ describe Event do
   end
 
   context "Creating events" do
-
     it "should save an event in the database" do
       create_event
       @event.save
@@ -29,7 +28,23 @@ describe Event do
       bad_event1 = Event.new( title: "", description: "", tags: [Tag.first_or_create( name: "Bob" )] )
       expect(bad_event1.save).to be false
     end
+  end
 
+  context "connecting events" do
+    it "can connect events together" do
+      create_event
+      @event.save
+      alex = Event.create(title: "Alex Eiffel",
+                  description: "Pioneer of aerodynamics",
+                  tags:[],
+                  startdate: DateTime.new(1889, 3,15),
+                  enddate: DateTime.new(1889, 3,15),
+                  geometry: { type: "Point",
+                    coordinates: [2.29, 48.85] },
+                  events: [Event.first(title: "Eiffel Tower")]
+                  )
+      expect(alex.events.first.title).to eql "Eiffel Tower"
+    end
   end
 
   context "Updating events" do
@@ -45,7 +60,7 @@ describe Event do
     it "should have a method to export a geoJSON-Feature-ready hash object" do
       event = Event.new(title: "event", description: "event", startdate: DateTime.new(1900), enddate: DateTime.new(1900), geometry: { type: "Point", coordinates: [1.0, 1.0] })
       event.save
-      expect(event.to_geojson_feature).to eq({type: "Feature",properties:{id: 3, title:"event",description:"event", startdate:DateTime.new(1900), enddate:DateTime.new(1900), timescale: nil, tags: [], events: []},geometry:{type:"Point",coordinates:[1.0,1.0]}})
+      expect(event.to_geojson_feature).to eq({type: "Feature",properties:{id: 5, title:"event",description:"event", startdate:DateTime.new(1900), enddate:DateTime.new(1900), timescale: nil, tags: [], events: []},geometry:{type:"Point",coordinates:[1.0,1.0]}})
     end
   end
 

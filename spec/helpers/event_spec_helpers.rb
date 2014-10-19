@@ -12,7 +12,7 @@ module EventSpecHelpers
         {
             type: "Feature",
           properties: {
-              id: 4,
+              id: 6,
               title: event[:title],
               description: event[:description],
               startdate: event[:startdate],
