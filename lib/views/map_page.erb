@@ -5,6 +5,8 @@
 	<meta charset="UTF-8">
 	<script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.2/mapbox.js'></script>
 	<script src='javascript/jquery/dist/jquery.min.js'></script>
+	<script src='javascript/handlebars/handlebars.js'></script>
+  <script src="javascript/jquery-ui/jquery-ui.js"></script>
 	<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.2/mapbox.css' rel='stylesheet' />
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/map_box.css">
@@ -14,16 +16,39 @@
 </head>
 
   <body>
-  	<div id='map' class="map"></div>
-    	<script type='text/javascript' src="scripts/map_box.js"></script>
-      <section id="timeline-container">
-        <p id="date-line">Current Date: <span id="date"></span></p>
-        <div id="slider"></div>
-      </section>
+    <script id="popup-template" type="text/x-handlebars-template">
+      <div class="tabs-ui">
+        <div class="tab">
+          <input type="radio" id="title" name="tab-group" checked="true" />
+          <label for='title'>Event</label>
+          <div class="content">
+            <h1>{{title}}</h1>
+            <h2>{{startdate}}</h2>
+            <p>{{description}}</p>
+          </div>
+        </div>
+        <div class="tab">
+          <input type="radio" id="linked-events" name="tab-group" />
+          <label for='linked-events'>Linked Events</label>
+          <div class="content">
+            <ul>
+              {{#each events}}
+              <li>{{link}}</li>
+              {{/each}}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </script>
 
-      <script src="javascript/jquery-ui/jquery-ui.js"></script>
+    <div id='map' class="map"></div>
+    <section id="timeline-container">
+      <p id="date-line">Current Date: <span id="date"></span></p>
+      <div id="slider"></div>
+    </section>
 
-      <script>
+    <script type='text/javascript' src="scripts/map_box.js"></script>
+    <script>
       $('document').ready( function(){
         $( "#slider" ).slider({
           min: new Date("1583").getFullYear(),
@@ -43,6 +68,6 @@
           }
         });
       });
-      </script>
+    </script>
   </body>
 </html>

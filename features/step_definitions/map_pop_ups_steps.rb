@@ -1,18 +1,24 @@
 Given(/^MapToTheFuture knows about the Boston Tea Party$/) do
   point_event("Boston Tea Party",
     "Boat unloads a lot of tea",
-    ["Civil War"], 1773, 1773, "year", [-71.0597732, 42.3584308], ["Declaration of Independance"])
+    ["Civil War"], 1773, 1773, "year", [-71.0597732, 42.3584308], ["Declaration of Independence"])
 end
 
 Given(/^MapToTheFuture knows about the Declaration of Independence$/) do
-
+  point_event("Declaration of Independence",
+    "American colonies declare independence from Great Britain",
+    ["Civil War"], 1776, 1776, "year", [-75.15, 39.948889], ["Declaration of Independence"])
 end
 
-When(/^I click on the marker for "(.*?)"$/) do |arg1|
-
+When(/^I click on the marker for "(.*?)"$/) do |marker_title|
+  sleep(3)
+  page.execute_script("eventLayer.eachLayer(function(marker) { if (marker.feature.properties.title === '#{marker_title}') { marker.openPopup() } });")
 end
 
-
+When(/^I click on the "(.*?)" tab$/) do |arg1|
+  sleep(3)
+  page.execute_script("$('input##{arg1}').click()")
+end
 
 def point_event(name, description, tags, start_date, end_date, timescale, coords, events)
   Event.create({title: name,
