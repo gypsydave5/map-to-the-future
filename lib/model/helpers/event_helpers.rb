@@ -55,6 +55,10 @@ module EventHelpers
 
   end
 
+  def link_string
+    "<a data-year='#{self.startdate.year}' data-id='#{self.id}'>#{self.title}</a>"
+  end
+
   def export_geojson
     to_geojson_feature.to_json
   end
@@ -94,7 +98,8 @@ module EventHelpers
         title: event.title,
         startdate: event.startdate,
         enddate: event.enddate,
-        timescale: event.timescale
+        timescale: event.timescale,
+        link: event.link_string
       }
     end
   end
