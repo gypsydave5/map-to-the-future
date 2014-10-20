@@ -27,8 +27,6 @@ end
 
 Then(/^the slider should be on "(.*?)"$/) do |arg1|
   expect(page).to have_content("1776")
-  # expect('#date').to have_content arg1
-  # expect(page.evaluate_script("$('#slider').slider('value')")).to eql arg1
 end
 
 Then(/^the "(.*?)" popup should be open$/) do |event_name|

@@ -10,28 +10,28 @@ Given(/^the Timeline app knows The Battle of Dresden Anniversary$/) do
 end
 
 When(/^I move the slider to "(.*?)"$/) do |year|
+  sleep(5)
   page.execute_script("$('#slider').slider('value', #{year})")
+  sleep(5)
 end
 
 When(/^I click on the marker$/) do
-  sleep(3)
+  sleep(5)
   page.execute_script("eventLayer.eachLayer(function(marker) { marker.openPopup() });")
+  sleep(5)
 end
 
 Then(/^I should see a marker$/) do
+  sleep(5)
   expect(page).to have_css('img.leaflet-marker-icon')
+  sleep(5)
 end
 
 Then(/^I should not see a marker$/) do
-  sleep(3)
+  sleep(5)
   expect(page.evaluate_script("Object.keys(eventLayer._layers).length")).to eq(0)
+  sleep(5)
 end
-
-Then(/^the map zooms in to Dresden$/) do
-  sleep(3)
-  expect(map).to receive(:panTo)
-end
-
 
 def point_event(name, description, tags, start_date, end_date, timescale, coords, events)
   Event.create({title: name,
