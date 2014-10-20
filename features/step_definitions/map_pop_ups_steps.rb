@@ -22,11 +22,12 @@ When(/^I click on the "(.*?)" tab$/) do |arg1|
 end
 
 def point_event(name, description, tags, start_date, end_date, timescale, coords, events)
-  Event.create({title: name,
+  Event.new({title: name,
                 description: description,
                 tags: tags.map{|tag| Tag.first_or_create(name: tag)},
                 startdate: DateTime.new(start_date),
                 enddate: DateTime.new(end_date),
                 geometry: { type: "Point", coordinates: coords },
-                events: events.map{|event| Event.first_or_create(title: event)}})
+                events: events.map{|linked_event|
+                  Event.first(title: linked_event)}}).save
 end

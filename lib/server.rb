@@ -23,9 +23,9 @@ class MapToTheFuture < Sinatra::Base
   end
 
   get '/events/year/:year' do
-    events = Event.fetch_relevant_events(params[:year])
-    events ||= []
-    change_to_features_collection_json(events)
+    searched_events = Event.fetch_relevant_events(params[:year])
+    searched_events ||= []
+    change_to_features_collection_json(searched_events)
   end
 
   post "/upload/formpost" do

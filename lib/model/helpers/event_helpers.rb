@@ -1,3 +1,5 @@
+require 'json'
+
 module EventHelpers
 
   def self.included(base)

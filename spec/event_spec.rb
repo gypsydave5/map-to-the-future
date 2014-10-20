@@ -34,7 +34,7 @@ describe Event do
     it "can connect events together" do
       create_event
       @event.save
-      alex = Event.create(title: "Alex Eiffel",
+      Event.create(title: "Alex Eiffel",
                   description: "Pioneer of aerodynamics",
                   tags:[],
                   startdate: DateTime.new(1889, 3,15),
@@ -43,7 +43,7 @@ describe Event do
                     coordinates: [2.29, 48.85] },
                   events: [Event.first(title: "Eiffel Tower")]
                   )
-      expect(alex.events.first.title).to eql "Eiffel Tower"
+      expect(Event.first(title: "Alex Eiffel").events.first.title ).to eql "Eiffel Tower"
     end
   end
 

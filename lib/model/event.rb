@@ -1,5 +1,4 @@
 require 'dm-validations'
-require 'json'
 require_relative './helpers/event_helpers'
 
 class Event
