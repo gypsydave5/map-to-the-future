@@ -25,10 +25,4 @@ Feature: Interacting with the events
     When I move the slider to "1914"
     Then I should not see a marker
 
-  @javascript @selenium
-  Scenario: Map zooms when one event showing on the map
-    Given I am on the homepage
-    And the Timeline app knows The Battle of Dresden Anniversary
-    When I move the slider to "1913"
-    Then the map zooms in to Dresden
 
