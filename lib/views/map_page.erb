@@ -49,6 +49,12 @@
 
     <script type='text/javascript' src="scripts/map_box.js"></script>
     <script>
+
+        $("#map").on('click', '.linked-event', (function(){
+          console.log("le frog rules")
+          $("#slider").slider("value", $(this).data("year"))
+        })
+        );
       $('document').ready( function(){
         $( "#slider" ).slider({
           min: new Date("1583").getFullYear(),
@@ -64,10 +70,12 @@
             eventLayer.clearLayers();
           },
           change: function(event, ui){
+            $('#date').text(ui.value);
             getMapData("year", ui.value, eventLayer);
           }
         });
       });
+
     </script>
   </body>
 </html>
