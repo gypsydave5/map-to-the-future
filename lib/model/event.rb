@@ -6,8 +6,8 @@ class Event
   include DataMapper::Resource
   include EventHelpers
 
-  property :id,     		  Serial
-  property :title,  		  String
+  property :id,           Serial
+  property :title,        String
   property :description,  Text
   property :geometry,     Object
   property :timescale,    String
@@ -15,9 +15,18 @@ class Event
   property :enddate,      DateTime
 
   has n, :tags,   :through => Resource
-  has n, :events, :through => Resource
+  has n, :events, self, :through => :linkedevents,  :via => :target
+  has n, :linkedevents, :child_key => [:source_id]
 
   validates_presence_of :title, :description, :geometry, :startdate, :enddate
+
+end
+
+class Linkedevent
+  include DataMapper::Resource
+
+ belongs_to :source, 'Event', :key => true
+ belongs_to :target, 'Event', :key => true
 
 end
 
