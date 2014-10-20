@@ -22,7 +22,7 @@ When(/^I click on the "(.*?)" tab$/) do |arg1|
 end
 
 When(/^I click on the event link "(.*?)"$/) do |arg1|
-  click_link('.linked-event')
+  page.execute_script("$('.linked-event').click()")
 end
 
 Then(/^the slider should be on "(.*?)"$/) do |arg1|

@@ -17,7 +17,7 @@
 
   <body>
     <script id="popup-template" type="text/x-handlebars-template">
-      <div class="tabs-ui">
+      <div class="tabs-ui" {{bind-attr id=id}}>
         <div class="tab">
           <input type="radio" id="title" name="tab-group" checked="true" />
           <label for='title'>Event</label>
@@ -49,6 +49,12 @@
 
     <script type='text/javascript' src="scripts/map_box.js"></script>
     <script>
+
+        $("#map").on('click', '.linked-event', (function(){
+          console.log("le frog rules")
+          $("#slider").slider("value", $(this).data("year"))
+        })
+        );
       $('document').ready( function(){
         $( "#slider" ).slider({
           min: new Date("1583").getFullYear(),
@@ -64,10 +70,12 @@
             eventLayer.clearLayers();
           },
           change: function(event, ui){
+            $('#date').text(ui.value);
             getMapData("year", ui.value, eventLayer);
           }
         });
       });
+
     </script>
   </body>
 </html>
