@@ -43,7 +43,7 @@
 
     <div id='map' class="map"></div>
     <section id="timeline-container">
-      <p id="date-line">Current Date: <span id="date"></span></p>
+      <p id="date-line">Current Date: <span id="date">1790</span></p>
       <div id="slider"></div>
     </section>
 
@@ -60,10 +60,10 @@
           min: new Date("1583").getFullYear(),
           max: new Date("1997").getFullYear(),
           step: 1,
-          value: new Date("1900").getFullYear(),
+          value: new Date("1790").getFullYear(),
           create: function(event, ui){
-            $('#date').text((new Date($("#slider").slider("option", "value"))));
-            getMapData("year", "1900", eventLayer);
+            // $('#date').text((new Date($("#slider").slider("option", "value"))));
+            getMapData("year", "1790", eventLayer);
           },
           slide: function(event, ui) {
             $('#date').text(ui.value);
