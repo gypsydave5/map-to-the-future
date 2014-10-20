@@ -58,7 +58,7 @@ module EventHelpers
   end
 
   def link_string
-    "<a data-year='#{self.startdate.year}' data-id='#{self.id}' class='event-link'>#{self.title}</a>"
+    "<a data-year='#{self.startdate.year}' data-id='#{self.id}' class='linked-event'>#{self.title}</a>"
   end
 
   def export_geojson

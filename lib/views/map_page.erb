@@ -17,7 +17,7 @@
 
   <body>
     <script id="popup-template" type="text/x-handlebars-template">
-      <div class="tabs-ui">
+      <div class="tabs-ui" {{bind-attr id=id}}>
         <div class="tab">
           <input type="radio" id="title" name="tab-group" checked="true" />
           <label for='title'>Event</label>
@@ -52,6 +52,18 @@
     </script>
     <script type='text/javascript' src="scripts/map_box.js"></script>
     <script>
+
+        $("#map").on('click', '.linked-event', (function(){
+          $("#slider").slider("value", $(this).data("year")).done(function() {
+            console.log("something")
+            eventLayer.eachLayer(function(marker){
+              if (marker.feature.properties.id === $(this).data("id")) {
+                marker.openPopup();
+                map.panTo(marker.getLatLng())
+              };
+            });
+          })
+        }));
       $('document').ready( function(){
         $( "#slider" ).slider({
           min: new Date("1583").getFullYear(),
@@ -73,6 +85,7 @@
           }
         });
       });
+
     </script>
   </body>
 </html>
