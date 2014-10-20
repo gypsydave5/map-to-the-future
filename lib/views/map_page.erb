@@ -17,7 +17,7 @@
 
   <body>
     <script id="popup-template" type="text/x-handlebars-template">
-      <div class="tabs-ui">
+      <div class="tabs-ui" {{bind-attr id=id}}>
         <div class="tab">
           <input type="radio" id="title" name="tab-group" checked="true" />
           <label for='title'>Event</label>
