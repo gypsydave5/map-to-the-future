@@ -53,17 +53,8 @@
     <script type='text/javascript' src="scripts/map_box.js"></script>
     <script>
 
-        $("#map").on('click', '.linked-event', (function(){
-          $("#slider").slider("value", $(this).data("year")).done(function() {
-            console.log("something")
-            eventLayer.eachLayer(function(marker){
-              if (marker.feature.properties.id === $(this).data("id")) {
-                marker.openPopup();
-                map.panTo(marker.getLatLng())
-              };
-            });
-          })
-        }));
+        
+
       $('document').ready( function(){
         $( "#slider" ).slider({
           min: new Date("1583").getFullYear(),
