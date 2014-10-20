@@ -21,6 +21,19 @@ When(/^I click on the "(.*?)" tab$/) do |arg1|
   sleep(3)
 end
 
+When(/^I click on the event link "(.*?)"$/) do |arg1|
+  click_link('.linked-event')
+end
+
+Then(/^the slider should be on "(.*?)"$/) do |arg1|
+  expect('#date').to have_content arg1
+  expect(page.evaluate_script("$('#slider').slider('value')")).to eql arg1
+end
+
+Then(/^the "(.*?)" popup should be open$/) do |event_name|
+  expect(page.evaluate_script("$('div.content h1').text()")).to eql event_name
+end
+
 def point_event(name, description, tags, start_date, end_date, timescale, coords, events)
   Event.new({title: name,
                 description: description,
