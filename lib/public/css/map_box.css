@@ -1,9 +1,10 @@
-.map {
+.map-window {
   font-family: Menlo;
   color: #eee;
+  padding: 12em 0 20em 0;
 }
 
-.map .tabs-ui {
+.map-window .tabs-ui {
   position:relative;
   min-height:200px;
   width:240px;
@@ -11,11 +12,11 @@
   margin:0;
   }
 
-.map .tab {
+.map-window .tab {
   float:left;
   }
 
-.map .tab label {
+.map-window .tab label {
   background:#24294F;
   padding:10px;
   border:none;
@@ -26,15 +27,15 @@
   cursor:pointer;
   }
 
-.map .tab label:hover {
+.map-window .tab label:hover {
   background:#464D6E;
   }
 
-.map .tab [type=radio] {
+.map-window .tab [type=radio] {
   display:none;
   }
 
-.map .tab .content {
+.map-window .tab .content {
   background:#141223;
   position:absolute;
   top:28px;
@@ -45,12 +46,12 @@
   border:#2E3246;
   }
 
-.map .tab [type=radio]:checked ~ label {
+.map-window .tab [type=radio]:checked ~ label {
   background:#424c8f;
   z-index:2;
   }
 
-.map .tab [type=radio]:checked ~ label ~ .content {
+.map-window .tab [type=radio]:checked ~ label ~ .content {
   z-index:2;
   }
 
