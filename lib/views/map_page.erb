@@ -47,6 +47,9 @@
       <div id="slider"></div>
     </section>
 
+    <script>
+      var currentYear;
+    </script>
     <script type='text/javascript' src="scripts/map_box.js"></script>
     <script>
       $('document').ready( function(){
@@ -64,7 +67,9 @@
             eventLayer.clearLayers();
           },
           change: function(event, ui){
-            getMapData("year", ui.value, eventLayer);
+            if (event.originalEvent){
+              getMapData("year", ui.value, eventLayer);
+            };
           }
         });
       });
