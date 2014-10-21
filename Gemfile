@@ -20,4 +20,5 @@ group :development, :test do
   gem 'shotgun'
   gem 'poltergeist'
   gem 'selenium-webdriver'
+  gem "capybara-webkit"
  end
