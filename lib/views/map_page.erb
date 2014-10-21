@@ -17,7 +17,7 @@
 
   <body>
     <script id="popup-template" type="text/x-handlebars-template">
-      <div class="tabs-ui" {{bind-attr id=id}}>
+      <div class="tabs-ui" {{bind-attr id=id}} {{bind-attr href=url}}>
         <div class="tab">
           <input type="radio" id="title" name="tab-group" checked="true" />
           <label for='title'>Event</label>
@@ -34,6 +34,17 @@
             <ul>
               {{#each events}}
               <li>{{{link}}}</li>
+              {{/each}}
+            </ul>
+          </div>
+        </div>
+        <div class="tab">
+          <input type="radio" id="read more" name="tab-group" />
+          <label for='read more'>Read more</label>
+          <div class='content'>
+            <ul>
+              {{#each link}}
+              <li><a href={{{url}}}>{{name}}</a></li>
               {{/each}}
             </ul>
           </div>
