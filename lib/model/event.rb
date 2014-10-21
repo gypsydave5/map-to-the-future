@@ -16,7 +16,7 @@ class Event
 
   has n, :tags,   :through => Resource
   has n, :links
-  has n, :events, self, :through => :linkedevents,  :via => :target
+  has n, :events, Event, :through => :linkedevents,  :via => :target
   has n, :linkedevents, :child_key => [:source_id]
 
   validates_presence_of :title, :description, :geometry, :startdate, :enddate
