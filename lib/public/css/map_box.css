@@ -1,4 +1,0 @@
-        marker.setIcon(L.mapbox.marker.icon({
-                    'marker-color': '#aaa',
-                    'marker-size': 'large'
-                }));
