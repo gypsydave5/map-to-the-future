@@ -40,7 +40,7 @@ class MapToTheFuture < Sinatra::Base
     end
     uploaded_event = {
       title: params["title"],
-      description:["description"],
+      description:params["description"],
       geometry: geojson_geometry(params["longitude"], params["latitude"]),
       timescale: params["timescale"],
       startdate:startdate,
@@ -49,11 +49,14 @@ class MapToTheFuture < Sinatra::Base
       events: linkedevents
     }
     Event.create(uploaded_event)
+    "Event uploaded!"
+    redirect to('/')
   end
 
   post '/upload' do
     upload = Event.add_geojson_events(params[:geoJSON][:tempfile].read)
     "File uploaded!" + upload.to_s
+    redirect to('/')
   end
 
   get '/' do
