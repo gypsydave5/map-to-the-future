@@ -7,7 +7,7 @@
     %input{type: 'submit', value: 'Submit'}
 
   %p Add a new event:
-  %form{method: "POST", action: "upload/formpost", enctype: 'multipart/form-data'}
+  %form{method: "POST", action: "upload/formpost" }
     %input{type: 'text', name: 'title', placeholder: "Event name", required: true}
     %input{type: 'text', name: 'description', placeholder: "Event description", required: true}
     %input{type: 'text', name: 'longitude', placeholder: "Event longitude", required: true}
@@ -16,6 +16,11 @@
     %input{type: 'text', name: 'startdate', placeholder: "Start date", required: true}
     %input{type: 'text', name: 'enddate', placeholder: "End date"}
     %input{type: 'text', name: 'tags', placeholder: "Tags ie: political, cultural", required: true}
-    %input{type: 'text', name: 'linkedevents', placeholder: "Linked events ie: Tesla's death, Gandhi's birth"}
+    %select{name: 'linkedevents[]', multiple: true}
+      -@events.each do |event|
+        %option{value: event.id}
+          =event.title
+    %input{type: 'text', name: 'link-name', placeholder: "title for the link, ie. Wikipedia"}
+    %input{type: 'text', name: 'link-url', placeholder: "url for the link, ie. http://wikipedia.com"}
     %input{type: 'submit', value: 'Publish'}
 

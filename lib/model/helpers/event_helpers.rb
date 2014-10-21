@@ -15,7 +15,8 @@ module EventHelpers
         feature["properties"].keys.each do |property|
           import_property(feature, property, event)
         end
-        Event.create(event)
+        new_event = Event.create(event)
+        new_event.reciprocate_event_links
       end
     end
 
@@ -113,6 +114,13 @@ module EventHelpers
         timescale: event.timescale,
         link: event.link_string
       }
+    end
+  end
+
+  def reciprocate_event_links
+    self.events.each do |linked_event|
+      linked_event.events << self
+      linked_event.save
     end
   end
 

@@ -15,6 +15,7 @@ class MapToTheFuture < Sinatra::Base
   end
 
   get '/upload' do
+    @events = Event.all
     haml :upload
   end
 
@@ -35,9 +36,11 @@ class MapToTheFuture < Sinatra::Base
       Tag.first_or_create(name: tag.strip)
     end
     linkedevents = []
-    params["linkedevents"].split(",").each do |linkedevent|
-       linkedevents << Event.first(title: linkedevent.strip) if Event.first(title: linkedevent.strip)
-    end
+    params["linkedevents"].each { |event_id|
+      linkedevents << Event.get(event_id.to_i)
+    } if params["linkedevents"]
+    links = []
+    links = [{ name: params["link-name"], url: params["link-url"] }] if params["link-name"] && params["link-url"]
     uploaded_event = {
       title: params["title"],
       description:params["description"],
@@ -46,16 +49,16 @@ class MapToTheFuture < Sinatra::Base
       startdate:startdate,
       enddate:enddate,
       tags:tags,
-      events: linkedevents
+      events: linkedevents,
+      links: links
     }
-    Event.create(uploaded_event)
-    "Event uploaded!"
+    new_event = Event.create(uploaded_event)
+    new_event.reciprocate_event_links
     redirect to('/')
   end
 
   post '/upload' do
-    upload = Event.add_geojson_events(params[:geoJSON][:tempfile].read)
-    "File uploaded!" + upload.to_s
+    Event.add_geojson_events(params[:geoJSON][:tempfile].read)
     redirect to('/')
   end
 
