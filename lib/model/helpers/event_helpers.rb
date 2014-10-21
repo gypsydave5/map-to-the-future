@@ -37,6 +37,11 @@ module EventHelpers
         end
     end
 
+    def import_links(feature, links, event)
+      event[links.to_sym] =
+        feature["properties"][]
+    end
+
     def import_property(feature, property, event)
       if property =~ /date/
         import_date_property(feature, property, event)
