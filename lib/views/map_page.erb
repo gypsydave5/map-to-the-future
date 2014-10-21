@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.2/mapbox.js'></script>
+	<script src='javascript/jquery/dist/jquery.min.js'></script>
+	<script src='javascript/handlebars/handlebars.js'></script>
+  <script src="javascript/jquery-ui/jquery-ui.js"></script>
+	<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.2/mapbox.css' rel='stylesheet' />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/map_box.css">
+  <link rel="stylesheet" href="css/popup.css">
+  <link href="javascript/jquery-ui/themes/le-frog/jquery-ui.css" rel="stylesheet">
+	<title>Map to the Future!</title>
+</head>
+
+  <body>
+    <script id="popup-template" type="text/x-handlebars-template">
+      <div class="tabs-ui" {{bind-attr id=id}}>
+        <div class="tab">
+          <input type="radio" id="title" name="tab-group" checked="true" />
+          <label for='title'>Event</label>
+          <div class="content">
+            <h1>{{title}}</h1>
+            <h2>{{startdate}}</h2>
+            <p>{{description}}</p>
+          </div>
+        </div>
+        <div class="tab">
+          <input type="radio" id="linked-events" name="tab-group" />
+          <label for='linked-events'>Linked Events</label>
+          <div class="content">
+            <ul>
+              {{#each events}}
+              <li>{{{link}}}</li>
+              {{/each}}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </script>
+
+    <div id='map' class="map"></div>
+    <section id="timeline-container">
+      <p id="date-line">Current Date: <span id="date">1790</span></p>
+      <div id="slider"></div>
+    </section>
+
+    <script>
+      var currentYear;
+    </script>
+    <script type='text/javascript' src="scripts/map_box.js"></script>
+    <script>
+
+
+
+      $('document').ready( function(){
+        $( "#slider" ).slider({
+          min: new Date("1583").getFullYear(),
+          max: new Date("1997").getFullYear(),
+          step: 1,
+          value: new Date("1790").getFullYear(),
+          create: function(event, ui){
+            // $('#date').text((new Date($("#slider").slider("option", "value"))));
+            getMapData("year", "1790", eventLayer);
+          },
+          slide: function(event, ui) {
+            $('#date').text(ui.value);
+            eventLayer.clearLayers();
+          },
+          change: function(event, ui){
+            if (event.originalEvent){
+              getMapData("year", ui.value, eventLayer);
+            };
+            $('#date').text(ui.value);
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>

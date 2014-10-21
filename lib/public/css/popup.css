@@ -1,0 +1,141 @@
+.map {
+  font-family: Helvetica;
+  color: #eee;
+}
+
+.map .tabs-ui {
+  position:relative;
+  min-height:350px;
+  width:600px;
+  clear:both;
+  margin:0;
+  }
+
+.map .tab {
+  float:left;
+  }
+
+.map .tab label {
+  background:#24294F;
+  padding:10px;
+  border:none;
+  margin-left:-1px;
+  position:relative;
+  left:1px;
+  top:1px;
+  cursor:pointer;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom: #e69524
+  }
+.map .tab label:after {
+  border-bottom: #e69524;
+  position: absolute;
+  content: "";
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  right: -6px;
+  }
+
+.map .tab label:before,
+ .map .tab label:after,{
+    position: absolute;
+    bottom: -1px;
+    width: 6px;
+    height: 6px;
+    content: " ";
+}
+.map .tab label:after, {
+  right: -6px;
+  }
+.map .tab label:after,
+ .map .tab label:before,{
+   border: 1px solid #e69524;}
+
+
+
+.map .tab label:hover {
+  background:#464D6E;
+  }
+
+.map .tab [type=radio] {
+  display:none;
+  }
+
+.map .tab .content {
+  background:#141223;
+  position:absolute;
+  color: #eee;
+  top:28px;
+  left:0;
+  right:0;
+  bottom:0;
+  padding:10px;
+  border:#2E3246;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e69524
+  }
+
+.map .tab [type=radio]:checked ~ label {
+  background:#e69524;
+  z-index:2;
+  }
+
+.map .tab [type=radio]:checked ~ label ~ .content {
+  z-index:2;
+  }
+
+.leaflet-container {
+  font-size: 1em;
+}
+
+.leaflet-container h1 {
+  color: #e69524;
+  font-size: 1.250em;
+}
+
+.leaflet-container h2 {
+  color: #eee;
+  font-size: 1em;
+}
+
+.leaflet-container p {
+  font-size: 1em;
+}
+
+.leaflet-popup-content {
+  padding: 0;
+  }
+
+.leaflet-popup-content-wrapper {
+  background:transparent;
+  color:#eee;
+  font-size:1em;
+  line-height:20px;
+  }
+
+.leaflet-popup-content-wrapper a {
+  color:rgba(255,255,255,0.5);
+  }
+
+.leaflet-popup-tip-container {
+  width:30px;
+  height:15px;
+  }
+
+.leaflet-popup-tip {
+  border-left:15px solid transparent;
+  border-right:15px solid transparent;
+  border-top:15px solid transparent;
+  }
+
+li {
+  color: #e69524; 
+}

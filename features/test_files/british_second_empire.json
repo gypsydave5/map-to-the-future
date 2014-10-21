@@ -1,0 +1,24 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Peace of Paris",
+        "description" : "The Peace of Paris of 1783 was the set of treaties which ended the American Revolutionary War. On 3 September 1783, representatives of King George III of Great Britain signed a treaty in Paris with representatives of the United States of America—commonly known as the Treaty of Paris (1783)—and two treaties at Versailles with representatives of King Louis XVI of France and King Charles III of Spain—commonly known as the Treaties of Versailles (1783).",
+        "startdate" : "1783",
+        "enddate" : "1783",
+        "timescale": "year",
+        "tags" : ["Political"],
+        "events": [ ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3488000,
+          48.8534100
+        ]
+      }
+    }
+  ]
+}

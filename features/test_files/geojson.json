@@ -6,8 +6,11 @@
       "properties": {
         "title" : "Somewhere in Greenland",
         "description" : "A place in Greenland.",
-        "date" : "1900",
-        "category" : "Greenland"
+        "startdate" : "1900",
+        "enddate" : "1900",
+        "timescale": "year",
+        "tags" : ["Greenland"],
+        "events": [ ]
       },
       "geometry": {
         "type": "Point",

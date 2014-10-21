@@ -7,5 +7,5 @@ When(/^I click "(.*?)"$/) do |arg1|
 end
 
 Then(/^the database size should be "(.*?)"$/) do |arg1|
-  expect(Event.count).to eq 1
+  expect(Event.count).to eq arg1.to_i
 end
