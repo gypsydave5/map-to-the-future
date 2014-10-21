@@ -6,7 +6,7 @@ class Link
 
   property :id,           Serial
   property :name,         String
-  property :link,         String
+  property :url,         String
 
   belongs_to :event
 
