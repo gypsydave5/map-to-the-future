@@ -104,7 +104,8 @@ module EventHelpers
     geo_json_hash[:properties][:links] = links.map do |link|
       {
         name: link.name,
-        link: link.url
+        url: link.url,
+        link: "<a href='#{link.url}' target='_blank'>#{link.name}</a>"
       }
     end
   end
