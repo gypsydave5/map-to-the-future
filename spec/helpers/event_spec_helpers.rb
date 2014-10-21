@@ -19,7 +19,8 @@ module EventSpecHelpers
               enddate: event[:enddate],
               timescale: event[:timescale],
               events: [],
-              tags: event.tags.map(&:name)
+              tags: event.tags.map(&:name),
+              links: []
             },
           geometry: event[:geometry]
         }

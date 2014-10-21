@@ -69,6 +69,7 @@ module EventHelpers
     hash = construct_geo_json_hash(self)
     insert_linked_events(self.events, hash)
     insert_tags(self.tags, hash)
+    insert_links(self.links, hash)
     hash
   end
 
@@ -90,6 +91,15 @@ module EventHelpers
   def insert_tags(tags, geo_json_hash)
     geo_json_hash[:properties][:tags] = tags.map do |tag|
       tag.name
+    end
+  end
+
+  def insert_links(links, geo_json_hash)
+    geo_json_hash[:properties][:links] = links.map do |link|
+      {
+        name: link.name,
+        link: link.url
+      }
     end
   end
 

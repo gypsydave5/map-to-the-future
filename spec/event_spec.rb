@@ -8,6 +8,7 @@ describe Event do
         tags: [Tag.first_or_create(name: "Monument")],
         startdate: DateTime.new(1889, 3,15),
         enddate: DateTime.new(1889, 3,15),
+        links: [],
         geometry: { type: "Point",
                     coordinates: [2.294694, 48.858093] })
   end
@@ -37,13 +38,14 @@ describe Event do
       Event.create(title: "Alex Eiffel",
                   description: "Pioneer of aerodynamics",
                   tags:[],
+                  links: [],
                   startdate: DateTime.new(1889, 3,15),
                   enddate: DateTime.new(1889, 3,15),
                   geometry: { type: "Point",
                     coordinates: [2.29, 48.85] },
                   events: [Event.first(title: "Eiffel Tower")]
                   )
-      expect(Event.first(title: "Alex Eiffel").events.first.title ).to eql "Eiffel Tower"
+      expect(Event.first(title: "Alex Eiffel").events.first.title).to eql "Eiffel Tower"
     end
   end
 
@@ -58,9 +60,32 @@ describe Event do
 
   context "exporting geoJSON data" do
     it "should have a method to export a geoJSON-Feature-ready hash object" do
-      event = Event.new(title: "event", description: "event", startdate: DateTime.new(1900), enddate: DateTime.new(1900), geometry: { type: "Point", coordinates: [1.0, 1.0] })
-      event.save
-      expect(event.to_geojson_feature).to eq({type: "Feature",properties:{id: 5, title:"event",description:"event", startdate:DateTime.new(1900), enddate:DateTime.new(1900), timescale: nil, tags: [], events: []},geometry:{type:"Point",coordinates:[1.0,1.0]}})
+      event = Event.create(
+        title: "event",
+        description: "event",
+        startdate: DateTime.new(1900),
+        enddate: DateTime.new(1900),
+        geometry: { type: "Point",
+                    coordinates: [1.0, 1.0] }
+      )
+      expect(event.to_geojson_feature).to eq({
+        type: "Feature",
+        properties: {
+          id: 5,
+          title:"event",
+          description:"event",
+          startdate:DateTime.new(1900),
+          enddate:DateTime.new(1900),
+          timescale: nil,
+          tags: [],
+          events: [],
+          links: []
+        },
+        geometry: {
+          type:"Point",
+          coordinates:[1.0,1.0]
+        }
+      })
     end
   end
 

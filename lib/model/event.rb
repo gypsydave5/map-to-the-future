@@ -15,6 +15,7 @@ class Event
   property :enddate,      DateTime
 
   has n, :tags,   :through => Resource
+  has n, :links
   has n, :events, self, :through => :linkedevents,  :via => :target
   has n, :linkedevents, :child_key => [:source_id]
 
