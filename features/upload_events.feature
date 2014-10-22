@@ -10,6 +10,5 @@ Feature: Uploading data
         Given I am on the upload page
         When I attach a geoJSON file
         And I click "Submit"
-        Then I should see "File uploaded!"
-        And I should see "Somewhere in Greenland"
+        Then I should be on the homepage
         And the database size should be "1"
