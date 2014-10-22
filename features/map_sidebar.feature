@@ -3,6 +3,11 @@ Feature: Interacting with map pop ups
   When I look at events in MapToTheFuture
   I want to get more information in a side bar
 
+  @javascript
+  Scenario: Opening the sidebar
+    Given I am on the homepage
+    Then I should not see the sidebar
+
   @javascript @selenium
   Scenario: Opening the sidebar
     Given I am on the homepage
