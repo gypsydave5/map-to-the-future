@@ -17,6 +17,7 @@ Feature: Interacting with map pop ups
     And MapToTheFuture knows about the Declaration of Independence
     And MapToTheFuture knows about the Boston Tea Party
     And I move the slider to "1773"
+    And I am looking at North America
     When I click on the marker for "Boston Tea Party"
     And I click on the "linked-events" tab
     Then I should see "Declaration of Independence"

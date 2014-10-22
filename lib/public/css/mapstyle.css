@@ -1,0 +1,77 @@
+/*=============
+    IMPORTS
+==============*/
+@import url(http://fonts.googleapis.com/css?family=Fjalla+One);
+
+/*=============
+    LAYOUTS
+==============*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin: 0 0 20%; /* bottom = footer height */
+}
+
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 20%;
+  width: 100%;
+  background-color: salmon;
+}
+
+/*=============
+    TYPOGRAPHY
+==============*/
+
+html {
+  font-family: 'Fjalla One';
+}
+
+/*=============
+    NAVIGATION
+==============*/
+.navbar {
+  height: 3em;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 1000;
+  background-color: salmon;
+}
+
+.navbar-brand {
+  padding-left: 3.5em;
+}
+
+/*=============
+    MAP
+==============*/
+
+#map {
+  height: 80%;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/*=============
+    SLIDER
+==============*/
+
