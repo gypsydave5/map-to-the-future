@@ -8,17 +8,13 @@
 	<script src='javascript/jquery/dist/jquery.min.js'></script>
 	<script src='javascript/handlebars/handlebars.js'></script>
   <script src="javascript/jquery-ui/jquery-ui.js"></script>
-  <script src='javascript/leaflet-sidebar-master/src/L.Control.Sidebar.js'></script>
-	<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.2/mapbox.css' rel='stylesheet' />
-
-  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
+ 	<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.2/mapbox.css' rel='stylesheet' />
   <link rel="stylesheet" href="javascript/leaflet-sidebar-master/src/L.Control.Sidebar.css">
   <link rel="stylesheet" href="css/map_box.css">
   <link rel="stylesheet" href="css/popup.css">
   <link rel="stylesheet" href="css/mapstyle.css">
-  <link rel="stylesheet" href="javascript/leaflet-sidebar-master/src/L.Control.Sidebar.css"></script>
   <link href="javascript/jquery-ui/themes/le-frog/jquery-ui.css" rel="stylesheet"/>
-   <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css"/>
+ 
 
 	<title>Map to the Future!</title>
 
@@ -26,7 +22,7 @@
 
   <body>
     <script id="popup-template" type="text/x-handlebars-template">
-      <div class="tabs-ui" {{bind-attr id=id}} >
+      <div class="tabs-ui" id={{id}} >
         <div class="tab">
           <input type="radio" id="title" name="tab-group" checked="true" />
           <label for='title'>Event</label>
@@ -34,6 +30,7 @@
             <h1>{{title}}</h1>
             <h2>{{date}}</h2>
             <p>{{short_description}}</p>
+            <p><a data-id={{id}} class='sidebar-caller'>Read more.</a>
           </div>
         </div>
         <div class="tab">
@@ -66,7 +63,7 @@
             <p>{{context}}</p>
     </script>
 
-    <div id='sidebar'></div>
+    <div id='sidebar'> <p> HELLU </p></div>
     <div class="navbar" role="navigation">
       <div class="container">
           <a class="navbar-brand" href="#">Project name</a>
@@ -82,7 +79,9 @@
 
     <script type='text/javascript' src="scripts/map_box.js"></script>
     <script type='text/javascript' src="./javascript/leaflet-sidebar-master/src/L.Control.Sidebar.js"></script>
-
+    <script>
+  
+    </script>
     <script>
       $('document').ready( function(){
         $( "#slider" ).slider({
@@ -116,6 +115,8 @@
         var sidebar = L.control.sidebar('sidebar', {
             closeButton: true,
             position: 'right'
+
+
         });
         map.addControl(sidebar);
 
