@@ -46,8 +46,8 @@ module EventHelpers
 
     def import_linked_events(feature, linked_events, event)
       event[linked_events.to_sym] =
-        feature["properties"][linked_events].map do |linked_event|
-          Event.get(linked_event["id"].to_i)
+        feature["properties"][linked_events].map do |linked_event_title|
+          Event.first(title: linked_event_title)
         end
     end
 
