@@ -10,7 +10,7 @@ When(/^I click the 'read more' link$/) do
 end
 
 Then(/^I should not see the sidebar$/) do
-  sleep(5)
+  sleep(2)
   expect(page).not_to have_css('#sidebar')
-  sleep(5)
+  sleep(2)
 end

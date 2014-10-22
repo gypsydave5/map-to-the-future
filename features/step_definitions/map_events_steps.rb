@@ -26,12 +26,19 @@ end
 Then(/^I should see a marker$/) do
   sleep(3)
   expect(page).to have_css('img.leaflet-marker-icon')
-  sleep(5)
+  sleep(3)
 end
 
 Then(/^I should not see a marker$/) do
   sleep(3)
   expect(page.evaluate_script("Object.keys(eventLayer._layers).length")).to eq(0)
+  sleep(3)
+end
+
+Then(/^I should see no zoom buttons$/) do
+  sleep(3)
+  expect(page).not_to have_css('.leaflet-control-zoom-out')
+  expect(page).not_to have_css('.leaflet-control-zoom-in')
   sleep(3)
 end
 
