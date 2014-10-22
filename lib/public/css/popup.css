@@ -1,9 +1,9 @@
-.map {
+#map {
   font-family: Helvetica;
   color: #eee;
 }
 
-.map .tabs-ui {
+#map .tabs-ui {
   position:relative;
   min-height:250px;
   width:400px;
@@ -11,11 +11,11 @@
   margin:0;
   }
 
-.map .tab {
+#map .tab {
   float:left;
   }
 
-.map .tab label {
+#map .tab label {
   background:#24294F;
   padding:10px;
   border:none;
@@ -28,7 +28,7 @@
   border-top-right-radius: 5px;
   border-bottom: #e69524
   }
-.map .tab label:after {
+#map .tab label:after {
   border-bottom: #e69524;
   position: absolute;
   content: "";
@@ -39,32 +39,32 @@
   right: -6px;
   }
 
-.map .tab label:before,
- .map .tab label:after,{
+#map .tab label:before,
+ #map .tab label:after,{
     position: absolute;
     bottom: -1px;
     width: 6px;
     height: 6px;
     content: " ";
 }
-.map .tab label:after, {
+#map .tab label:after, {
   right: -6px;
   }
-.map .tab label:after,
- .map .tab label:before,{
+#map .tab label:after,
+ #map .tab label:before,{
    border: 1px solid #e69524;}
 
 
 
-.map .tab label:hover {
+#map .tab label:hover {
   background:#464D6E;
   }
 
-.map .tab [type=radio] {
+#map .tab [type=radio] {
   display:none;
   }
 
-.map .tab .content {
+#map .tab .content {
   background:#141223;
   position:absolute;
   color: #eee;
@@ -83,12 +83,12 @@
   border-color: #e69524
   }
 
-.map .tab [type=radio]:checked ~ label {
+#map .tab [type=radio]:checked ~ label {
   background:#e69524;
   z-index:2;
   }
 
-.map .tab [type=radio]:checked ~ label ~ .content {
+#map .tab [type=radio]:checked ~ label ~ .content {
   z-index:2;
   }
 
@@ -137,5 +137,5 @@
   }
 
 li {
-  color: #e69524; 
+  color: #e69524;
 }
