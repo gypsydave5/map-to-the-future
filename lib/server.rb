@@ -43,6 +43,7 @@ class MapToTheFuture < Sinatra::Base
     links = [{ name: params["link-name"], url: params["link-url"] }] if params["link-name"] && params["link-url"]
     uploaded_event = {
       title: params["title"],
+      short_description:params["short_description"],
       description:params["description"],
       geometry: geojson_geometry(params["longitude"], params["latitude"]),
       timescale: params["timescale"],

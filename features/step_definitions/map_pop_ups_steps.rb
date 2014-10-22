@@ -1,11 +1,11 @@
 Given(/^MapToTheFuture knows about the Boston Tea Party$/) do
-  point_event("Boston Tea Party",
+  point_event("Boston Tea Party", "This is the short description",
     "Boat unloads a lot of tea",
     ["Civil War"], 1773, 1773, "year", [-71.0597732, 42.3584308], ["Declaration of Independence"])
 end
 
 Given(/^MapToTheFuture knows about the Declaration of Independence$/) do
-  point_event("Declaration of Independence",
+  point_event("Declaration of Independence", "This is the short description",
     "American colonies declare independence from Great Britain",
     ["Civil War"], 1776, 1776, "year", [-75.15, 39.948889], [])
 end
@@ -33,8 +33,9 @@ Then(/^the "(.*?)" popup should be open$/) do |event_name|
   expect(page.evaluate_script("$('div.content h1').text()")).to eql event_name
 end
 
-def point_event(name, description, tags, start_date, end_date, timescale, coords, events)
+def point_event(name, short_description, description, tags, start_date, end_date, timescale, coords, events)
   Event.new({title: name,
+                short_description: short_description,
                 description: description,
                 tags: tags.map{|tag| Tag.first_or_create(name: tag)},
                 startdate: DateTime.new(start_date),

@@ -5,9 +5,10 @@
       "type": "Feature",
       "properties": {
         "title" : "Britain claims Australia",
+        "short_description" : "Planted a flag there.",
         "description" : "In 1770 James Cook discovered the eastern coast of Australia while on a scientific voyage to the South Pacific Ocean, claimed the continent for Britain, and named it New South Wales.Since 1718, transportation to the American colonies had been a penalty for various criminal offences in Britain, with approximately one thousand convicts transported per year across the Atlantic. Forced to find an alternative location after the loss of the 13 Colonies in 1783, the British government turned to the newly discovered lands of Australia.In 1778, Joseph Banks, Cook's botanist on the voyage, presented evidence to the government on the suitability of Botany Bay for the establishment of a penal settlement, and in 1787 the first shipment of convicts set sail, arriving in 1788. Britain continued to transport convicts to New South Wales until 1840. The Australian colonies became profitable exporters of wool and gold, mainly due to gold rushes in the colony of Victoria, making its capital Melbourne the richest city in the world and the largest city after London in the British Empire",
-        "startdate" : "1770",
-        "enddate" : "1770",
+        "startdate" : "1789",
+        "enddate" : "1789",
         "timescale": "year",
         "tags" : ["Political"],
         "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/First_voyage_of_James_Cook"} ],
@@ -16,8 +17,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          2.3488000,
-          48.8534100
+          145.9633200,
+          -34.8140000
         ]
       }
     }
