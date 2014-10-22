@@ -9,9 +9,9 @@
 	<script src='javascript/handlebars/handlebars.js'></script>
   <script src="javascript/jquery-ui/jquery-ui.js"></script>
 	<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.2/mapbox.css' rel='stylesheet' />
-  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/map_box.css">
   <link rel="stylesheet" href="css/popup.css">
+  <link rel="stylesheet" href="css/mapstyle.css">
   <link href="javascript/jquery-ui/themes/le-frog/jquery-ui.css" rel="stylesheet">
 	<title>Map to the Future!</title>
 
@@ -55,15 +55,19 @@
       </div>
     </script>
 
-    <div id='map' class="map"></div>
-    <section id="timeline-container">
-      <p id="date-line">Current Date: <span id="date">1790</span></p>
-      <div id="slider"></div>
-    </section>
+    <div class="navbar" role="navigation">
+      <div class="container">
+          <a class="navbar-brand" href="#">Project name</a>
+      </div>
+    </div>
 
-    <script>
-      var currentYear;
-    </script>
+    <section id="map"></section>
+
+    <footer>
+      <p id="date-line">Current Date: <span id="date"></span></p>
+      <div id="slider"></div>
+    </footer>
+
     <script type='text/javascript' src="scripts/map_box.js"></script>
 
     <script>
@@ -96,81 +100,3 @@
     </script>
   </body>
 </html>
-
-<!-- <!DOCTYPE HTML>
-
-<html>
-  <head>
-  	<meta charset="UTF-8">
-    <title>Map to the Future!</title>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-    <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.2/mapbox.css' rel='stylesheet' />
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/map_box.css">
-    <link rel="stylesheet" href="css/popup.css">
-    <link href="javascript/jquery-ui/themes/le-frog/jquery-ui.css" rel="stylesheet">
-    <noscript>
-      <link rel="stylesheet" href="css/skel.css" />
-      <link rel="stylesheet" href="css/style.css" />
-      <link rel="stylesheet" href="css/style-wide.css" />
-    </noscript>
-
-    <link rel="stylesheet" href="css/custom.css" />
-
-  </head>
-
-
-  <body class="landing">
-    <section class="page-wrap">
-
-        <header id="header" class="alt">
-          <h1><a href="index.html">Map to The Future</a></h1>
-          <nav id="nav">
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="index.html">Add Marker</a></li>
-            </ul>
-          </nav>
-        </header>
-
-
-        <section id="map" class="map-window"></section>
-
-    </section>
-
-        <section id="timeline-slider">
-
-          <h2>SLIDER DATE GOES HERE</h2>
-          <p>More slider copy, which may or may not be useful depending on how much you love chocolate</p>
-
-        </section>
-      <script src="js/jquery.dropotron.min.js"></script>
-      <script src="js/jquery.scrollgress.min.js"></script>
-      <script src="js/skel.min.js"></script>
-      <script src="js/skel-layers.min.js"></script>
-      <script src="js/init.js"></script>
-      <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.2/mapbox.js'></script>
-      <script src='javascript/jquery/dist/jquery.min.js'></script>
-      <script src='javascript/handlebars/handlebars.js'></script>
-      <script src="javascript/jquery-ui/jquery-ui.js"></script>
-      <script type='text/javascript' src="scripts/map_box.js"></script>
-  </body>
-</html>
- -->
-      <!-- Footer -->
-        <!-- <footer id="footer">
-          <ul class="icons">
-            <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-            <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-            <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-            <li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-            <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-            <li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
-          </ul>
-          <ul class="copyright">
-            <li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-          </ul>
-        </footer> -->
-      <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
