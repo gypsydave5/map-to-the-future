@@ -1,5 +1,5 @@
 Then(/^I see a map$/) do
-  expect(page).to have_css('div.leaflet-container')
+  expect(page).to have_css('.leaflet-container')
 end
 
 Given(/^the Timeline app knows The Battle of Dresden Anniversary$/) do
