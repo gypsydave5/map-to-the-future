@@ -4,6 +4,17 @@
     <title>Map to The Future</title>
     <link rel="stylesheet" href="mapstyle.css">
     <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.2/mapbox.css' rel='stylesheet' />
+
+  <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.2/mapbox.js'></script>
+  <script src='javascript/jquery/dist/jquery.min.js'></script>
+  <script src='javascript/handlebars/handlebars.js'></script>
+  <script src="javascript/jquery-ui/jquery-ui.js"></script>
+  <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.2/mapbox.css' rel='stylesheet' />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/map_box.css">
+  <link rel="stylesheet" href="css/popup.css">
+  <link href="javascript/jquery-ui/themes/le-frog/jquery-ui.css" rel="stylesheet">
+
   </head>
   <body>
     <!-- Fixed navbar -->
@@ -18,16 +29,14 @@
       <div id="slider"></div>
     </footer>
 
-    <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.2/mapbox.js'></script>
-    <script>
-L.mapbox.accessToken = 'pk.eyJ1IjoiZ3lwc3lkYXZlNSIsImEiOiJJLVNiRHpvIn0.w6LHnjmmQ_irxtmZfZlgUA';
+    <script>L.mapbox.accessToken = 'pk.eyJ1IjoiZ3lwc3lkYXZlNSIsImEiOiJJLVNiRHpvIn0.w6LHnjmmQ_irxtmZfZlgUA';
 var map = L.mapbox.map('map', 'examples.map-i86nkdio').setView([40, -74.50], 9);
-</script>
-
+    </script>
 
     <script>
       var currentYear;
     </script>
+
     <!--<script type='text/javascript' src="scripts/map_box.js"></script>-->
     <script>
       $('document').ready( function(){what
