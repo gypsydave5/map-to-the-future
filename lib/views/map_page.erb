@@ -66,6 +66,7 @@
     <script>
       $('document').ready( function(){
         $( "#slider" ).slider({
+          programmatic: false,
           min: new Date("1583").getFullYear(),
           max: new Date("1997").getFullYear(),
           step: 1,
@@ -81,7 +82,9 @@
           change: function(event, ui){
             if (event.originalEvent){
               getMapData("year", ui.value, eventLayer);
-            };
+              } else if($(this).slider("option", "programmatic")) {
+              getMapData("year", ui.value, eventLayer);
+              };
             $('#date').text(ui.value);
           }
         });

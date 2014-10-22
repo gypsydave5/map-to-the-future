@@ -11,8 +11,9 @@ end
 
 When(/^I move the slider to "(.*?)"$/) do |year|
   sleep(3)
+  page.execute_script("$('#slider').slider('option', 'programmatic', true)")
   page.execute_script("$('#slider').slider('value', #{year})")
-  page.execute_script("$('.ui-slider-handle').click()")
+  page.execute_script("$('#slider').slider('option', 'programmatic', false)")
   sleep(3)
 end
 
