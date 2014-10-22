@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Elizabeth I grants a patent to Humphrey Gilbert for discovery and overseas exploration",
+        "short_description" : "That year, Gilbert sailed for the West Indies with the intention of engaging in piracy and establishing a colony in North America, but the expedition was aborted before it had crossed the Atlantic.[22][23] In 1583 he embarked on a second attempt, on this occasion to the island of Newfoundland whose harbour he formally claimed for England, although no settlers were left behind. Gilbert did not survive the return journey to England, and was succeeded by his half-brother, Walter Raleigh, who was granted his own patent by Elizabeth in 1584. Later that year, Raleigh founded the colony of Roanoke on the coast of present-day North Carolina, but lack of supplies caused the colony to fail.",
+        "description" : "A place in Greenland.",
+        "startdate" : "1900",
+        "enddate" : "1900",
+        "timescale": "year",
+        "tags" : ["Greenland"],
+        "links": [{"name": "Humphrey Gilbert Wikipedia page", "url":"http://en.wikipedia.org/wiki/Humphrey_Gilbert"}],
+        "events": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.6171875,
+          73.62778879339942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Somewhere in the Equator",
+        "short_description" : "A polar bear is far from home.",
+        "description" : "And it's hot.",
+        "startdate" : "1903",
+        "enddate" : "1903",
+        "timescale": "year",
+        "tags" : ["Greenland"],
+        "links": [{"name": "Mirror", "url": "http://www.telegraph.co.uk/earth/earthpicturegalleries/8668389/Zoo-animals-keep-cool-with-frozen-treats-during-hot-summer-weather.html"}],
+        "events": ["Somewhere in Greenland"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    }
+  ]
+}
