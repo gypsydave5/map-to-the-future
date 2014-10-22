@@ -6,13 +6,14 @@ class Event
   include DataMapper::Resource
   include EventHelpers
 
-  property :id,           Serial
-  property :title,        String
-  property :description,  Text
-  property :geometry,     Object
-  property :timescale,    String
-  property :startdate,    DateTime
-  property :enddate,      DateTime
+  property :id,                Serial
+  property :title,             String
+  property :short_description, Text
+  property :description,       Text
+  property :geometry,          Object
+  property :timescale,         String
+  property :startdate,         DateTime
+  property :enddate,           DateTime
 
   has n, :tags,   :through => Resource
   has n, :links
