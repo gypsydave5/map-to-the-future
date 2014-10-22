@@ -13,12 +13,44 @@
       </div>
     </div>
     <section id="map"></section>
-    <footer></footer>
+    <footer>
+      <p id="date-line">Current Date: <span id="date"></span></p>
+      <div id="slider"></div>
+    </footer>
 
     <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.2/mapbox.js'></script>
     <script>
 L.mapbox.accessToken = 'pk.eyJ1IjoiZ3lwc3lkYXZlNSIsImEiOiJJLVNiRHpvIn0.w6LHnjmmQ_irxtmZfZlgUA';
 var map = L.mapbox.map('map', 'examples.map-i86nkdio').setView([40, -74.50], 9);
 </script>
+
+
+    <script>
+      var currentYear;
+    </script>
+    <!--<script type='text/javascript' src="scripts/map_box.js"></script>-->
+    <script>
+      $('document').ready( function(){what
+        $( "#slider" ).slider({
+          min: new Date("1583").getFullYear(),
+          max: new Date("1997").getFullYear(),
+          step: 1,
+          value: new Date("1900").getFullYear(),
+          create: function(event, ui){
+            $('#date').text((new Date($("#slider").slider("option", "value"))));
+            getMapData("year", "1900", eventLayer);
+          },
+          slide: function(event, ui) {
+            $('#date').text(ui.value);
+            eventLayer.clearLayers();
+          },
+          change: function(event, ui){
+            if (event.originalEvent){
+              getMapData("year", ui.value, eventLayer);
+            };
+          }
+        });
+      });
+    </script>
   </body>
 </html>
