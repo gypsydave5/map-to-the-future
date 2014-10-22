@@ -20,6 +20,20 @@ module EventHelpers
       end
     end
 
+    def import_property(feature, property, event)
+      if property =~ /date/
+        import_date_property(feature, property, event)
+      elsif property == "tags"
+        import_tag(feature, property, event)
+      elsif property == "events"
+        import_linked_events(feature, property, event)
+      elsif property == "links"
+        import_links(feature, property, event)
+      else
+        event[property.to_sym] = feature["properties"][property]
+      end
+    end
+
     def import_date_property(feature, property, event)
       event[property.to_sym] = DateTime.new(feature["properties"][property].to_i)
     end
@@ -39,20 +53,11 @@ module EventHelpers
 
     def import_links(feature, links, event)
       event[links.to_sym] =
-        feature["properties"][]
+        feature["properties"][links].map do |link|
+          Link.create(name: link["name"], url: link["url"])
+        end
     end
 
-    def import_property(feature, property, event)
-      if property =~ /date/
-        import_date_property(feature, property, event)
-      elsif property == "tags"
-        import_tag(feature, property, event)
-      elsif property == "events"
-        import_linked_events(feature, property, event)
-      else
-        event[property.to_sym] = feature["properties"][property]
-      end
-    end
 
     def fetch_relevant_events(year)
       all({
@@ -85,6 +90,7 @@ module EventHelpers
       properties: {
         id: event.id,
         title: event.title,
+        short_description: event.short_description,
         description: event.description,
         startdate: event.startdate,
         enddate: event.enddate,

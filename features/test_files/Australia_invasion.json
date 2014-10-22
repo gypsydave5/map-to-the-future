@@ -10,7 +10,7 @@
         "enddate" : "1770",
         "timescale": "year",
         "tags" : ["Political"],
-        "links": [{link: "<a href='http://en.wikipedia.org/wiki/Kim_Kardashian'>Wikipedia</a>", name: "Wikipedia", url: "http://en.wikipedia.org/wiki/First_voyage_of_James_Cook"} ],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/First_voyage_of_James_Cook"} ],
         "events": [ ]
       },
       "geometry": {
