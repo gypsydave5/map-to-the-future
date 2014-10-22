@@ -9,6 +9,7 @@
   %p Add a new event:
   %form{method: "POST", action: "upload/formpost" }
     %input{type: 'text', name: 'title', placeholder: "Event name", required: true}
+    %input{type: 'text', name: 'short_description', placeholder: "Three line event summary", required: true}
     %input{type: 'text', name: 'description', placeholder: "Event description", required: true}
     %input{type: 'text', name: 'longitude', placeholder: "Event longitude", required: true}
     %input{type: 'text', name: 'latitude', placeholder: "Event latitude", required: true}
