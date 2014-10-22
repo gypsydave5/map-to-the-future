@@ -1,8 +1,8 @@
 .map-window {
   font-family: Menlo;
   color: #eee;
-  padding: 12em 0 20em 0;
-}
+/*  padding: 40em 0 40em 0;
+*/}
 
 .map-window .tabs-ui {
   position:relative;
