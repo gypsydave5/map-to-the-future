@@ -1,6 +1,7 @@
 .leaflet-sidebar {
   position: absolute;
-  height: 100%;
+  top: 10%;
+  height: 80%;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
