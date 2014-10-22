@@ -12,7 +12,7 @@ end
 
 When(/^I click on the marker for "(.*?)"$/) do |marker_title|
   sleep(3)
-  page.execute_script("eventLayer.eachLayer(function(marker) { if (marker.feature.properties.title === '#{marker_title}') { marker.openPopup() } });")
+  page.execute_script("eventLayer.eachLayer(function(marker) { if (marker.feature.properties.title === '#{marker_title}') { marker.fire('click') } });")
 end
 
 When(/^I click on the "(.*?)" tab$/) do |arg1|
@@ -31,6 +31,10 @@ end
 
 Then(/^the "(.*?)" popup should be open$/) do |event_name|
   expect(page.evaluate_script("$('div.content h1').text()")).to eql event_name
+end
+
+Given(/^I am looking at North America$/) do
+  page.execute_script("map.panTo([39.948889,-75.15])")
 end
 
 def point_event(name, short_description, description, tags, start_date, end_date, timescale, coords, events)
