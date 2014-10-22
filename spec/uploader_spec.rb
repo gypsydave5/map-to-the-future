@@ -4,6 +4,7 @@ describe 'uploader' do
 
   def create_polar_bear_event
     fill_in "title", with: "Birth of a Polar Bear"
+    fill_in "short_description", with: "A bear called Eric"
     fill_in "description", with: "A Mama Bear and a Papa Bear had a special hug. Months later, a polar cub was born. And his name was little Eric."
     fill_in "longitude", with: "-69.3322"
     fill_in "latitude", with: "77.4894"
@@ -16,6 +17,7 @@ describe 'uploader' do
 
   def create_famous_polar_bear_event
     fill_in "title", with: "Polar Bear Rises to fame"
+    fill_in "short_description", with: "Eric gets involved with Coca-Cola"
     fill_in "description", with: "Greedy Coca Cola officials think a cute polar bear will help them sell more cola. They choose Polar Bear as their mascot."
     fill_in "longitude", with: "74.0059"
     fill_in "latitude", with: "40.7127"
@@ -35,11 +37,17 @@ describe 'uploader' do
 
   it 'should link events together' do
     visit '/upload'
+    create_polar_bear_event
+    visit '/upload'
     create_famous_polar_bear_event
     expect(Event.first(title: "Polar Bear Rises to fame").events.first.title).to eql "Birth of a Polar Bear"
   end
 
   it 'should link events both ways' do
+    visit '/upload'
+    create_polar_bear_event
+    visit '/upload'
+    create_famous_polar_bear_event
     expect(Event.first(title: "Birth of a Polar Bear").events.first.title).to eql "Polar Bear Rises to fame"
   end
 

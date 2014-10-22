@@ -63,6 +63,7 @@ describe Event do
       event = Event.create(
         title: "event",
         description: "event",
+        short_description: "it's an event",
         startdate: DateTime.new(1900),
         enddate: DateTime.new(1900),
         geometry: { type: "Point",
@@ -73,6 +74,7 @@ describe Event do
         properties: {
           id: 5,
           title:"event",
+          short_description: "it's an event",
           description:"event",
           startdate:DateTime.new(1900),
           enddate:DateTime.new(1900),
