@@ -7,11 +7,17 @@
 	<script src='javascript/jquery/dist/jquery.min.js'></script>
 	<script src='javascript/handlebars/handlebars.js'></script>
   <script src="javascript/jquery-ui/jquery-ui.js"></script>
+  <script src='javascript/leaflet-sidebar-master/src/L.Control.Sidebar.js'></script>
 	<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.2/mapbox.css' rel='stylesheet' />
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
+  <link rel="stylesheet" href="javascript/leaflet-sidebar-master/src/L.Control.Sidebar.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/map_box.css">
   <link rel="stylesheet" href="css/popup.css">
-  <link href="javascript/jquery-ui/themes/le-frog/jquery-ui.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="javascript/leaflet-sidebar-master/src/L.Control.Sidebar.css"></script>
+  <link href="javascript/jquery-ui/themes/le-frog/jquery-ui.css" rel="stylesheet"/>
+   <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css"/>
 	<title>Map to the Future!</title>
 </head>
 
@@ -53,6 +59,11 @@
       </div>
     </script>
 
+    <script id='sidebar-template' type='text/x-handlebars-template'>
+            <p>{{context}}</p>
+    </script>
+
+    <div id='sidebar'></div>
     <div id='map' class="map"></div>
     <section id="timeline-container">
       <p id="date-line">Current Date: <span id="date">1790</span></p>
@@ -63,6 +74,7 @@
       var currentYear;
     </script>
     <script type='text/javascript' src="scripts/map_box.js"></script>
+    <script type='text/javascript' src="./javascript/leaflet-sidebar-master/src/L.Control.Sidebar.js"></script>
     <script>
       $('document').ready( function(){
         $( "#slider" ).slider({
@@ -90,6 +102,26 @@
         });
       });
 
+    </script>
+    <script>
+  
+        var sidebar = L.control.sidebar('sidebar', {
+            closeButton: true,
+            position: 'right'
+        });
+        map.addControl(sidebar);
+
+        setTimeout(function () {
+            sidebar.show();
+        }, 500);
+
+        map.on('click', function () {
+            sidebar.show();
+        })
+
+        L.DomEvent.on(sidebar.getCloseButton(), 'click', function () {
+            console.log('Close button clicked.');
+        });
     </script>
   </body>
 </html>
