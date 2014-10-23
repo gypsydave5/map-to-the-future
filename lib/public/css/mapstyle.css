@@ -26,6 +26,7 @@ body {
 }
 
 footer {
+  /*padding: 20px;*/
   position: absolute;
   left: 0;
   bottom: 0;
@@ -46,7 +47,8 @@ html {
     NAVIGATION
 ==============*/
 .navbar {
-  height: 3em;
+  padding: 16px;
+  height: 5em;
   position: fixed;
   right: 0;
   left: 0;
@@ -57,6 +59,10 @@ html {
 
 .navbar-brand {
   padding-left: 3.5em;
+}
+
+.navbar-brand img {
+  max-height: 3em;
 }
 
 /*=============
@@ -75,3 +81,50 @@ html {
     SLIDER
 ==============*/
 
+.ui-widget-content {
+  width: 90%;
+  margin: 0 auto;
+  background: #FF5B00; /* Old browsers */
+  background: -moz-linear-gradient(left, #FF5B00 0%, #FFBF00 100%) !important; /* FireFox 3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#FF5B00), color-stop(100%,#FFBF00)); /* Chrome, Safari 4+ */
+  background: -webkit-linear-gradient(left, #FF5B00 0%,#FFBF00 100%); /* Chrome 10+, Safari 5.1+ */
+  background: -o-linear-gradient(left, #FF5B00 0%,#FFBF00 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left, #FF5B00 0%,#FFBF00 100%); /* IE 10+ */
+  background: linear-gradient(left, #FF5B00 0%,#FFBF00 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=’#FF5B00’, endColorstr=’#FFBF00′,GradientType=1 ); /* IE 6-9 */
+  border: none;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default {
+  background: #FF5B00;
+  border: #FF4300 solid 1px;
+  box-shadow:0px 0px 10px 0px rgba(255, 67, 0, 1);
+}
+
+p#date-line {
+  text-align: center;
+  margin: 1em;
+  font-size: 1.5em;
+  color: #FFBF00;
+}
+
+/*=============
+    SIDEBAR
+==============*/
+
+#sidebar {
+  background-color: #FFBF00;
+  border-radius: 10px;
+  opacity: .75;
+  font-family: 'Fjalla One';
+  max-height: 80%;
+}
+
+.leaflet-container p {
+  margin: 1em 0 0 0;
+  color: #2F3666;
+}
+
+.leaflet-sidebar.close {
+  background-color: transparent;
+}

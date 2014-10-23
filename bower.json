@@ -24,7 +24,8 @@
   "install": {
       "path": {
           "css": "lib/public/css",
-          "js": "lib/public/javascript"
+          "js": "lib/public/javascript",
+          "images": "lib/public/images"
       }
   }
 
