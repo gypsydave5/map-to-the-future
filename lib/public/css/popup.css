@@ -1,5 +1,4 @@
 #map {
-  font-family: Helvetica;
   color: #eee;
 }
 
@@ -98,6 +97,7 @@
   }
 
 .leaflet-container {
+    font-family: inherit;
   font-size: 1em;
 }
 
