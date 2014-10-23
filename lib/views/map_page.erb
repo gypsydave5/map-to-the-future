@@ -59,10 +59,6 @@
       </div>
     </script>
 
-    <script id='sidebar-template' type='text/x-handlebars-template'>
-            <p>{{context}}</p>
-    </script>
-
     <div id='sidebar'> <p> HELLU </p></div>
     <div class="navbar" role="navigation">
       <div class="container">
@@ -125,7 +121,7 @@
         }, 500);
 
         map.on('click', function () {
-            sidebar.show();
+            sidebar.hide();
         })
 
         L.DomEvent.on(sidebar.getCloseButton(), 'click', function () {
