@@ -18,7 +18,7 @@
     opacity: 0.8;
     text-transform: uppercase;
   background:#24294F;
-  padding:10px;
+  padding: 7px 10px;
   margin-left:-1px;
   position:relative;
   left:1px;
@@ -50,6 +50,7 @@
 #map .tab label:after, {
   right: -6px;
   }
+
 #map .tab label:after,
 #map .tab label:before,{
    border: 1px solid #e69524;}
@@ -71,19 +72,23 @@
   left:0;
   right:0;
   bottom:0;
-  padding:10px;
+  padding: 20px 15px;
   border:#2E3246;
   border-radius: 0 0 4px 4px;
   border: solid 1px #e69524
   }
 
 #map .tab .content li {
+    font-size: 1.2em;
+    line-height: 1.3em;
     list-style-type: square;
+    color: #e69524;
     margin: 0 0 0 20px;
   }
 
-#map .tab .content li a {
-  color: #e69524;
+#map .tab .content li a:hover {
+    color: gold;
+    color: #e69524;
   }
 
 #map .tab .content li a:hover {
@@ -106,10 +111,10 @@
 }
 
 .leaflet-container h1 {
-    padding: 5px 0;
+    padding: 2px 0;
     color: #e69524;
     font-size: 1.5em;
-    line-height: 1.5em;
+    line-height: 1em;
     font-weight: bold;
 }
 
