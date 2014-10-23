@@ -4,6 +4,11 @@ Feature: Interacting with the events
   I should be able to interact with events on the map
 
   @javascript
+  Scenario: The map has no zoom buttons
+    Given I am on the homepage
+    Then I should see no zoom buttons
+
+  @javascript
   Scenario: Moving the slider to an event
     Given I am on the homepage
     And the Timeline app knows The Battle of Dresden Anniversary
