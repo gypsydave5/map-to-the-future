@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Test",
+        "short_description" : "This is a test",
+        "description" : "Still a test",
+        "startdate" :"1794",
+        "enddate":"1700",
+        "timescale": "year",
+        "tags" : ["Cultural"],
+        "links": [{"name": "Wikipedia", "url": "http://www.wikipedia.com"},{"name": "http://Google", "url": "www.google.com"},{"name": "Facebook", "url": "http://www.facebook.com"}],
+        "events": ["Armaggeddon","Polar bear feels lonely"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3488,
+          48.85341
+        ]
+      }
+    }
+  ]
+}

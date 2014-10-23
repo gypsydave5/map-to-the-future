@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Elizabeth I grants a patent to Humphrey Gilbert for discovery and overseas exploration",
+        "short_description" : "That year, Gilbert sailed for the West Indies with the intention of engaging in piracy and establishing a colony in North America, but the expedition was aborted before it had crossed the Atlantic.In 1583 he embarked on a second attempt, on this occasion to the island of Newfoundland whose harbour he formally claimed for England, although no settlers were left behind.",
+        "description" : "Gilbert did not survive the return journey to England, and was succeeded by his half-brother, Walter Raleigh. On 25 March 1584, Queen Elizabeth I (the 'Virgin Queen') granted Sir Walter Raleigh a charter for the colonization of an area of North America which was to be called, in her honour, Virginia. This charter specified that Raleigh had seven years in which to establish a settlement, or else lose his right to do so. Raleigh and Elizabeth intended that the venture should provide riches from the New World and a base from which to send privateers on raids against the treasure fleets of Spain. Raleigh himself never visited North America, although he led expeditions in 1595 and 1617 to the Orinoco River basin in South America in search of the golden city of El Dorado. Instead, he sent others to found the Roanoke Colony, later known as the 'Lost Colony'.",
+        "startdate" : "1578",
+        "enddate" : "1578",
+        "timescale": "year",
+        "tags" : [],
+        "links": [{"name": "Humphrey Gilbert", "url":"http://en.wikipedia.org/wiki/Humphrey_Gilbert"}, {"name": "First British Empire (1583-1783)", "url":"http://en.wikipedia.org/wiki/British_Empire#First_British_Empire_.281583.E2.80.931783.29"}, {"name": "Walter Raleigh", "url":"http://en.wikipedia.org/wiki/Walter_Raleigh"}],
+        "events": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1257400,
+          51.5085300
+        ]
+      }
+    }
+  ]
+}
