@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Somewhere in Greenland",
+        "short_description" : "A polar bear feels lonely.",
+        "description" : "A place in Greenland.",
+        "startdate" : "1900",
+        "enddate" : "1900",
+        "timescale": "year",
+        "tags" : ["Greenland"],
+        "links": [{"name": "Mirror", "url": "http://www.mirror.co.uk/news/world-news/thousands-sign-petition-save-lonely-3873264"}],
+        "events": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.6171875,
+          73.62778879339942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Somewhere in the Equator",
+        "short_description" : "A polar bear is far from home.",
+        "description" : "And it's hot.",
+        "startdate" : "1903",
+        "enddate" : "1903",
+        "timescale": "year",
+        "tags" : ["Greenland"],
+        "links": [{"name": "Mirror", "url": "http://www.telegraph.co.uk/earth/earthpicturegalleries/8668389/Zoo-animals-keep-cool-with-frozen-treats-during-hot-summer-weather.html"}],
+        "events": ["Somewhere in Greenland"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    }
+  ]
+}

@@ -44,7 +44,7 @@ class MapToTheFuture < Sinatra::Base
     uploaded_event = {
       title: params["title"],
       short_description:params["short_description"],
-      description:params["description"],
+      description:params["description"].gsub(/\n\n/, "\\n\\n"),
       geometry: geojson_geometry(params["longitude"], params["latitude"]),
       timescale: params["timescale"],
       startdate:startdate,
