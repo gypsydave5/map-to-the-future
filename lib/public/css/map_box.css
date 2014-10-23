@@ -97,3 +97,26 @@
   border-right:15px solid transparent;
   border-top:15px solid transparent;
   }
+
+#map .leaflet-control-zoom {
+  margin-top: 50px;
+  border-color: #2e3246;
+}
+#map .leaflet-control-zoom:hover{
+  
+  border: 20px;
+  border-color: #2e3246;
+}
+
+#map .leaflet-control-zoom-in {
+  background-color: #141223;
+  background-image: none;
+  border-color: #2e3246;
+}
+
+
+#map .leaflet-control-zoom-out {
+  background-color: #141223;
+  background-image: none;
+  border-color: #2e3246;
+}
