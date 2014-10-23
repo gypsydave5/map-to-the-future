@@ -14,6 +14,7 @@ module EventSpecHelpers
           properties: {
               id: 6,
               title: event[:title],
+              short_description: event[:short_description],
               description: event[:description],
               startdate: event[:startdate],
               enddate: event[:enddate],
@@ -26,9 +27,10 @@ module EventSpecHelpers
         }
   end
 
-  def point_event(name, description, tags, start_date, end_date, timescale, coords)
+  def point_event(name, description, short_description, tags, start_date, end_date, timescale, coords)
     Event.create({title: name,
                   description: description,
+                  short_description: short_description,
                   tags: tags.map{|tag| Tag.first_or_create(name: tag)},
                   startdate: DateTime.new(start_date),
                   enddate: DateTime.new(end_date),

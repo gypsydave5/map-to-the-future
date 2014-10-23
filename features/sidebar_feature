@@ -1,0 +1,4 @@
+Feature: Interacting with map pop ups
+  As a history buff
+  When I click on markers in MapToTheFuture
+  I want to interact with the informative pop ups

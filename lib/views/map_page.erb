@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
 	<meta charset="UTF-8">
   <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.2/mapbox.js'></script>
 	<script src='javascript/jquery/dist/jquery.min.js'></script>
@@ -14,7 +12,6 @@
   <link rel="stylesheet" href="css/popup.css">
   <link href="javascript/jquery-ui/themes/le-frog/jquery-ui.css" rel="stylesheet"/>
   <link rel="stylesheet" href="css/mapstyle.css">
-
 
 	<title>Map to the Future!</title>
 
@@ -93,7 +90,6 @@
           step: 1,
           value: new Date("1790").getFullYear(),
           create: function(event, ui){
-            // $('#date').text((new Date($("#slider").slider("option", "value"))));
             getMapData("year", "1790", eventLayer);
           },
           slide: function(event, ui) {
@@ -110,16 +106,14 @@
           }
         });
       });
-
     </script>
-    <script>
 
+    <script>
         var sidebar = L.control.sidebar('sidebar', {
             closeButton: true,
             position: 'right'
-
-
         });
+
         map.addControl(sidebar);
 
         setTimeout(function () {

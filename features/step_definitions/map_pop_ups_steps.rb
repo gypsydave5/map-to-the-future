@@ -6,7 +6,7 @@ end
 
 Given(/^MapToTheFuture knows about the Declaration of Independence$/) do
   point_event("Declaration of Independence", "This is the short description",
-    "American colonies declare independence from Great Britain",
+    "The Declaration of Independence is the usual name of a statement adopted by the Continental Congress",
     ["Civil War"], 1776, 1776, "year", [-75.15, 39.948889], [])
 end
 
