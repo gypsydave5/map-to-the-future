@@ -35,7 +35,7 @@ module EventHelpers
     end
 
     def import_date_property(feature, property, event)
-      event[property.to_sym] = DateTime.new(feature["properties"][property].to_i)
+      event[property.to_sym] = DateTime.iso8601(feature["properties"][property].to_s)
     end
 
     def import_tag(feature, property, event)
@@ -135,5 +135,4 @@ module EventHelpers
       linked_event.save
     end
   end
-
 end

@@ -30,8 +30,8 @@ class MapToTheFuture < Sinatra::Base
   end
 
   post "/upload/formpost" do
-    startdate = DateTime.new(params["startdate"].to_i)
-    enddate = params["enddate"] ? DateTime.new(params["enddate"].to_i) : DateTime.new(params["startdate"].to_i)
+    startdate = DateTime.iso8601(params["startdate"].to_s)
+    enddate = params["enddate"] ? DateTime.iso8601(params["enddate"].to_s) : DateTime.iso8601(params["startdate"].to_s)
     tags = params["tags"].split(",").map do |tag|
       Tag.first_or_create(name: tag.strip)
     end

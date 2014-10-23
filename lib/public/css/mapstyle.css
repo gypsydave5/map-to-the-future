@@ -1,8 +1,7 @@
 /*=============
     IMPORTS
 ==============*/
-@import url(http://fonts.googleapis.com/css?family=Fjalla+One);
-
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,300,400italic,700);
 /*=============
     LAYOUTS
 ==============*/
@@ -31,7 +30,7 @@ body {
 ==============*/
 
 html {
-  font-family: 'Menlo';
+  font-family: 'Titillium Web';
 }
 
 /*=============
@@ -68,7 +67,7 @@ footer {
   height: 10%;
   width: 100%;
   background-color: #141223;
-  border-top: 1px solid #e69524;
+  border-top: 1px solid rgba(230, 149, 36, 0.5);
 }
 
 .footer-element {
@@ -82,6 +81,20 @@ footer {
 .footer-element #slider {
   display: inline-block;
   flex: 6
+}
+
+#date-line {
+  display: block;
+  margin: 0.8em 0 0 0;
+  text-align: center;
+  font-size: 1em;
+  color: #e69524;
+}
+
+#date {
+  font-weight: bold;
+  font-size: 2.2em;
+  color: #e69524;
 }
 
 /*=============
@@ -102,7 +115,7 @@ footer {
 
 .ui-widget-content {
   width: 90%;
-  margin: auto 5% auto 0;
+  margin: auto 2% auto 2%;
   background: #FF5B00; /* Old browsers */
   background: -moz-linear-gradient(left, #FF5B00 0%, #FFBF00 100%) !important; /* FireFox 3.6+ */
   background: -webkit-gradient(linear, left top, right top, color-stop(0%,#FF5B00), color-stop(100%,#FFBF00)); /* Chrome, Safari 4+ */
@@ -120,20 +133,13 @@ footer {
   box-shadow:0px 0px 10px 0px rgba(255, 67, 0, 1);
 }
 
-p#date-line {
-  text-align: center;
-  margin: 1em;
-  font-size: 1.5em;
-  color: #FFBF00;
-}
-
 /*=============
     SIDEBAR
 ==============*/
 .leaflet-sidebar {
   position: absolute;
   top: 5em;
-  height: 80%;
+  bottom: 10%
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -153,8 +159,6 @@ z-index: 2000;
   border-radius: 4px;
 }
 #sidebar {
-  border-radius: 10px;
-  max-height: 80%;
 }
 
 .leaflet-sidebar.close {
