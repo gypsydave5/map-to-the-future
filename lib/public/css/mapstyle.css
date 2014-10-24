@@ -45,6 +45,7 @@ html {
   top: 0;
   z-index: 1000;
   background-color: rgba(0, 0, 0, 0.3);
+  pointer-events: none;
 }
 
 .navbar-brand {
@@ -53,6 +54,7 @@ html {
 
 .navbar-brand img {
   max-height: 3em;
+  pointer-events: visible;
 }
 
 /*============
@@ -86,7 +88,7 @@ footer {
   display: block;
   margin: 0.8em 5px 0.8em 15px;
   text-align: center;
-  font-size: 0.8em;
+  font-size: 1em;
   line-height: 0.5em;
   color: #e69524;
 }
