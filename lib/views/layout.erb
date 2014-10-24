@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+	<meta charset="UTF-8">
+  <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.2/mapbox.js'></script>
+	<script src='javascript/jquery/dist/jquery.min.js'></script>
+	<script src='javascript/handlebars/handlebars.js'></script>
+  <script src="javascript/jquery-ui/jquery-ui.js"></script>
+	<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.2/mapbox.css' rel='stylesheet' />
+  <link rel="stylesheet" href="javascript/leaflet-sidebar-master/src/L.Control.Sidebar.css">
+  <link rel="stylesheet" href="css/map_box.css">
+  <link rel="stylesheet" href="css/popup.css">
+  <link href="javascript/jquery-ui/themes/le-frog/jquery-ui.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/mapstyle.css">
+
+  <title>Map to the Future!</title>
+	</head>
+	<body>
+		<%= yield %>
+	</body>
+
+<footer>
+      <div class="footer-element" id="date-wrapper">
+        <div id="date-line">
+          <p>Current Date:</p>
+        </div>
+        <div id="date">
+          <p>1845</p>
+        </div>
+      </div>
+      <div class="footer-element" id="slider"></div>
+    </footer>
+</html>
