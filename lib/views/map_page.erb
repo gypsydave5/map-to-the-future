@@ -15,9 +15,7 @@
   <link href="javascript/jquery-ui/themes/le-frog/jquery-ui.css" rel="stylesheet"/>
   <link rel="stylesheet" href="css/mapstyle.css">
 
-
-
-	<title>Map to the Future!</title>
+  <title>Map to the Future!</title>
 
 </head>
 
@@ -87,7 +85,14 @@
     <section id="map"></section>
 
     <footer>
-      <div class="footer-element" id="date-wrapper"><p id="date-line">Current Date: <span id="date">1790</span></p></div>
+      <div class="footer-element" id="date-wrapper">
+        <div id="date-line">
+          <p>Current Date:</p>
+        </div>
+        <div id="date">
+          <p>1790</p>
+        </div>
+      </div>
       <div class="footer-element" id="slider"></div>
     </footer>
 
@@ -130,7 +135,6 @@
             closeButton: true,
             position: 'right'
 
-
         });
         map.addControl(sidebar);
 
@@ -145,6 +149,7 @@
         L.DomEvent.on(sidebar.getCloseButton(), 'click', function () {
             console.log('Close button clicked.');
         });
+
     </script>
   </body>
 </html>
