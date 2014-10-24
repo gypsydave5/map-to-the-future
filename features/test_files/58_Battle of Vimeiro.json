@@ -1,0 +1,27 @@
+
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Battle of Vimeiro",
+        "short_description" : "In the Battle of Vimeiro (August 21, 1808) the British under General Arthur Wellesley (later known as the Duke of Wellington) defeated the French under Major-General Jean-Andoche Junot near the village of Vimeiro (Portuguese pronunciation: [viˈmɐjɾu]), near Lisbon, Portugal during the Peninsular War. This battle put an end to the first French invasion of Portugal.",
+        "description" : "Four days after the Battle of Roliça, Wellesley's army was attacked by a French army under General Junot near the village of Vimeiro. The battle began as a battle of manoeuvre, with French troops attempting to outflank the British left, but Wellesley was able to redeploy his army to face the assault.Meanwhile, Junot sent in two central columns but these were forced back by sustained volleys from troops in line. Soon afterwards, the flanking attack was beaten off and Junot retreated towards Torres Vedras having lost 2,000 men and 13 cannon, compared to 700 Anglo-Portuguese losses. No pursuit was attempted because Wellesley was superseded by Sir Harry Burrard and then Sir Hew Dalrymple (one having arrived during the battle, the second soon after).",
+        "startdate" :"1808-08-21",
+        "enddate":"1808-08-21",
+        "timescale": "year",
+        "tags" : ["War"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/Battle_of_Vimeiro"},{"name": "The battles of Roliça and Vimeiro", "url": "http://www.napoleonicmedals.org/coins/bhm-636.htm"}],
+        "events": ["Peninsula War","Battle of Roliça"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.316993,
+39.178267
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Battle of Leipzig",
+        "short_description" : "The Battle of Leipzig or Battle of the Nations (German: Völkerschlacht, French: Bataille des Nations) was fought 16–19 October 1813 by the coalition armies of Russia, Prussia, Austria, and Sweden.",
+        "description" : "The armies were led by the Russian Tsar Alexander I and prince Schwarzenberg against the French army of Napoleon I, Emperor of the French, at Leipzig, Saxony. Napoleon's army also contained Polish and Italian troops as well as Germans from the Confederation of the Rhine. The battle marked the culmination of the autumn campaign of 1813 during the German campaign and involved over 600,000 soldiers, making it the largest battle in Europe prior to World War I.Being decisively defeated for the first time in battle, Napoleon was compelled to return to France while the Coalition hurried to keep their momentum, invading France early the next year. Napoleon was forced to abdicate and was exiled to Elba in May 1814.After a series of previous defeats, the French emperor could not easily follow up on his victory at Dresden (26-27 August, 1813) and, due to his thinly-stretched supply lines that spanned over now somewhat hostile Rhineland German lands coupled with Bavaria's switching of sides to the side of the Coalition just eight days prior to the battle, replace his army's losses. As a result, by the time of the battle, the total strength of all Coalition armies east of the Rhine probably exceeded a million; by contrast Napoleon's forces had shrunk to just a few hundred thousand.The battle of Leipzig was the bloodiest in the history of the Napoleonic Wars. Casualties on both sides were astoundingly high; estimates range from 80,000 to 110,000 total killed, wounded or missing. Napoleon lost about 45,000 killed and wounded. The Allies captured 15,000 able-bodied Frenchmen, 21,000 wounded or sick, 325 cannon and 28 eagles, standards or colours, and had received the men of the deserting formerly pro-French German divisions. The battle ended the First French Empire's presence east of the Rhine and brought the German states over to the Coalition. It also dealt a harsh blow to Napoleon himself, who was decisively defeated in battle for the first time in the Napoleonic Wars, damaging his reputation as a military genius. Tsar Alexander now urged all of his subordinate commanders including those of Prussia, Austria and other nations to push the gigantic Coalition army on the offensive after the battle, and, having decisively won the battle, was more than determined to carry the war onto French soil. ",
+        "startdate" :"1813-10-16",
+        "enddate":"1813-10-17",
+        "timescale": "year",
+        "tags" : ["Military"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/Battle_of_Leipzig"},{"name": "History of War", "url": "http://www.historyofwar.org/articles/battles_leipzig.html"},{"name": "Military Subjects: Battles and Campaigns", "url": "http://www.napoleon-series.org/military/battles/leipzig/c_leipzigoob.html"}],
+        "events": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3333,
+12.3833
+        ]
+      }
+    }
+  ]
+}

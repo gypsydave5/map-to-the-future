@@ -1,0 +1,27 @@
+
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Siege of Cadiz",
+        "short_description" : "The Siege of Cádiz was a siege of the large Spanish naval base of Cádiz by a French army from 5 February 1810 to 24 August 1812 during the Peninsular War. ",
+        "description" : "Following the occupation of Seville, Cádiz became the Spanish seat of power,and was targeted by 70,000 French troops under the command of the Marshals Claude Victor and Nicolas Jean-de-Dieu Soult for one of the most important sieges of the war.Defending the city were 2,000 Spanish troops who, as the siege progressed, received aid from 10,000 Spanish reinforcements as well as British and Portuguese troops.During the siege, which lasted two and a half years, the Cortes Generales government in Cadiz (the Cádiz Cortes) drew up a new constitution to reduce the strength of the monarchy (a constitution eventually revoked by Fernando VII).In October 1810, a mixed Anglo-Spanish relief force embarked on a disastrous landing at Fuengirola. A second relief attempt was made at Tarifa in 1811. However, despite defeating a detached French force of 15,000–20,000 under Marshal Victor at the Battle of Barrosa, the siege was not lifted.In 1812, the Battle of Salamanca eventually forced the French troops to retreat from Andalusia, for fear of being cut off by the allied armies.Defeat at Cádiz contributed decisively to the liberation of Spain from French occupation, due to the survival of the Spanish government and the use of Cádiz as a jump off point for the Allied forces.",
+        "startdate" :"1810-02-05",
+        "enddate":"1812-08-24",
+        "timescale": "year",
+        "tags" : ["War"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/Siege_of_C%C3%A1diz"},{"name": "Guardiasalinera", "url": "www.guardiasalinera.com"},{"name": "Humanities", "url": "http://www.neh.gov/humanities/2010/januaryfebruary/feature/the-spanish-ulcer"}],
+        "events": ["Peninsula War"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.288596,
+36.527061
+        ]
+      }
+    }
+  ]
+}

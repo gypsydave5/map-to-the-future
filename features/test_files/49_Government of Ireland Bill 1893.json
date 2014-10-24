@@ -1,0 +1,27 @@
+
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Government of Ireland Bill 1893",
+        "short_description" : "The Act of Union (Ireland) 1800 (40 Geo. 3 c. 38), an Act of the Parliament of Ireland.",
+        "description" : "Gladstone had become personally committed to the granting of Irish home rule in 1885, a fact revealed (possibly accidentally) in what became known as the Hawarden Kite. Though his 1886 Home Rule Bill had caused him to lose power, once re-appointed prime minister in August 1892 Gladstone committed himself to introducing a new Home Rule Bill for Ireland. As with the first bill, the second bill was controversially drafted in secret by Gladstone, who excluded both Irish MPs, the leadership of the (recently split) Irish Parliamentary Party and his own ministry from participating in the drafting. The decision led to a serious factual error in the Bill, a mistake over the calculation of how much Ireland should contribute to the British Imperial Exchequer. The error in the calculation was £360,000, a vast sum for the time. The error was discovered during the Committee Stage of the Bill's passage through the Commons and forced a major revision of the financial proposals.\n\nThe Chancellor of the Exchequer, Sir William Harcourt, was himself alienated from the Bill having been excluded by Gladstone from its preparation, while the Chief Secretary for Ireland was engaged on other matters, and Gladstone, in the words of a historian, ‘increasingly disengaged’. On 21 April, the Bill's second reading was approved by a majority of 347 to 304. By the third reading on 1 September 26 of the Bill's 37 clauses had still not been debated. A fist-fight developed on the opposition benches between Home Rule and Conservative MPs. The Bill, though passed by the Commons with a slimmer majority of 30, had lost much of its credibility. At that time all legislation could be negated by the Conservative Party-dominated House of Lords, and here it failed on a vote of 41 in favour and 419 against.\n\nThe bill proposed (1) a bicameral Irish parliament to control domestic affairs, made up of a legislative council with 48 councillors elected for eight years and a legislative assembly with 103 members. (2) An executive under the Lord Lieutenant of Ireland would form the Executive Committee of the Privy Council of Ireland. (3)The new executive would not be answerable to the Irish parliament and would contain no prime minister. This bill was different from the first bill that Gladstone introduced in 1886 because it allowed for the eighty Irish MPs to vote in Westminster; this was a reduction from the previous 103.\n\nThe Bill was passed by the House of Commons on 1 September 1893, by 347 votes to 304. However when it was presented to the House of Lords it was defeated by 419 votes to 41. This was a major stumbling block for the Irish MPs because the House of Lords was controlled by the Conservative Party and there would be little chance of it getting passed by them. Gladstone retired soon afterwards. Some historians now suggest that Gladstone was the author of his own defeats on home rule, with his secretive drafting alienating supporters, and enabling serious flaws to appear in the text of his bills.",
+        "startdate" :"1893-04-21",
+        "enddate":"1893-09-01",
+        "timescale": "year",
+        "tags" : ["Political"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/Government_of_Ireland_Bill_1893"},{"name": "Original Copy of the Bill", "url": "http://www.dippam.ac.uk/eppi/documents/18825/eppi_pages/506480"}],
+        "events": ["Acts of Union 1800","Government of Ireland Act 1914"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1275,
+51.50722
+        ]
+      }
+    }
+  ]
+}

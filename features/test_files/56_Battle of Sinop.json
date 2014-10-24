@@ -1,0 +1,27 @@
+
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Battle of Sinop",
+        "short_description" : "The Battle of Sinop, or the Battle of Sinope, took place on 30 November 1853 at Sinop, a sea port in northern Anatolia, when Imperial Russian warships struck and annihilated a patrol force of Ottoman ships anchored in the harbor. The battle was part of the Crimean War, and a contributory factor in bringing France and Britain into the conflict.",
+        "description" : "The Battle of Sinop was a direct result of the disintegration of the Ottoman Empire and the loss of Ottoman force projection into the Black Sea. By 1850, the Ottoman Empire was deeply in debt and relied exclusively on British and French loans as a means of support. As a result, Ottoman leaders had no choice but to agree to drastic force reductions in both Army and Navy force tables. By 1853, Tsar Nicholas I saw the reductions as an opportunity to press Russian claims in the Trans-Cacasus and along the Danube River.In July 1853, Russian forces occupied several Ottoman principalities along the Danube, as well as forts. When mediation broke down Sultan Abdul Mejd I responded with a declaration of war. Fearing Russian expansion, the Anglo-French issued a concurrent ultimatum: Russia was to fight only defensively. As long as Russia stayed on the defensive the Anglo-French would remain neutral, but if Russia acted 'aggressively' the Western Powers reserved the right to get involved.Hostilites began officially on 4 October, with a principal theater in Europe and another in the Caucasus. Sultan Mejd ordered an immediate offensive to drive back the Russians and demonstrate Ottoman might before Ottoman finances totally collapsed.The offensive along the Danube met with mixed success, but the Ottoman attack into the Russian Cacasus was relatively successful. By the end of October, the Russian Cacasus Corps was in danger of being surrounded.On 30 November, Vice Admiral Novosiliski rallied six more ships to Nakhimov, completing the blockade force in a loose semi-circle. Additional steamers were expected, but Nakhimov decided to act before the Ottomans could be reinforced by additional ships. Osman for his part had been well aware of the Russian presence since 23 November, but felt his ships were safe in harbor. Sinope had substantial harbor defenses and forts with interlocking fields of fire and ample cannon. Osman did little to break the weak Russian blockade, even allowing many of his crews to disembark.",
+        "startdate" :"1853-11-30",
+        "enddate":"1853-11-30",
+        "timescale": "year",
+        "tags" : ["War"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/Battle_of_Sinop"},{"name": "Official Website of Sinop", "url": "http://sinop.com.tr/"}],
+        "events": ["Crimean War"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.153069,
+42.02314
+        ]
+      }
+    }
+  ]
+}

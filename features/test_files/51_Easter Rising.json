@@ -1,0 +1,27 @@
+.json
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Easter Rising",
+        "short_description" : "The Easter Rising (Irish: Éirí Amach na Cásca), also known as the Easter Rebellion, was an armed insurrection in Ireland during Easter Week, 1916",
+        "description" : "The Rising was mounted by Irish republicans to end British rule in Ireland, secede from the United Kingdom of Great Britain and Ireland and establish an independent Irish Republic while the United Kingdom was heavily engaged in World War I. It was the most significant uprising in Ireland since the rebellion of 1798. Organised by seven members of the Military Council of the Irish Republican Brotherhood, the Rising began on Easter Monday, 24 April 1916, and lasted for six days. Members of the Irish Volunteers — led by schoolmaster and Irish language activist Patrick Pearse, joined by the smaller Irish Citizen Army of James Connolly, along with 200 members of Cumann na mBan — seized key locations in Dublin and proclaimed the Irish Republic independent of the United Kingdom. There were actions in other parts of Ireland: however, except for the attack on the Royal Irish Constabulary barracks at Ashbourne, County Meath, they were minor.With vastly superior numbers and artillery, the British army quickly suppressed the Rising, and Pearse agreed to an unconditional surrender on Saturday 29 April. Most of the leaders were executed following courts-martial, but the Rising succeeded in bringing physical force republicanism back to the forefront of Irish politics. Support for republicanism continued to rise in Ireland as a result of the ongoing war in Europe and the Middle East, especially as a result of the Conscription Crisis of 1918 and the failure of the Irish Convention. Revolutions across Europe further emboldened Irish revolutionaries.The British Army reported casualties of 116 dead, 368 wounded and nine missing. Sixteen policemen died, and 29 were wounded. Rebel and civilian casualties were 318 dead and 2,217 wounded. The Volunteers and ICA recorded 64 killed in action, but otherwise Irish casualties were not divided into rebels and civilians. The majority of the casualties, both killed and wounded, were civilians. Both sides, British and rebel, shot civilians deliberately on occasion when they refused to obey orders such as to stop at checkpoints. On top of that, there were two instances of British troops killing civilians out of revenge or frustration, at Portobello Barracks, where six were shot and North King Street, where 15 were killed. However, the majority of civilian casualties were killed by indirect fire from artillery, heavy machine guns and incendiary shells. The British, who used such weapons extensively, therefore seem to have caused most non-combatant deaths. A total of 3,430 men and 79 women were arrested, although most were subsequently released. In attempting to arrest members of the Kent family in County Cork on 2 May, a Head Constable was shot dead in a gun battle. Richard Kent was also killed, and Thomas and William Kent were arrested. In a series of courts martial beginning on 2 May 90 people were sentenced to death. Fifteen of those (including all seven signatories of the Proclamation) had their sentences confirmed by Maxwell and were executed atKilmainham Gaol by firing squad between 3 and 12 May (among them the seriously wounded Connolly, shot while tied to a chair due to a shattered ankle). Not all of those executed were leaders: Willie Pearse described himself as 'a personal attaché to my brother, Patrick Pearse'; John MacBride had not even been aware of the Rising until it began, but had fought against the British in the Boer War fifteen years before; Thomas Kent did not come out at all—he was executed for the killing of a police officer during the raid on his house the week after the Rising. The most prominent leader to escape execution was Éamon de Valera, Commandant of the 3rd Battalion, who did so partly due to his American birth.That the Rising caused a great deal of death and destruction, as well as disrupting food supplies also contributed to the antagonism toward the rebels. However, there was not universal hostility towards the defeated insurgents. Some onlookers were cowed rather than hostile and it appeared to the Volunteers that some of those watching in silence were sympathetic. The aftermath of the Rising, and in particular the British reaction to it, helped sway a large section of Irish nationalist opinion away from hostility or ambivalence and towards support for the rebels of Easter 1916. ",
+        "startdate" :"1916-04-24",
+        "enddate":"1916-04-29",
+        "timescale": "year",
+        "tags" : ["Military"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/Easter_Rising"}],
+        "events": ["Acts of Union 1800","Government of Ireland Bill 1893","Government of Ireland Act 1914"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.24889,
+53.33306
+        ]
+      }
+    }
+  ]
+}
