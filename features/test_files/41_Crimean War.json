@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Crimean War",
+        "short_description" : "The Crimean War (October 1853 – February 1856) was a conflict in which Russia lost to an alliance of France, Britain, the Ottoman Empire, and Sardinia. ",
+        "description" : "The immediate cause involved the rights of Christian minorities in the Holy Land, which was controlled by the Ottoman Empire. The French promoted the rights of Catholics, while Russia promoted those of the Orthodox Christians.\n\nRussia lost the war and the Ottomans gained a twenty-year respite from Russian pressure. The Christians were granted a degree of official equality and the Orthodox gained control of the Christian churches in dispute.\n\nThe war was largely fought in and near Crimea, with smaller campaigns in eastern Anatolia, Caucasus, the Baltic Sea, the Pacific Ocean and the White Sea. This war is also known as the 'Eastern War' (Russian: Vostochnaya Voina).\n\nThe war had a permanent impact. Through nationalist movements incited by the war, the present-day states of Ukraine, Moldova, Bulgaria, Romania, Greece, Turkey, Azerbaijan, Armenia, Georgia, and regions such as Crimea and the Caucasus all changed in small or large ways due to this conflict. Russia was seriously humiliated, but it survived and launched a reform program to remedy its glaring economic, social and military weaknesses.\n\nThe Crimean War was one of the first conflicts to use modern technologies such as explosive naval shells, railways and telegraphs. The war was one of the first to be documented extensively in written reports andphotographs. As the legend of the 'Charge of the Light Brigade' demonstrates, the war quickly became an iconic symbol of logistical, medical and tactical failures and mismanagement. The reaction in Britain was a demand for professionalization, most famously achieved by Florence Nightingale, who gained worldwide attention for pioneering modern nursing while treating the wounded.\n\n",
+        "startdate" :"1853-10",
+        "enddate":"1856-2",
+        "timescale": "year",
+        "tags" : ["War"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/Crimean_War"},{"name": "Immediate Causes of the Crimean War", "url": "http://www.victorianweb.org/history/crimea/immcauses.html"},{"name": "Crimean War Research Society", "url": "http://cwrs.russianwar.co.uk/"}],
+        "events": ["Treaty of Paris"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.08204599,
+44.975311
+        ]
+      }
+    }
+  ]
+}

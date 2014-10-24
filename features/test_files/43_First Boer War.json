@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "First Boer War",
+        "short_description" : "The First Boer War (Afrikaans: Eerste Vryheidsoorlog, literally 'First Freedom War') also known as the First Anglo-Boer War or the Transvaal War, was fought from 16 December 1880 until 23 March 1881.",
+        "description" : "The southern part of the African continent was dominated in the 19th century by a set of epic struggles to create within it a single unified state. British expansion into southern Africa was fueled by three prime factors: first, the desire to control the trade routes to India that passed around the Cape; second, the discovery in 1868 of huge mineral deposits of diamonds around Kimberley on the joint borders of the South African Republic (called the Transvaal by the British), the Orange Free State and the Cape Colony, and thereafter in 1886 in the Transvaal of a gold rush; and thirdly the race against other European colonial powers, as part of a general colonial expansion in Africa.\n\nBritish attempts in 1880 to annex the Transvaal were their biggest incursions into southern Africa, but there were others. In 1868, the British annexed Basutoland in the Drakensberg Mountains (modern Lesotho, surrounded by the Orange Free State and Natal), following an appeal from Moshesh, the leader of a mixed group of African refugees from the Zulu wars, who sought British protection against both the Boers and the Zulus.\n\n\n\n\n\n\n\n",
+        "startdate" :"1880-12-16",
+        "enddate":"23-03-1881",
+        "timescale": "year",
+        "tags" : ["War"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/First_Boer_War"},{"name": "Anglo-Zulu War", "url": "http://en.wikipedia.org/wiki/Anglo-Zulu_War"},{"name": "Military history of South Africa", "url": "http://en.wikipedia.org/wiki/Military_history_of_South_Africa"}],
+        "events": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30,
+25
+        ]
+      }
+    }
+  ]
+}

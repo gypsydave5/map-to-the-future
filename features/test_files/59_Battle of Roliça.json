@@ -1,0 +1,27 @@
+
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Battle of Roliça",
+        "short_description" : "In the Battle of Roliça (17 August 1808) an Anglo-Portuguese army under Sir Arthur Wellesley defeated an outnumbered French army under General Henri Delaborde, near the village of Roliça in Portugal. The French retired in good order. Formerly spelled Roleia in English, it was the first battle fought by the British army during the Peninsular War.",
+        "description" : "In the months after occupying Portugal, Napoleon undertook the conquest and control of Spain. He met much resistance but it was disorganised even when it was effective. By the end of July the Spanish had met the French a dozen times, winning, or at least not losing, at seven of those meetings. Their most spectacular victory was in southern Spain on 23 July 1808, when General Castaños surrounded and forced 18,000 French under General Dupont to surrender at Baylen. On 30 July 1808, the French General Loison massacred the population, men, women, and children, of Évora. Both of these events were to have an effect on the future of each nation's relationships with British troops.\n\nOn the same day, Wellesley received a letter from Castlereagh, the Secretary of War. It informed Wellesley that General Jean-Andoche Junot's forces numbered more than 25,000. Castlereagh forwarded his plans to augment the British army in Portugal by another 15,000 men. General Sir John Moore was to arrive with an army from Sweden, and another force would be forwarded from Gibraltar. The command of this larger force would pass to Sir Hew Dalrymple (the Governor in Gibraltar, a 60-year-old general who had seen active service only in a failed campaign in Flanders in 1793–1794). Dalrymple would be seconded by Sir Harry Burrard, attended by five other generals, all senior to Wellesley (Dalrymple, Burrard, Moore, Hope, Fraser, and Lord Paget). The ambitious General Wellesley hoped to make something happen during the time he still commanded the army in Portugal.\n\nBy 14 August the British reached Alcobaça and moved on to Óbidos. Here the British vanguard, mostly 95th Rifles, met pickets and the rearguard of the French forces. The 4,000 French were outnumbered approximately 4 to 1.\n\nThe French began the day to the north of Roliça backed up to the higher ground allowing them to block or protect the roads south toward Lisbon. On the hill about one mile to the south of the village where the French first fell back, there were four defiles, or gullies leading into the new French position. The field below these hills were grassy, but boulders and the steep sides to the gullies made attack in formation impossible. In the first stages of the battle, Delaborde pulled his troops back to the top of the hill.\n\n\n\n",
+        "startdate" :"1808-08-17",
+        "enddate":"1808-08-17",
+        "timescale": "year",
+        "tags" : ["War"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/Battle_of_Roli%C3%A7a"},{"name": "The Recollections of Rifleman Harris, Benjamin Harris and Henry Curling, 1848.", "url": "http://en.wikipedia.org/wiki/Benjamin_Randell_Harris"}],
+        "events": ["Peninsula War","Battle of Vimeiro"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.18367,
+39.313102
+        ]
+      }
+    }
+  ]
+}
