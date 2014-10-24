@@ -1,27 +1,27 @@
-
 {
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "title" : "Siege of Cadiz",
-        "short_description" : "The Siege of Cádiz was a siege of the large Spanish naval base of Cádiz by a French army from 5 February 1810 to 24 August 1812 during the Peninsular War. ",
-        "description" : "Following the occupation of Seville, Cádiz became the Spanish seat of power,and was targeted by 70,000 French troops under the command of the Marshals Claude Victor and Nicolas Jean-de-Dieu Soult for one of the most important sieges of the war.Defending the city were 2,000 Spanish troops who, as the siege progressed, received aid from 10,000 Spanish reinforcements as well as British and Portuguese troops.During the siege, which lasted two and a half years, the Cortes Generales government in Cadiz (the Cádiz Cortes) drew up a new constitution to reduce the strength of the monarchy (a constitution eventually revoked by Fernando VII).In October 1810, a mixed Anglo-Spanish relief force embarked on a disastrous landing at Fuengirola. A second relief attempt was made at Tarifa in 1811. However, despite defeating a detached French force of 15,000–20,000 under Marshal Victor at the Battle of Barrosa, the siege was not lifted.In 1812, the Battle of Salamanca eventually forced the French troops to retreat from Andalusia, for fear of being cut off by the allied armies.Defeat at Cádiz contributed decisively to the liberation of Spain from French occupation, due to the survival of the Spanish government and the use of Cádiz as a jump off point for the Allied forces.",
-        "startdate" :"1810-02-05",
-        "enddate":"1812-08-24",
+        "title" : "Charter Act of 1813",
+        "short_description" : "The East India Company Act 1813, also known as the Charter Act of 1813, was an Act of the Parliament of the United Kingdom which renewed the charter issued to the British East India Company, and continued the Company's rule in India.",
+        "description" : "However, the Company's commercial monopoly was ended, except for the tea trade and the trade with China. Reflecting the growth of British power in India, a) the act expressly asserted the Crown's sovereignty over British India, b) it alloted Rs 100,000 to promote education in India, c) Christian missionaries were allowed to come to British India and preach their religion. The power of the provincial governments and courts in India over European British subjects was also strengthened by the Act. Financial provision was also made to encourage a revival in Indian literature and for the promotion of science. The Company's charter had previously been renewed by the Charter Act of 1793, and was next renewed by the Government of India Act 1833. \n\n\n\n\n\n\n\n\n\n",
+        "startdate" :"1813-07-21",
+        "enddate":"1813-07-21",
         "timescale": "year",
-        "tags" : ["War"],
-        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/Siege_of_C%C3%A1diz"},{"name": "Guardiasalinera", "url": "www.guardiasalinera.com"},{"name": "Humanities", "url": "http://www.neh.gov/humanities/2010/januaryfebruary/feature/the-spanish-ulcer"}],
-        "events": ["Peninsula War"]
+        "tags" : ["Colonial"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/Charter_Act_of_1813"},{"name": "History of India", "url": "http://www.indohistory.com/pitt's_india_act.html"}],
+        "events": ["Pitt's India Act","Government of India Act","British Raj"]
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -6.288596,
-36.527061
+          77.225316,
+28.636315
         ]
       }
     }
   ]
 }
+
