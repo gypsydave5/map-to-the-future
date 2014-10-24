@@ -91,19 +91,26 @@ footer {
   color: #e69524;
 }
 
-@media all and (max-height: 600) {
-  #date-line: {
-    display: none;
-  }
-}
-
 #date {
   font-weight: bold;
-  margin: 0.8em 5px 0 5px;
+  /*margin: 0.8em 5px 0 5px;*/
   line-height: 1.2em;
   font-size: 2.2em;
   color: #e69524;
 }
+
+@media all and (max-height: 600px) {
+  #date-wrapper {
+
+  }
+  #date-line {
+    display: none;
+  }
+  #date {
+    margin: auto;
+  }
+}
+
 
 /*=============
     MAP
