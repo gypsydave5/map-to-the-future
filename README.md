@@ -9,7 +9,7 @@ Each historical event is represented by a marker, and can be clicked to display 
 
 The website allows to upload your own historical events.
 
-[GREAT SCOTT!](https://github.com/gypsydave5/map-to-the-future/blob/master/lib/public/images/mapToTheFuture.png)
+![GREAT SCOTT!](https://github.com/gypsydave5/map-to-the-future/blob/master/lib/public/images/mapToTheFuture.png)
 
 #### The Team
 
