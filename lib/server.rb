@@ -9,7 +9,7 @@ class MapToTheFuture < Sinatra::Base
   get '/events' do
     content_type :json
     all_the_events = Event.all
-    change_togfeatures_collection_json(all_the_events)
+    change_to_features_collection_json(all_the_events)
   end
 
   get '/upload' do
