@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Siege of Yorktown",
+        "short_description" : "The Siege of Yorktown, Battle of Yorktown, Surrender at Yorktown or German Battle, the latter taking place on October 19, 1781 at Yorktown, Virginia, was a decisive victory by a combined force of American Continental Army troops led by General George Washington and French Army troops led by the Comte de Rochambeau over a British Army commanded by British lord and Lieutenant General Charles Cornwallis.",
+        "description" : "The Siege of Yorktown, Battle of Yorktown, Surrender at Yorktown or German Battle, the latter taking place on October 19, 1781 at Yorktown, Virginia, was a decisive victory by a combined force of American Continental Army troops led by General George Washington and French Army troops led by the Comte de Rochambeau over a British Army commanded by British lord and Lieutenant General Charles Cornwallis. The culmination of the Yorktown campaign, the siege proved to be the last major land battle of the American Revolutionary War, as the surrender by Cornwallis, and the capture of both him and his army, prompted the British government to negotiate an end to the conflict. The battle boosted faltering American morale and revived French enthusiasm for the war, as well as undermining popular support for the conflict in Britain.\n\nIn 1780, 5,500 French soldiers landed in Rhode Island to assist their American allies in operations against British-controlled New York City. Following the arrival of dispatches from France that included the possibility of support from the French West Indies fleet of the Comte de Grasse, Washington and Rochambeau decided to ask de Grasse for assistance either in besieging New York, or in military operations against a British army operating in Virginia. On the advice of Rochambeau, de Grasse informed them of his intent to sail to the Chesapeake Bay, where Cornwallis had taken command of the army. Cornwallis, at first given confusing orders by his superior officer, Henry Clinton, was eventually ordered to make a defensible deep-water port, which he began to do at Yorktown, Virginia. Cornwallis' movements in Virginia were shadowed by a Continental Army force led by the Marquis de Lafayette.\n\nThe French and American armies united north of New York City during the summer of 1781. When word of de Grasse's decision arrived, the combined armies began moving south toward Virginia, engaging in tactics of deception to lead the British to believe a siege of New York was planned. De Grasse sailed from the West Indies and arrived at the Chesapeake Bay at the end of August, bringing additional troops and providing a naval blockade of Yorktown. He was transporting 500,000 silver pesos collected from the citizens of Havana, Cuba, to fund supplies for the siege and payroll for the Continental Army. While in Santo Domingo, de Grasse met withFrancisco Saavedra de Sangronis, an agent of Carlos III of Spain. De Grasse had planned to leave several of his warships in Santo Domingo. Saavedra promised the assistance of the Spanish navy to protect the French merchant fleet, enabling de Grasse to sail north with all of his warships. In the beginning of September, he defeated a British fleet led by Sir Thomas Graves that came to relieve Cornwallis at the Battle of the Chesapeake. As a result of this victory, de Grasse blocked any escape by sea for Cornwallis. By late September Washington and Rochambeau arrived, and the army and naval forces completely surrounded Cornwallis.\n\nAfter initial preparations, the Americans and French built their first parallel and began the bombardment. With the British defense weakened, Washington on October 14, 1781 sent two columns to attack the last major remaining British outer defenses. A French column took redoubt #9 and an American column redoubt #10. With these defenses taken, the allies were able to finish their second parallel. With the American artillery closer and more intense than ever, the British situation began to deteriorate rapidly and Cornwallis asked for capitulation terms on the 17th. After two days of negotiation, the surrender ceremony took place on the 19th; Lord Cornwallis, claiming to be ill, was absent from the ceremony. With the capture of over 7,000 British soldiers, negotiations between the United States and Great Britain began, resulting in the Treaty of Paris in 1783.\n\n\n\n",
+        "startdate" :"1781-09-28",
+        "enddate":"1781-10-19",
+        "timescale": "year",
+        "tags" : ["Political"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/Siege_of_Yorktown"},{"name": "Yorktown Battlefield (National Park Service)", "url": "http://www.nps.gov/york/index.htm"},{"name": "Siege of Yorktown at Xenophon Group Military History Database", "url": "http://www.xenophongroup.com/mcjoynt/yrkcam-z.htm"}],
+        "events": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.510692,
+37.239301
+        ]
+      }
+    }
+  ]
+}

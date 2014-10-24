@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Treaty of Waitangi",
+        "short_description" : "The Treaty of Waitangi (Māori: Tiriti o Waitangi) is a treaty first signed on 6 February 1840 by representatives of the British Crown and various Māori chiefs from the North Island of New Zealand.",
+        "description" : "The Treaty established a British Governor of New Zealand, recognised Māori ownership of their lands and other properties, and gave the Māori the rights of British subjects. The English and Māori versions of the Treaty differed significantly, so there is no consensus as to exactly what was agreed to. From the British point of view, the Treaty gave Britain sovereignty over New Zealand, and gave the Governor the right to govern the country. Māori believed they ceded to the Crown a right of governance in return for protection, without giving up their authority to manage their own affairs. After the initial signing at Waitangi, copies of the Treaty were taken around New Zealand and over the following months many other chiefs signed. In total there are nine copies of the Treaty of Waitangi including the original signed on 6 February 1840. Around 530 to 540 chiefs, at least 13 of them women, signed the Treaty of Waitangi.\n\nUntil the 1970s, the Treaty (te tiriti in Māori), was generally regarded as having served its purpose in 1840 New Zealand, and was ignored by the courts and parliament alike; although it was usually depicted in New Zealand historyas a generous act on the part of the British Crown, which was at the time at the peak of its history.Māori have looked to the Treaty for rights and remedies for land loss and unequal treatment by the state, with mixed success. From the late 1960s Māori began drawing attention to breaches of the Treaty, and subsequent histories have emphasised problems with its translation. In 1975, the Waitangi Tribunal was established as a permanent commission of inquiry tasked with researching breaches of the Treaty by the Crown or its agents, and suggesting means of redress.\n\nToday it is generally considered the founding document of New Zealand as a nation. Despite this, the Treaty is often the subject of heated debate, and much disagreement by both Māori and non-Māori New Zealanders. Many Māori feel that the Crown did not fulfil its obligations under the Treaty, and have presented evidence of this before sittings of the Tribunal. Some non-Māori New Zealanders have suggested that Māori may be abusing the Treaty in order to claim 'special privileges'. The Crown, in most cases, is not obliged to act on the recommendations of the Tribunal but nonetheless in many instances has accepted that it breached the Treaty and its principles. Settlements to date have consisted of hundreds of millions of dollars of reparations in cash and assets, as well as apologies.\n\nAlmost 150 years after the signing of the Treaty, the government tried to give judicial and moral effect to the document by defining another, new version, the 'spirit' or 'intent' of the treaty, showing that the original document was not a firm foundation for the construction of a State. The date of the signing has been a national holiday, now called Waitangi Day, since 1974.",
+        "startdate" :"1840-02-06",
+        "enddate":"1840-02-06",
+        "timescale": "year",
+        "tags" : ["Political"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/Treaty_of_Waitangi"},{"name": "New Zealand Archives", "url": "http://archives.govt.nz/exhibitions/treaty"},{"name": "Official Treaty of Waitangi information site", "url": "http://www.nzhistory.net.nz/politics/treaty-of-waitangi"}],
+        "events": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -176.55973,
+-43.95353
+        ]
+      }
+    }
+  ]
+}

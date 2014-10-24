@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Publication of Adam Smith's 'The Wealth of Nations'",
+        "short_description" : "Adam Smith's Wealth of Nations, published in 1776, had argued that colonies were redundant, and that free trade should replace the old mercantilist policies that had characterised the first period of colonial expansion, dating back to the protectionism of Spain and Portugal. ",
+        "description" : "The growth of trade between the newly independent United States and Britain after 1783 seemed to confirm Smith's view that political control was not necessary for economic success.\n\nThe Wealth of Nations was published 9 March 1776, during the Scottish Enlightenment and the Scottish Agricultural Revolution. It influenced a number of authors and economists, as well as governments and organizations. For example, Alexander Hamilton was influenced in part by The Wealth of Nations to write his Report on Manufactures, in which he argued against many of Smith's policies. Interestingly, Hamilton based much of this report on the ideas of Jean-Baptiste Colbert, and it was, in part, Colbert's ideas that Smith responded to with The Wealth of Nations.",
+        "startdate" :"1776-03-09",
+        "enddate":"1776-03-09",
+        "timescale": "year",
+        "tags" : ["Trade"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/The_Wealth_of_Nations"},{"name": "An Inquiry into the Nature and Causes of the Wealth of Nations", "url": "http://www.econlib.org/library/Smith/smWN.html"},{"name": "Life of Adam Smith,", "url": "http://www.econlib.org/library/YPDBooks/Rae/raeLS.html"}],
+        "events": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.12574,
+          51.50853
+        ]
+      }
+    }
+  ]
+}
