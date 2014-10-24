@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Townshend Acts",
+        "short_description" : "The Townshend Acts were a series of acts passed, beginning in June 1767, by the Parliament of Great Britain relating to the British colonies in North America. The acts are named after Charles Townshend, the Chancellor of the Exchequer, who proposed the programme.",
+        "description" : "Historians vary slightly in which acts they include under the heading 'Townshend Acts', but five laws are often mentioned: the Revenue Act of 1767, the Indemnity Act, the Commissioners of Customs Act, the Vice Admiralty Court Act, and the New York Restraining Act. The purpose of the Townshend Acts was to raise revenue in the colonies to pay the salaries of governors and judges so that they would remain loyal to Great Britain, to create a more effective means of enforcing compliance with trade regulations, to punish the province of New York for failing to comply with the 1765 Quartering Act, and to establish the precedent that the British Parliament had the right to tax the colonies.The Townshend Acts were met with resistance in the colonies, prompting the occupation of Boston by British troops in 1768, which eventually resulted in the Boston Massacre of 1770.\n\nFollowing the Seven Years' War (1756–1763), the British Empire was deep in debt. To help pay some of the costs of the newly expanded empire, the British Parliament decided to levy new taxes on the colonies of British America. Previously, through the Trade and Navigation Acts, Parliament had used taxation to regulate the trade of the empire. But with the Sugar Act of 1764, Parliament sought, for the first time, to tax the colonies for the specific purpose of raising revenue. American colonists argued that there were constitutional issues involved.\n\nEveryone agreed that taxation required representation. The Americans claimed they were not represented in Parliament; the government retorted they had 'virtual representation,' a concept the Americans rejected.This issue, only briefly debated following the Sugar Act, became a major point of contention following Parliament's passage of the 1765 Stamp Act. The Stamp Act proved to be wildly unpopular in the colonies, contributing to its repeal the following year, along with the lack of substantial revenue being raised.\n\nImplicit in the Stamp Act dispute was an issue more fundamental than taxation and representation: the question of the extent of Parliament's authority in the colonies. Parliament provided its answer to this question when it repealed the Stamp Act in 1766 by simultaneously passing the Declaratory Act, which proclaimed that Parliament could legislate for the colonies 'in all cases whatsoever'.\n\nThe Townshend duty on tea was retained when the 1773 Tea Act was passed, which allowed the East India Company to ship tea directly to the colonies. The Boston Tea Party soon followed, which set the stage for the American Revolution.\n\n",
+        "startdate" :"1767-15-06",
+        "enddate":"1767-07-02",
+        "timescale": "year",
+        "tags" : ["Political"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/Townshend_Acts"},{"name": "Britannica", "url": "http://www.britannica.com/EBchecked/topic/601114/Townshend-Acts"}],
+        "events": ["Boston Tea Party","American Revolution"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1275,
+51.50722
+        ]
+      }
+    }
+  ]
+}

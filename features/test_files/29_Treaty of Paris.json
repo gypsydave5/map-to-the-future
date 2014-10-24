@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Treaty of Paris",
+        "short_description" : "The Treaty of Paris, signed in Paris by representatives of King George III of Great Britain and representatives of the United States of America on 3 September 1783, ended the American Revolutionary War.",
+        "description" : "Peace negotiations began in April of 1782, involving American representatives Benjamin Franklin, John Jay, Henry Laurens, and John Adams. The British representatives present were David Hartley and Richard Oswald. The treaty was signed in Paris at the Hotel d'York (presently 56 Rue Jacob), by Adams, Franklin, Jay, and Hartley.\n\nFranklin was almost successful in getting Britain to cede the Province of Quebec (today's eastern Canada) to the United States because he hoped to control all of North America. The British at first agreed, then rejected the proposal.\n\nOn September 3, 1783, Great Britain also signed separate agreements with France and Spain, and (provisionally) with the Netherlands. In the treaty with Spain, the territories of East and West Florida were ceded to Spain (without a clear northern boundary, resulting in a territorial dispute resolved by the Treaty of Madrid in 1795), as was the island of Minorca, while the Bahama Islands, Grenada, and Montserrat, captured by the French and Spanish, were returned to Britain. The treaty with France was mostly about exchanges of captured territory (France's only net gains were the island of Tobago, and Senegal in Africa), but also reinforced earlier treaties, guaranteeing fishing rights off Newfoundland. Dutch possessions in the East Indies, captured in 1781, were returned by Britain to the Netherlands in exchange for trading privileges in the Dutch East Indies, by a treaty which was not finalized until 1784.\n\nThe United States Congress of the Confederation ratified the Treaty of Paris on January 14, 1784. Copies were sent back to Europe for ratification by the other parties involved, the first reaching France in March 1784. British ratification occurred on April 9, 1784, and the ratified versions were exchanged in Paris on May 12, 1784. It was not for some time, though, that the Americans in the countryside received the news because of the lack of speedy communication.\n\n\n\n",
+        "startdate" :"1783-09-03",
+        "enddate":"1783-09-03",
+        "timescale": "year",
+        "tags" : ["Political"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/Treaty_of_Paris_(1783)"},{"name": "Yale University - The Definitive Treaty of Peace 1783", "url": "http://avalon.law.yale.edu/18th_century/paris.asp"},{"name": "The Treaty of Paris - PDF format", "url": "http://www.ourdocuments.gov/doc.php?flash=true&doc=6"}],
+        "events": ["Philadelphia campaign","Saratoga Campaign"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3488,
+48.85341
+        ]
+      }
+    }
+  ]
+}

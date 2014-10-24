@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Saratoga Campaign",
+        "short_description" : "The Saratoga Campaign in 1777 was an attempt by the British high command for North America to gain military control of the strategically important Hudson River valley during the American Revolutionary War.",
+        "description" : "The primary thrust of the campaign was planned and initiated by General John Burgoyne. Commanding a main force of some 8,000 men, he moved south in June from Quebec, boated up Lake Champlain to middle New York, then marched over the divide and down the Hudson Valley to Saratoga. He initially skirmished there with the Patriot defenders with mixed results. Then, after losses in the Battles of Saratoga in September and October, his deteriorating position and ever increasing size of the American army obliged him to surrender his forces to the American General Horatio Gates on October 17.\n\nEfforts to support Burgoyne were unsuccessful. Colonel Barry St. Leger attempted to move on Albany, New York east through the Mohawk River valley, but was forced to retreat during the siege of Fort Stanwix after losing Indian support and a successful ruse by Benedict Arnold. The planned expedition from the south in the summer never materialized (apparently due to miscommunication on that year's campaign goals) when General William Howe sent his army to take Philadelphia rather than sending a portion of it up the Hudson River from New York City. A late effort to support Burgoyne from New York was made by Sir Henry Clinton in early October, but it did not significantly affect the outcome.\n\nThe American victory was an enormous morale boost to the fledgling nation, and it convinced France to enter the conflict in support of the United States, openly providing money, soldiers, and naval support, as well as a worldwide theatre of war. The campaign ended in the surrender of the British army, which historian Edmund Morgan argues, ‘was a great turning point of the war, because it won for Americans the foreign assistance which was the last element needed for victory’.\n\n\n\n\n\n",
+        "startdate" :"1777-06-14",
+        "enddate":"1777-10-17",
+        "timescale": "year",
+        "tags" : ["War"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/Saratoga_campaign"},{"name": "National Park Service - Burgoyne's Campaign", "url": "http://webcache.googleusercontent.com/search?q=cache:UauQVtkwHJEJ:www.nps.gov/fost/historyculture/1777-campaign.htm+&cd=16&hl=en&ct=clnk&gl=ca"},{"name": "History of War - The Saratoga Campaign", "url": "http://www.historyofwar.org/articles/battles_saratoga.html"}],
+        "events": ["Philadelphia campaign","New York and New Jersey Campaign","Treaty of Paris"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.75623,
+42.65258
+        ]
+      }
+    }
+  ]
+}

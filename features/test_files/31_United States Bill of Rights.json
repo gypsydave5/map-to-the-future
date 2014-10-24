@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "United States Bill of Rights",
+        "short_description" : "The Bill of Rights is the collective name for the first ten amendments to the United States Constitution. Proposed to assuage the fears of Anti-Federalists who had opposed Constitutional ratification, these amendments guarantee a number of personal freedoms, limit the government's power in judicial and other proceedings, and reserve some powers to the states and the public. ",
+        "description" : "On June 8, 1789 Representative James Madison introduced a series of thirty-nine amendments to the constitution in the House of Representatives. Among his recommendations Madison proposed opening up the Constitution and inserting specific rights limiting the power of Congress in Article One, Section 9. Seven of these limitations would became part of the ten ratified Bill of Rights amendments. Ultimately, on September 25, 1789, Congress approved twelve articles of amendment to the Constitution and submitted them to the states for ratification. Contrary to Madison’s original proposal that the articles be incorporated into the main body of the Constitution, they were proposed as ‘supplemental’ additions to it. On December 15, 1791, Articles Three–Twelve, having been ratified by the required number of states, became Amendments One–Ten of the Constitution.\n\nOn May 7, 1992, after an unprecedented period of 202 years, 225 days, Article Two crossed the Constitutional threshold for ratification and became the Twenty-seventh Amendment. As a result, Article One alone remains unratified and still pending before the states.\n\nThe Bill of Rights enumerates freedoms not explicitly indicated in the main body of the Constitution, such as freedom of religion, freedom of speech, a free press, and free assembly; the right to keep and bear arms; freedom from unreasonable search and seizure, security in personal effects, and freedom from warrants issued without probable cause; indictment by a grand jury for any capital or ‘infamous crime’; guarantee of a speedy, public trial with an impartial jury; and prohibition of double jeopardy. In addition, the Bill of Rights reserves for the people any rights not specifically mentioned in the Constitution and reserves all powers not specifically granted to the federal government to the people or the States. The Bill was influenced by George Mason's 1776 Virginia Declaration of Rights, the English Bill of Rights 1689, and earlier English political documents such as Magna Carta (1215).\n\nThe Bill of Rights had little judicial impact for the first 150 years of its existence, but was the basis for many Supreme Court decisions of the 20th and 21st centuries. One of the first fourteen copies of the Bill of Rights is on public display at the National Archives in Washington, D.C.\n\n\n\n",
+        "startdate" :"1789-06-08",
+        "enddate":"1789-06-08",
+        "timescale": "year",
+        "tags" : ["Political"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/United_States_Bill_of_Rights"},{"name": "US National Archives", "url": "http://www.archives.gov/exhibits/charters/bill_of_rights_transcript.html"},{"name": "Bill of Rights Institute", "url": "http://billofrightsinstitute.org/founding-documents/bill-of-rights/"}],
+        "events": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.03637,
+38.89511
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Invasion of Canada",
+        "short_description" : "The Invasion of Canada in 1775 was the first major military initiative by the newly formed Continental Army during the American Revolutionary War.",
+        "description" : "The Invasion of Canada in 1775 was the first major military initiative by the newly formed Continental Army during the American Revolutionary War. The objective of the campaign was to gain military control of the British Province of Quebec, and convince the French-speaking Canadiens to join the revolution on the side of the Thirteen Colonies. One expedition left Fort Ticonderoga under Richard Montgomery, besieged and captured Fort St. Johns, and very nearly captured British General Guy Carleton when taking Montreal. The other expedition left Cambridge, Massachusetts under Benedict Arnold, and traveled with great difficulty through the wilderness of Maine to Quebec City. The two forces joined there, but were defeated at the Battle of Quebec in December 1775.\n\nMontgomery's expedition set out from Fort Ticonderoga in late August, and began besieging Fort St. Johns, the main defensive point south of Montreal, in mid-September. After the fort was captured in November, Carleton abandoned Montreal, fleeing to Quebec City, and Montgomery took control of the city before heading for Quebec with an army much reduced in size by expiring enlistments. There he joined Arnold, who had left Cambridge in early September on an arduous trek through the wilderness that left his surviving troops starving and lacking in many supplies and equipment.\n\nThese forces joined before Quebec City in December, where they assaulted the city in a snowstorm on the last day of the year. The battle was a disastrous defeat for the Americans; Montgomery was killed and Arnold wounded, and the city's defenders suffered few casualties. Arnold then conducted an ineffectual siege on the city, during which Loyalist sentiments were boosted by successful propaganda campaigns, and General David Wooster's blunt administration of Montreal served to annoy both supporters and detractors of the Americans.\n\nThe British sent several thousand troops, including General John Burgoyne and Hessian mercenaries, to reinforce those in the province in May 1776. General Carleton then launched a counter-offensive, ultimately driving the smallpox-weakened and disorganized American forces back to Fort Ticonderoga. The Americans, under Arnold's command, were able to hinder the British advance sufficiently that an attack could not be mounted on Fort Ticonderoga in 1776. The end of the campaign set the stage for Burgoyne's campaign of 1777 to gain control of the Hudson River valley.\n\n\n\n",
+        "startdate" :"1775-06-01",
+        "enddate":"1776-10-01",
+        "timescale": "year",
+        "tags" : ["War"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/Invasion_of_Canada_(1775)"},{"name": "The Invasion of Canada", "url": "http://books.google.ca/books?id=bqbeE0N119kC&lpg=PP1&dq=The%20Invasion%20of%20Canada%3A%20Battles%20of%20the%20War%20of%201812&pg=PP1#v=onepage&q&f=true"}],
+        "events": ["Quebec Act"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43,
+73
+        ]
+      }
+    }
+  ]
+}

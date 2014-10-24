@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Quebec Act",
+        "short_description" : "The Quebec Act of 1774, formally known as the British North America (Quebec) Act 1774, was an act of the Parliament of Great Britain (citation 14 Geo. III c. 83) setting procedures of governance in the Province of Quebec.",
+        "description" : "The act had wide-ranging effects, in Quebec itself, as well as in the Thirteen Colonies. In Quebec, English-speaking immigrants from Britain and the southern colonies objected to a variety of its provisions, which they saw as a removal of certain political freedoms. Canadiens varied in their reaction; the land-owningseigneurs and clergy were generally happy with its provisions although the populace resented their loss of liberties.\n\nIn the Thirteen Colonies, the act, which had been passed in the same session of Parliament as a number of other acts designed as punishment for the Boston Tea Party and other protests, was passed along with the other Intolerable Acts also known as the Coercive Acts. The provisions of the Quebec Act were seen by the colonists as a new model for British colonial administration, which would strip the colonies of their elected assemblies. It seemed to void the land claims of the colonies by granting most of the Ohio Country to the province of Quebec. The Americans were especially angry that the act established Catholicism as the state church in Quebec. The Americans had fought hard in the French and Indian War, and now they were angry that the losers (the French in Quebec) were given all the rewards including western lands claimed by the 13 colonies.\n\nAfter the Seven Years' War, a victorious Great Britain and a defeated France formalized the peace with the 1763 Treaty of Paris. Under the terms of the treaty, the Kingdom of France ceded New France to Britain, choosing instead to keep the islands of Guadeloupe and Martinique for their valuable sugarproduction. New France (Canada) was considered less valuable, as its only significant commercial product at the time was beaver pelts. The territory found along the St. Lawrence River, called Canada by the French, was renamed Quebec by the British, after its capital city. Non-military administration of the territories acquired by the British in the war was defined in the Royal Proclamation of 1763.\n\nUnder the terms of the peace treaty, Canadians who did not choose to leave became British subjects. In order for them to serve in public offices, they were required to swear an oath to the King that contained specific provisions rejecting the Catholic faith. Since many of the predominantly Roman Catholic Canadians were unwilling to take such an oath, this effectively prevented large numbers of French-speaking Canadians from participating in the local governments.\n\nWith unrest growing in the colonies to the south, which would one day grow into the American Revolution, the British were worried that the French-speaking Canadians might also support the growing rebellion. At that time, French-speaking Canadians formed the vast majority of the settler population of the province of Quebec (more than 99%) and there was little immigration from Great Britain. To secure the allegiance of the approximately 90,000 French-speaking Canadians to the British crown, first Governor James Murray and later Governor Guy Carleton promoted the need for change. There was also a need to compromise between the conflicting demands of the French-speaking Canadian subjects and those of newly arrived British subjects. These efforts by the colonial governors eventually resulted in enactment of the Quebec Act of 1774.\n\n",
+        "startdate" :"1774-06-22",
+        "enddate":"1774-06-22",
+        "timescale": "year",
+        "tags" : ["Political"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/Quebec_Act"},{"name": "Religion and the Continental Congress, 1774 - 1789", "url": "http://books.google.co.uk/books?id=9es9WWz8Ac8C&pg=PA153&redir_esc=y#v=onepage&q&f=false"}],
+        "events": ["Boston Tea Party"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46,
+71
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Boston Campaign",
+        "short_description" : "The Boston campaign was the opening campaign of the American Revolutionary War. The campaign was primarily concerned with the mobilization of Patriot militia units, and their transformation into a unified Continental Army.",
+        "description" : "In 1767, the British Parliament passed the Townshend Acts, which imposed import duties on paper, glass, paint, and other common items imported into the American colonies. The Sons of Liberty and other Patriot organizations responded with a variety of protest actions. They organized boycotts of the goods subject to the duty, and they harassed and threatened the customs personnel who collected the duties, many of whom were either corrupt or related to Provincial leaders. Francis Bernard, then Governor of the Province of Massachusetts Bay, requested military forces to protect the King's personnel. In October 1768, British troops arrived in the city of Boston and occupied the city. Tensions led to the Boston Massacre on March 5, 1770, and the Boston Tea Party on December 16, 1773.\n\nIn 1767, the British Parliament passed the Townshend Acts, which imposed import duties on paper, glass, paint, and other common items imported into the American colonies. The Sons of Liberty and other Patriot organizations responded with a variety of protest actions. They organized boycotts of the goods subject to the duty, and they harassed and threatened the customs personnel who collected the duties, many of whom were either corrupt or related to Provincial leaders. Francis Bernard, then Governor of the Province of Massachusetts Bay, requested military forces to protect the King's personnel. In October 1768, British troops arrived in the city of Boston and occupied the city. Tensions led to the Boston Massacre on March 5, 1770, and the Boston Tea Party on December 16, 1773.\n\nOn September 1, 1774, British soldiers removed gunpowder and other military supplies in a surprise raid on a powder magazine near Boston. This expedition alarmed the countryside, and thousands of American Patriots sprang into action, amid rumors that war was at hand. Although it proved to be a false alarm, this event—known as the Powder Alarm—caused all concerned to proceed more carefully in the days ahead, and essentially provided a 'dress rehearsal' for events seven months later. Partly in response to this action, the colonists carried off military supplies from several forts in New England and distributed them among the local militias.\n\nOn the night of April 18, 1775, General Gage sent 700 men to seize munitions stored by the colonial militia at Concord. Several riders — including Paul Revere — alerted the countryside, and when the British troops entered Lexington on the morning of April 19, they found 77 minutemen formed up on the village common. Shots were exchanged, eight Minutemen were killed, the outnumbered colonial militia dispersed, and the British moved on to Concord. At Concord, the troops searched for military supplies, but found relatively little, as the colonists, having received warnings that such an expedition might happen, had taken steps to hide many of the supplies. During the search, there was a confrontation at the North Bridge. A small company of British troops fired on a much larger column of colonial militia, which returned fire, and eventually routed those troops, which returned to the village center and rejoined the other troops there. By the time the 'redcoats' or 'lobster backs' (as the British soldiers were called) began the return march to Boston, several thousand militiamen had gathered along the road. A running fight ensued, and the British detachment suffered heavily before reaching Charlestown. With theBattle of Lexington and Concord — the 'shot heard 'round the world' — the war had begun.\n\nBy early March 1776, heavy cannons that had been captured at Fort Ticonderoga were moved to Boston, a difficult feat engineered by Henry Knox. When the guns were placed on Dorchester Heights in the course of one day, overlooking the British positions, the British situation became untenable. While General Howe planned an attack to reclaim the high ground, a snowstorm prevented its execution. The British, after threatening to burn the city if their departure was hindered, evacuated the city on March 17, 1776 and sailed for temporary refuge in Halifax, Nova Scotia. The local militias dispersed and, in April, General Washington took most of the Continental Army to fortify New York City and the start of the New York and New Jersey campaign.\n\n",
+        "startdate" :"1774-09-01",
+        "enddate":"1776-03-17",
+        "timescale": "year",
+        "tags" : ["War"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/Boston_campaign"},{"name": "The Boston Campaign", "url": "https://www.questia.com/read/100315736/the-boston-campaign-april-1775-march-1776"}],
+        "events": ["Boston Tea Party","American Revolution"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42,
+71
+        ]
+      }
+    }
+  ]
+}

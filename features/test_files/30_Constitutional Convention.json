@@ -1,0 +1,27 @@
+
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Constitutional Convention",
+        "short_description" : "The Constitutional Convention (also known as the Philadelphia Convention, the Federal Convention, or the Grand Convention at Philadelphia) took place from May 25 to September 17, 1787, in Philadelphia, Pennsylvania, to address problems in governing the United States of America, which had been operating under the Articles of Confederation following independence from Great Britain. ",
+        "description" : "Although the Convention was intended to revise the Articles of Confederation, the intention from the outset of many of its proponents, chief among them James Madison and Alexander Hamilton, was to create a new government rather than fix the existing one. The delegates elected George Washington to preside over the Convention. The result of the Convention was the creation of the United States Constitution, placing the Convention among the most significant events in the history of the United States.\n\nThe most contentious disputes revolved around the composition and election of the Senate, how ‘proportional representation’ was to be defined (whether to include slaves or other property), whether to divide the executive power between three persons or invest the power into a single president, how to elect the president, how long his term was to be and whether he could stand for reelection, what offenses should be impeachable, the nature of a fugitive slave clause, whether to allow the abolition of the slave trade, and whether judges should be chosen by the legislature or executive. Most of the time during the Convention was spent on deciding these issues, while the powers of legislature, executive, and judiciary were not heavily disputed. Once the Convention began, the delegates first agreed on the principles of the Convention, then they agreed on Madison's Virginia Plan and began to modify it. A Committee of Detail assembled during the July 4 recess and produced a rough draft. Most of this rough draft remained in place, and can be found in the final version of the constitution. After the final issues were resolved, the Committee on Style produced the final version, and it was voted on and sent to the states.\n\nBefore the Constitution was drafted, the nearly 4 million inhabitants of the 13 newly independent states were governed under the Articles of Confederation, created by the Second Continental Congress. It soon became evident to nearly all that the chronically underfunded Confederation government, as originally organized, was inadequate for managing the various conflicts that arose among the states. As the Articles of Confederation could only be amended by unanimous vote of the states, any state had effective veto power over any proposed change. In addition, the Articles gave the weak federal government no taxing power: it was wholly dependent on the states for its money, and had no power to force delinquent states to pay.\n\nOnce the immediate task of winning the American Revolutionary War had passed, the states began to look to their own interests, and disputes arose. These included a dispute between Maryland and Virginia over the Potomac River and opposition to Rhode Island's imposing taxes on all traffic passing through it on the post road that linked all the states. James Madison suggested that state governments should appoint commissioners ‘to take into consideration the trade of the United States; to examine the relative situation and trade of said states; to consider how far a uniform system in their commercial regulations may be necessary to their common interests and permanent harmony’.\n\nIn September 1786, at the Annapolis Convention, delegates from five states called for a constitutional convention in order to discuss possible improvements to the Articles of Confederation. The Constitutional convention took place in Philadelphia on May 14, 1787. Rhode Island, fearing that the Convention would work to its disadvantage, boycotted the Convention and, when the Constitution was put to the states, initially refused to ratify it.\n\n",
+        "startdate" :"1787-05-25",
+        "enddate":"1787-09-17",
+        "timescale": "year",
+        "tags" : ["Political"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/Constitutional_Convention_(United_States)"},{"name": "Original Records from the Constitutional Convention", "url": "http://www.fold3.com/browse.php#1|hNHT6siM_9rY-5ujerVEojUGl"},{"name": "Library of Congress Records", "url": "http://www.loc.gov/rr/rarebook/coll/const.html"}],
+        "events": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.16379,
+39.95234
+        ]
+      }
+    }
+  ]
+}

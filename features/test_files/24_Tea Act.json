@@ -1,0 +1,27 @@
+
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Tea Act",
+        "short_description" : "The Tea Act 1773 was an Act of the Parliament of Great Britain. Its principal over objective was to reduce the massive surplus of tea held by the financially troubled British East India Company in its London warehouses and to help the company survive. ",
+        "description" : "In the 1760s and early 1770s, the East India Company had been required to sell its tea exclusively in London on which it paid a duty which averaged two shillings and six pence per pound. Tea destined for the North American colonies would be purchased by merchants specializing in that trade, who transported it to North America for eventual retail sale. The markups imposed by these merchants, combined with tea tax imposed by the Townshend Acts of 1767 created a profitable opportunity for American merchants to import and distribute tea purchased from the Dutch in transactions and shipments that violated theNavigation Acts and were treated by British authorities as smuggling. Smugglers imported some 900,000 pounds (410,000 kg) of cheap foreign tea per year. The quality of the smuggled tea did not match the quality of the dutiable East India Company tea, of which the Americans bought 562,000 pounds (255,000 kg) per year. Although the British tea was more appealing in taste, some Patriots like the Sons of Liberty encouraged the consumption of smuggled tea as a political protest of the Townshend taxes.\n\nIn 1770 most of the Townshend taxes were repealed, but taxes on tea was retained. Resistance to this tax included pressure to avoid legally imported tea, leading to a drop in colonial demand for the Company's tea, and a burgeoning surplus of the tea in the company's English warehouses. By 1774 the Company was close to collapse due in part to contractual payments to the British government of £400,000,000 per year, together with war and famine in India, and economic weakness in European markets. Benjamin Franklin was one of several people who suggested things would be greatly improved if the Company were allowed to export its tea directly to the colonies without paying the taxes it was paying in London: 'to export such tea to any of the British colonies or plantations in America, or to foreign parts, import duty of three pence a pound.'\n\nThe administration of Lord North saw an opportunity to achieve several goals with a single bill. If the Company were permitted to directly ship tea to the colonies, this would remove the markups of the middlemen from the cost of its tea, and reducing or eliminating the duties paid when the tea was landed in Britain (if it was shipped onward to the colonies) would further reduce the final cost of tea in the colonies, undercutting the prices charged for smuggled tea. Colonists would willingly pay for cheaper Company tea, on which the Townshend tax was still collected, thus legitimizing Parliament's ability to tax the colonies.\n\nThe Company was granted licence by the North administration to ship tea to major American ports, including Charleston, Philadelphia, New York City, and Boston. Consignees who were to receive the tea and arrange for its local resale were generally favorites of the local governor (who was royally appointed in South Carolina, New York, and Massachusetts, and appointed by the proprietors in Pennsylvania). In Massachusetts, Governor Thomas Hutchinson was a part-owner of the business hired by the Company to receive tea shipped to Boston.\n\nMany colonists opposed the Act, not so much because it rescued the East India Company, but more because it seemed to validate the Townshend tax on tea. Merchants who had been acting as the middlemen in legally importing tea stood to lose their business, as did those whose illegal Dutch trade would be undercut by the Company's lowered prices. These interests combined forces, citing the taxes and the Company's monopoly status as reasons to oppose the Act.\n\n",
+        "startdate" :"1773-05-10",
+        "enddate":"1861-01-01",
+        "timescale": "year",
+        "tags" : ["Political"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/Tea_Act"},{"name": "US History", "url": "http://www.ushistory.org/declaration/related/teaact.htm"}],
+        "events": ["Townshend Acts"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1275,
+51.50722
+        ]
+      }
+    }
+  ]
+}

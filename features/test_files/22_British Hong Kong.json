@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "British Hong Kong",
+        "short_description" : "British Hong Kong refers to Hong Kong as a Crown colony and later, a British Dependent Territory under British administration from 1841 to 1997 (excluding the Japanese occupation from 1941 to 1945).",
+        "description" : "In 1836, the Chinese government undertook a major policy review of the opium trade. Lin Zexu volunteered to take on the task of suppressing opium. In March 1839, he became Special Imperial Commissioner in Canton, where he ordered the foreign traders to surrender their opium stock. He confined the British to the Canton Factories and cut off their supplies. Chief Superintendent of Trade, Charles Elliot, complied with Lin's demands to secure a safe exit for the British, with the costs involved to be resolved between the two governments. When Elliot promised that the British government would pay for their opium stock, the merchants surrendered their 20,283 chests of opium, which were destroyed in public.\n\nIn September 1839, the British Cabinet decided that the Chinese should be made to pay for the destruction of British property, either by the threat or use of force. An expeditionary force was placed under Elliot and his cousin, Rear Admiral George Elliot, as joint plenipotentiaries in 1840. Foreign Secretary Lord Palmerston stressed to the Chinese Imperial Government that the British Government did not question China's right to prohibit opium, but it objected to the way this was handled. He viewed the sudden strict enforcement as laying a trap for the foreign traders, and the confinement of the British with supplies cut off was tantamount to starving them into submission or death. He instructed the Elliot cousins to occupy one of the Chusan islands, to present a letter from himself to a Chinese official for the Emperor, then to proceed to the Gulf of Bohai for a treaty, and if the Chinese resisted, blockade the key ports of theYangtze and Yellow rivers. Palmerston demanded a territorial base in Chusan for trade so that British merchants 'may not be subject to the arbitrary caprice either of the Government of Peking, or its local Authorities at the Sea-Ports of the Empire'.\n\nThe Sino-British Joint Declaration was signed by both the Prime Minister of the United Kingdom and the Premier of the People's Republic of China on 19 December 1984 in Beijing. The Declaration entered into force with the exchange of instruments of ratification on 27 May 1985 and was registered by the People's Republic of China and United Kingdom governments at the United Nations on 12 June 1985. In the Joint Declaration, the People's Republic of China Government stated that it had decided to resume the exercise of sovereignty over Hong Kong (including Hong Kong Island, Kowloon, and the New Territories) with effect from 1 July 1997 and the United Kingdom Government declared that it would restore Hong Kong to the PRC with effect from 1 July 1997. In the document, the People's Republic of China Government also declared its basic policies regarding Hong Kong.\n\nIn accordance with the One Country, Two Systems principle agreed between the United Kingdom and the People's Republic of China, the socialist system of People's Republic of China would not be practised in the Hong Kong Special Administrative Region (HKSAR), and Hong Kong's previous capitalist system and its way of life would remain unchanged for a period of 50 years. The Joint Declaration provides that these basic policies shall be stipulated in the Hong Kong Basic Law. The ceremony of the signing of the Sino-British Joint Declaration took place at 18:00, 19 December 1984 at the Western Main Chamber of the Great Hall of the People. The Hong Kong and Macau Affairs Office at first proposed a list of 60–80 Hong Kong people to attend the ceremony. The number was finally extended to 101. The list included Hong Kong government officials, members of the Legislative and Executive Councils, chairmen of The Hongkong and Shanghai Banking Corporation and Standard Chartered Bank, Hong Kong celebrities such as Li Ka-shing, Pao Yue-kong and Fok Ying-tung, and also Martin Lee Chu-ming and Szeto Wah\n\nThe handover ceremony was held at the new wing of the Hong Kong Convention and Exhibition Centre in Wan Chai on the night of 30 June 1997. The principal British guest was Charles, Prince of Wales who read a farewell speech on behalf of the Queen. The newly elected Prime Minister of the United Kingdom, Tony Blair, the British Foreign Minister Robin Cook, the departing Hong Kong governor Chris Patten, General Sir Charles Guthrie, Chief of the Defence Staff of the United Kingdom also attended.\n\n",
+        "startdate" :"1841-01-20",
+        "enddate":"1997-06-30",
+        "timescale": "year",
+        "tags" : ["Political"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/British_Hong_Kong"},{"name": "The Chinese Repository Volume 10", "url": "http://books.google.co.uk/books?id=eJYZAAAAYAAJ&pg=PA63&redir_esc=y#v=onepage&q&f=false"}],
+        "events": ["First Opium War","Handover to China"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.15769,
+22.28552
+        ]
+      }
+    }
+  ]
+}

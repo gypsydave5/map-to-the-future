@@ -1,0 +1,28 @@
+
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Battle of the Nile",
+        "short_description" : "The Battle of the Nile was a major naval battle fought between the British Royal Navy and the Navy of the French Republic at Aboukir Bay on the Mediterranean coast off Egypt from 1 to 3 August 1798.",
+        "description" : "The battle was the climax of a naval campaign that had ranged across the Mediterranean during the previous three months, as a large French convoy sailed from Toulon to Alexandria carrying an expeditionary force under then General Napoleon Bonaparte. In the battle, the British forces, led by Rear-Admiral Sir Horatio Nelson (later Lord Nelson), defeated the French.\n\nBonaparte sought to invade Egypt as the first step in a campaign against British India in an effort to drive Britain out of the French Revolutionary Wars. As Bonaparte's fleet crossed the Mediterranean, it was pursued by a British force under Nelson, who had been sent from the British fleet in the Tagus to learn the purpose of the French expedition and defeat it. For more than two months, he chased the French, on several occasions only missing them by a matter of hours. Bonaparte, aware of Nelson's pursuit, enforced absolute secrecy about his destination and was able to capture Malta and then land in Egypt without interception by the British naval forces.\n\nWith the French army ashore, the French fleet anchored in Aboukir Bay, 20 miles (32 km) northeast of Alexandria. Commander Vice-Admiral François-Paul Brueys d'Aigalliers believed he had established a formidable defensive position. When the British fleet arrived off Egypt on 1 August and discovered Brueys's dispositions, Nelson ordered an immediate attack. His ships advanced on the French line and split into two divisions as they approached. One cut across the head of the line and passed between the anchored French and the shore while the other engaged the seaward side of the French fleet. Trapped in a crossfire, the leading French warships were battered into surrender during a fierce three-hour battle, while the centre succeeded in repelling the initial British attack. As British reinforcements arrived, the centre came under renewed assault and at 22:00 the French flagship Orient exploded. With Brueys dead, and his vanguard and centre defeated, the rear division of the French fleet attempted to break out of the bay, but ultimately only two ships of the line and two frigates escaped, from a total of 17 ships engaged.\n\nThe battle reversed the strategic situation between the two nations' forces in the Mediterranean, and entrenched the Royal Navy in the dominant position it would retain for the rest of the war. It also encouraged other European countries to turn against France, and was a factor in the outbreak of the War of the Second Coalition. Bonaparte's army was trapped in Egypt, and Royal Navy dominance off the Syrian coast contributed significantly to its defeat at the Siege of Acre in 1799 that preceded Bonaparte's return to Europe. Nelson, who had been wounded in the battle, was proclaimed a hero across Europe and was subsequently made Baron Nelson, although he was privately dissatisfied with his rewards. His captains were also highly praised, and would go on to form the nucleus of the legendary Nelsonic Band of Brothers. The legend of the battle has remained prominent in the popular consciousness, with perhaps the best-known representation being Felicia Hemans' 1826 poem Casabianca.\n\n\n\n",
+        "startdate" :"1798-08-01",
+        "enddate":"1798-08-03",
+        "timescale": "year",
+        "tags" : ["War"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/Battle_of_the_Nile"},{"name": "History Today - Battle of the Nile", "url": "http://www.historytoday.com/richard-cavendish/battle-nile"},{"name": "BritishBattles.com", "url": "http://www.britishbattles.com/waterloo/battle-nile.htm"}],
+        "events": ["Pax Britannica","Convention of Constantinople",""]
+      },
+
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.166667,
+31.3
+        ]
+      }
+    }
+  ]
+}

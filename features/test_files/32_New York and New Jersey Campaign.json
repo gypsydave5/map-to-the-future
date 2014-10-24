@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "New York and New Jersey Campaign",
+        "short_description" : "The New York and New Jersey campaign was a series of battles for control of New York City and the state of New Jersey in the American Revolutionary War between British forces under General Sir William Howe and the Continental Army under General George Washington in 1776 and the winter months of 1777. ",
+        "description" : "First landing unopposed on Staten Island on July 3, 1776, Howe assembled an army composed of elements that had been withdrawn from Boston in March following their failure to hold that city, combined with additional British troops, as well as Hessian troops rented from several German principalities. Washington had New England soldiers as well as regiments from states as far south as Virginia. Landing on Long Island in August, Howe defeated Washington in the largest battle of the war, but the Continental Army was able to retreat to Manhattan under cover of darkness and fog. Washington suffered a series of defeats in Manhattan, with the exception of a victory at Harlem Heights, but was nevertheless chased north to White Plains, New York. At that point Howe returned to Manhattan to capture forces Washington had left in the north of that island.\n\nWashington and much of his army crossed the Hudson River into New Jersey, and retreated all the way across the Delaware River into Pennsylvania, shrinking due to ending enlistment periods, desertions, and poor morale. Howe ordered his troops into winter quarters in December, establishing a chain of outposts from New York to Burlington, New Jersey. Washington, in a tremendous boost to American morale, launched a successful strike against the Trenton garrison after crossing the icy Delaware River, prompting Howe to withdraw his chain of outposts back to New Brunswick and the coast near New York, while Washington established his winter camp at Morristown. During the remaining winter months, both sides skirmished frequently as the British sought forage and provisions.\n\nBritain maintained control of New York City and some of the surrounding territory until the war ended in 1783, using it as a base for operations elsewhere in North America. In 1777, General Howe launched a campaign to capture Philadelphia, leaving General Sir Henry Clinton in command of the New York area, while General John Burgoyne led an attempt to gain control of the Hudson River valley from Quebec that failed at Saratoga. Northern New Jersey was the scene of skirmishing between the opposing forces for the rest of the war.\n\n\n\n\n\n",
+        "startdate" :"1776-02-16",
+        "enddate":"1777-07-13",
+        "timescale": "year",
+        "tags" : ["War"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/New_York_and_New_Jersey_campaign"},{"name": "Encyclopaedia Brittanica", "url": "http://www.britannica.com/EBchecked/media/3833/New-York-New-Jersey-campaign-of-1776-77"},{"name": "U.S. Army Centre of Military History", "url": "http://www.history.army.mil/html/reference/army_flag/rw.html"}],
+        "events": ["Philadelphia campaign","Treaty of Paris","Saratoga campaign"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00597,
+40.71427
+        ]
+      }
+    }
+  ]
+}

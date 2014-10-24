@@ -1,0 +1,27 @@
+
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "First Opium War",
+        "short_description" : "The First Opium War (1839–42), also known as the Opium War and as the Anglo-Chinese War, was fought between Britain and China over their conflicting viewpoints on diplomatic relations, trade, and the administration of justice for foreign nationals.",
+        "description" : "In the 17th and 18th centuries, the demand for Chinese goods (particularly silk, porcelain, and tea) in the European market created a trade imbalance because the market for Western goods in China was virtually non-existent; China was largely self-sufficient and Europeans were not allowed access to China's interior. European silver flowed into China when the Canton System, instituted in the mid-17th century, confined the sea trade to Canton and to the Chinese merchants of Thirteen Hongs. The British East India Company (E.I.C.) had a matching monopoly of British trade. E.I.C. began to auction opium grown on its plantations in India to independent foreign traders in exchange for silver. The opium was then transported to the China coast and sold to Chinese middlemen who retailed the drug inside China. This reverse flow of silver and the increasing numbers of opium addicts alarmed Chinese officials.\n\nIn 1839, the Daoguang emperor, rejecting proposals to legalize and tax opium, appointed Lin Zexu to solve the problem by abolishing the trade. Lin confiscated around 20,000 chests of opium (approximately 1210 t or 2.66 million lb) without offering compensation, blockaded trade, and confined foreign merchants to their quarters. The British government, although not officially denying China's right to control imports of the drug, objected to this arbitrary seizure and used its naval and gunnery power to inflict quick and decisive defeat.\n\nIn 1842, the Treaty of Nanking—the first of what the Chinese later called the unequal treaties—granted an indemnity and extraterritoriality to Britain, the opening of five treaty ports, and the cession of Hong Kong Island. The failure of the treaty to satisfy British goals of improved trade and diplomatic relations led to the Second Opium War (1856–60). The war is now considered in China as the beginning of modern Chinese history.\n\n\n\n\n\n",
+        "startdate" :"1839-03-18",
+        "enddate":"1842-08-29",
+        "timescale": "year",
+        "tags" : ["War"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/First_Opium_War"},{"name": "The Opium War and Foreign Encroachment", "url": "http://afe.easia.columbia.edu/special/china_1750_opium.htm"},{"name": "The First Opium War", "url": "http://ocw.mit.edu/ans7870/21f/21f.027/opium_wars_01/ow1_essay01.html"}],
+        "events": ["Pax Britannica","British Hong Kong","Handover to China"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.77778,
+32.06167
+        ]
+      }
+    }
+  ]
+}
