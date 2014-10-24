@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Regulating Act of 1773",
+        "short_description" : "The Regulating Act of 1773 was an Act of the Parliament of Great Britain intended to overhaul the management of the East India Company's rule in India.",
+        "description" : "By 1773, the East India Company was in dire financial straits. The Company was important to Britain because it was amonopoly trading company in India and in the east and many influential people were shareholders. The Company paid GB£400,000 (present-day (2014) equivalent is £44.6 million) annually to the government to maintain the monopoly but had been unable to meet its commitments since 1768 because of the loss of tea sales to America. About 85% of all the tea in America was smuggled Dutch tea. The East India Company owed money to both the Bank of England and the government: it had 15 million lbs (6.8 million kg) of tea rotting in British warehouses and more en route from India.\n\nLord North decided to overhaul the management of the East India Company with the Regulating Act. This was the first step to the eventual government control of India. The Act set up a system whereby it supervised (regulated) the work of the East India Company.\n\nThe Company had taken over large areas of India for trading purposes and had an army to protect its interests. Company men were not trained to govern so North's government began moves towards government control since India was of national importance. Shareholders in the Company opposed the Act. The East India Company was still a powerful lobbying group in Parliament in spite of its financial problems.\n\nThe Act did not prove to be a long-term solution to concerns over the Company's affairs; Pitt's India Act was therefore subsequently enacted in 1784 as a more radical reform.\n\n\n\n",
+        "startdate" :"1773-06-10",
+        "enddate":"1784-10-12",
+        "timescale": "year",
+        "tags" : ["Political"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/Regulating_Act_of_1773"},{"name": "Britannica", "url": "http://www.britannica.com/EBchecked/topic/496238/Regulating-Act"}],
+        "events": ["Pitt's India Act"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24,
+88
+        ]
+      }
+    }
+  ]
+}

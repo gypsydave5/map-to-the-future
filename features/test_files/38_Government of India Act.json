@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Government of India Act",
+        "short_description" : "The Government of India Act 1858 was an Act of the Parliament of the United Kingdom (21 & 22 Vict. c. 106) passed on August 2, 1858.",
+        "description" : "Its provisions called for the liquidation of the British East India Company (who had up to this point been ruling British India under the auspices of Parliament) and the transference of its functions to the British Crown. Lord Palmerston, then-Prime Minister of the United Kingdom, introduced a bill for the transfer of control of the Government of India from the East India Company to the Crown, referring to the grave defects in the existing system of the government of India.\n\nIndian Rebellion of 1857 urged British Government to pass this Act. To calm down the after effects of 1857 revolt, the Act of 1858 was introduced.\n\nDost Mohammad had recently lost Afghanistan's second capital of Peshawar to the Sikh Empire and wanted support to retake it, but the British were unwilling. When Governor-General of India Lord Auckland heard about the arrival of Russian envoy Yan Vitkevich in Kabul and the possibility that Dost Mohammad might turn to Russia for support, his political advisers exaggerated the threat. British fears of a Russian invasion of India took one step closer to becoming a reality when negotiations between the Afghans and Russians broke down in 1838. The Persians, with Russian support, attempted the Siege of Herat (1838) but backed down when Britain threatened war.\n\nThe Company's territories in India were to be vested in the Queen, the Company ceasing to exercise its power and control over these territories. India was to be governed in the Queen's name. The Queen's Principal Secretary of State received the powers and duties of the Company's Court of Directors. A council of fifteen members was appointed to assist the Secretary of State for India. The council became an advisory body in India affairs. For all the communications between Britain and India, the Secretary of State became the real channel. The Secretary of State for India was empowered to send some secret despatches to India directly without consulting the Council. He was also authorised to constitute special committees of his Council.\n\n\n\n",
+        "startdate" :"1858-08-05",
+        "enddate":"1858-08-05",
+        "timescale": "year",
+        "tags" : ["Colonial"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/Government_of_India_Act_1858"},{"name": "Government of India Act", "url": "http://www.houseofdavid.ca/Ind_uni.htm#Bibliography"}],
+        "events": ["Charter Act of 1813","Pitt's India Act","British Raj"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.225316,
+28.636315
+        ]
+      }
+    }
+  ]
+}

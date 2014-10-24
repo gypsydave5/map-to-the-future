@@ -1,0 +1,27 @@
+36_Pitt's India Act.json
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Pitt's India Act",
+        "short_description" : "The East India Company Act 1784, also known as Pitt's India Act, was an Act of the Parliament of Great Britain intended to address the shortcomings of the Regulating Act of 1773 by bringing the East India Company's rule in India under the control of the British Government.",
+        "description" : "Pitt's India Act provided for the appointment of a Board of Control, and provided for a joint government of British India by both the Company and the Crown with the government holding the ultimate authority.\n\nBy 1773 the East India Company was in dire financial straits and asked for assistance from the British Government. Faced with corruption and nepotism amongst the company officials in India, the British Government enacted the Regulating Act in 1773 to control the activities of the Company. The Act set up a system whereby it supervised (regulated) the work of the Company but did not take power for itself. The Act had proven to be a failure within a few years and the British government decided to take a more active role in the affairs of the Company.\n\nA governing board was constituted with six members, two of whom were members of the British Cabinet and the remaining from the Privy Council. The Board also had a president, who soon effectively became the minister for the affairs of the East India Company. The Act stated that the Board would henceforth 'superintend, direct and control' the government of the Company's possessions, in effect controlling the acts and operations relating to the civil, military and revenues of the Company.\n\nThe governing council of the Company was reduced to three members, and the governor-general, a crown appointee, was authorised to veto the majority decisions. The governors of Bombay and Madras were also deprived of their independence. The governor-general was given greater powers in matters of war, revenue and diplomacy.\n\nBy a supplementary act passed in 1786 Lord Cornwallis was appointed as the second governor-general of Bengal, and he then became the effective ruler of British India under the authority of the Board of Control and the Court of Directors. The constitution set up by Pitt's India Act did not undergo any major changes until the end of the company's rule in India in 1858.\n\n",
+        "startdate" :"1784-01-01",
+        "enddate":"1784-01-01",
+        "timescale": "year",
+        "tags" : ["Colonial"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/Pitt%27s_India_Act"},{"name": "HIstory of India", "url": "http://www.indohistory.com/pitt's_india_act.html"}],
+        "events": ["Charter Act of 1813","Government of India Act","British Raj"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.225316,
+28.636315
+        ]
+      }
+    }
+  ]
+}

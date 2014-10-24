@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Second Boer War",
+        "short_description" : "The Second Boer War (Afrikaans: Tweede Vryheidsoorlog, literally 'Second Freedom War') was fought from 11 October 1899 until 31 May 1902 by the United Kingdom against the South African Republic and the Orange Free State.",
+        "description" : "The British war effort was supported by troops from all over the British Empire. The war ended in victory for Britain and the annexation of both republics. Both would eventually be incorporated into the Union of South Africa in 1910. The conflict is commonly referred to as simply the Boer War, since the First Boer War(December 1880 to March 1881) is much less well known. 'Boers' was the common term for Afrikaans-speaking settlers in southern Africa at the time.\n\nThe complex origins of the war resulted from more than a century of conflict between the Boers and the British Empire, but of particular immediate importance was the question as to which nation would control and benefit most from the very lucrative Witwatersrand gold mines.During the Napoleonic Wars, a British military expedition landed in the Cape Colony and defeated the defending Dutch forces at the Battle of Blaauwberg (1806).After the war, the British formally acquired the colony (1814), and encouraged immigration by British settlers who were largely at odds with the Dutch settlers. Many Boers who were dissatisfied with aspects of British administration, in particular with Britain's abolition of slavery on 1 December 1834, elected to migrate away from British rule in what became known as the Great Trek.\n\nThe Trekkers initially followed the eastern coast towards Natal and then, after Britain annexed the Natal in 1843, journeyed northwards towards the interior. There they established two independent Boer republics: the South African Republic (1852; also known as the Transvaal Republic) and the Orange Free State (1854). The British recognised the two Boer republics in 1852 and 1854, but attempted British annexation of the Transvaal in 1877 led to the First Boer War in 1880–81. After the British suffered defeats, particularly at the Battle of Majuba Hill (1881), the independence of the two republics was restored subject to certain conditions; relations, however, remained uneasy.\n\n\n\n\n\n",
+        "startdate" :"1899-10-11",
+        "enddate":"1902-05-31",
+        "timescale": "year",
+        "tags" : ["War"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/Second_Boer_War"},{"name": "Category: People of the Second Boer War", "url": "http://en.wikipedia.org/wiki/Category:People_of_the_Second_Boer_War"},{"name": "Boer foreign volunteers", "url": "http://en.wikipedia.org/wiki/Boer_foreign_volunteers"}],
+        "events": ["First Boer War","Berlin Conference"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.796785,
+-28.45411
+        ]
+      }
+    }
+  ]
+}
