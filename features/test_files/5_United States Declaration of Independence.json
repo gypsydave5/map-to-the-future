@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "United States Declaration of Independence",
+        "short_description" : "The Declaration of Independence is the statement adopted by the Continental Congress on July 4, 1776, which announced that the thirteen American colonies regarded themselves as thirteen newly independent sovereign states, and no longer a part of the British Empire.",
+        "description" : "The Declaration of Independence is the usual name of a statement adopted by the Continental Congress on July 4, 1776, which announced that the thirteen American colonies, then at war with Great Britain, regarded themselves as thirteen newly independent sovereign states, and no longer a part of the British Empire. Instead they formed a new nation—the United States of America. John Adams was a leader in pushing for independence, which was unanimously approved on July 2. A committee of five had already drafted the formal declaration, to be ready when Congress voted on independence. The term 'Declaration of Independence' is not used in the document itself.\n\nAdams persuaded the committee to select Thomas Jefferson to compose the original draft of the document, which Congress would edit to produce the final version. The Declaration was ultimately a formal explanation of why Congress had voted on July 2 to declare independence from Great Britain, more than a year after the outbreak of the American Revolutionary War. The national birthday, Independence Day, is celebrated on July 4, although Adams wanted July 2.\n\nAfter ratifying the text on July 4, Congress issued the Declaration of Independence in several forms. It was initially published as the printed Dunlap broadside that was widely distributed and read to the public. The source copy used for this printing has been lost, and may have been a copy in Thomas Jefferson's hand. Jefferson's original draft, complete with changes made by John Adams and Benjamin Franklin, and Jefferson's notes of changes made by Congress, are preserved at the Library of Congress. The most famous version of the Declaration, a signed copy that is popularly regarded as the official document, is displayed at the National Archives in Washington, D.C. This engrossed copy was ordered by Congress on July 19, and signed primarily on August 2.\n\nThe sources and interpretation of the Declaration have been the subject of much scholarly inquiry. The Declaration justified the independence of the United States by listing colonial grievances against King George III, and by asserting certain natural and legal rights, including a right of revolution. Having served its original purpose in announcing independence, references to the text of the Declaration were few for the next four score years. Abraham Lincoln made it the centerpiece of his rhetoric (as in the Gettysburg Address of 1863), and his policies. Since then, it has become a well-known statement on human rights, particularly its second sentence:\n\nWe hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these areLife, Liberty and the pursuit of Happiness.\n\n",
+        "startdate" :"1776-07-04",
+        "enddate":"1776-07-04",
+        "timescale": "year",
+        "tags" : ["Political"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/United_States_Declaration_of_Independence"},{"name": "Declaration of Independence at the National Archives", "url": "http://www.archives.gov/exhibits/charters/declaration.html"},{"name": "Declaration of Independence at the Library of Congress", "url": "http://www.loc.gov/rr/program/bib/ourdocs/DeclarInd.html"}],
+        "events": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.166667,
+39.95
+        ]
+      }
+    }
+  ]
+}

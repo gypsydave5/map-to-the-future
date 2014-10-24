@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Peace of Paris",
+        "short_description" : "The Peace of Paris of 1783 was the set of treaties which ended the American Revolutionary War. On 3 September 1783, representatives of King George III of Great Britain signed a treaty in Paris.",
+        "description" : "On 3 September 1783, representatives of King George III of Great Britain signed a treaty in Paris with representatives of the United States of America—commonly known as the Treaty of Paris (1783)—and two treaties at Versailles with representatives of King Louis XVI of France and King Charles III of Spain—commonly known as theTreaties of Versailles (1783). The previous day, a preliminary treaty had been signed with representatives of the States General of the Dutch Republic, but the final treaty which ended the Fourth Anglo-Dutch War was not signed until 20 May 1784; for convenience, however, it is included in the summaries below.\n\nThe British lost their Thirteen Colonies and the defeat marked the end of the First British Empire. The United States gained more than it expected, thanks to the award of western territory. The other Allies had mixed-to-poor results. France won a propaganda victory over Britain after its defeat in the Seven Years' War, but its material gains were minor (Tobago, Senegal and small territories in India) and its financial losses huge. It was already in financial trouble and its borrowing to pay for the war used up all its credit and created the financial disasters that marked the 1780s. Historians link those disasters to the coming of the French Revolution. The Dutch did not gain anything of significant value at the end of the war. The Spanish had a mixed result; they conquered British West Florida, but Gibraltar remained in British hands; in the long run, the new territory was of little or no value.",
+        "startdate" :"1783-09-03",
+        "enddate":"1783-09-03",
+        "timescale": "year",
+        "tags" : ["Political"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/Peace_of_Paris_(1783)"},{"name": "Encylopaedia Britannica", "url": "http://www.britannica.com/EBchecked/topic/443717/Peace-of-Paris"},{"name": "British Library", "url": "http://www.bl.uk/onlinegallery/features/americanrevolution/peaceparis.html"}],
+        "events": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.804404,
+          2.123162
+        ]
+      }
+    }
+  ]
+}

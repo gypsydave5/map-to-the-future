@@ -58,7 +58,9 @@ right: 0;
   .leaflet-sidebar.right {
   right: -100%; }
   .leaflet-sidebar.right.visible {
-  right: 0; }
+  right: 1%;
+  left: 1%;
+  }
   .leaflet-sidebar > .leaflet-control {
     box-shadow: none;
     -webkit-border-radius: 0;

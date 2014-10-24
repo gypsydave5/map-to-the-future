@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Slavery Abolition Act",
+        "short_description" : "The Slavery Abolition Act 1833 was an 1833 Act of the Parliament of the United Kingdom abolishing slavery throughout the British Empire. ",
+        "description" : "In 1772, Lord Mansfield's judgement in the Somersett's Case emancipated a slave in England, which helped launch the movement to abolish slavery. The case ruled that slavery was unsupported by law in England and no authority could be exercised on slaves entering English or Scottish soil. In 1785, English poet William Cowper wrote: ‘We have no slaves at home – Then why abroad? Slaves cannot breathe in England; if their lungs receive our air, that moment they are free. They touch our country, and their shackles fall. That's noble, and bespeaks a nation proud. And jealous of the blessing. Spread it then, And let it circulate through every vein.’ By 1783, an anti-slavery movement to abolish the slave trade throughout the Empire had begun among the British public.\n\nIn 1808, Parliament passed the Slave Trade Act of 1807, which outlawed the slave trade, but not slavery itself. The Royal Navy established the West Africa Squadron to suppress the Atlantic slave trade by patrolling the coast of West Africa. It did suppress the slave trade, but did not stop it entirely. It is possible that, when slave ships were in danger of being captured by the Royal Navy, some captains may have ordered the slaves to be thrown into the sea to reduce the fines they had to pay. Between 1808 and 1860, the West Africa Squadron captured 1,600 slave ships and freed 150,000 Africans. They resettled many in Jamaica and the Bahamas. In 1823, the Anti-Slavery Society was founded. Members included Joseph Sturge, Thomas Clarkson, William Wilberforce, Henry Brougham, Thomas Fowell Buxton, Elizabeth Heyrick, Mary Lloyd, Jane Smeal, Elizabeth Pease, and Anne Knight. William Wilberforce had prior written in his diary in 1787 that his great purpose in life was to suppress the slave trade before waging a 20 year fight on the industry.\n\nThe act passed parliament on 1 August 1833, three days before William Wilberforce died, and it abolished slavery a year later on 1 August 1834. In practical terms, only slaves below the age of six were freed in the colonies. Former slaves over the age of six were redesignated as ‘apprentices’, and their servitude was abolished in two stages; the first set of apprenticeships came to an end on 1 August 1838, while the final apprenticeships were scheduled to cease on 1 August 1840.\n\nThe Act provided for compensation for slave-owners who would be losing their property. The amount of money to be spent on the compensation claims was set at ‘the Sum of Twenty Millions Pounds Sterling’.Under the terms of the Act, the British government raised £20 million (£69.93 billion in 2013 pounds) to pay out in compensation for the loss of the slaves as business assets to the registered owners of the freed slaves. The names listed in the returns for slave compensation show that ownership was spread over many hundreds of British families, many of them of high social standing. For example, Henry Phillpotts (then the Bishop of Exeter), with three others (as trustees and executors of the will of John Ward, 1st Earl of Dudley), was paid £12,700 for 665 slaves in the West Indies, whilst Henry Lascelles, 2nd Earl of Harewood received £26,309 for 2,554 slaves on 6 plantations. The majority of men and women who were awarded compensation under the 1833 Abolition Act are listed in a Parliamentary Return, entitled Slavery Abolition Act, which is an account of all moneys awarded by the Commissioners of Slave Compensation in the Parliamentary Papers 1837–8 Vol. 48.\n\n",
+        "startdate" :"1833-08-01",
+        "enddate":"1834-08-01",
+        "timescale": "year",
+        "tags" : ["Political"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/Slavery_Abolition_Act_1833"},{"name": "Original Text of the Act", "url": "http://www.pdavis.nl/Legis_07.htm"}],
+        "events": ["Slave Trade Act"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1275,
+51.50722
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Berlin Conference",
+        "short_description" : "The Berlin Conference of 1884–85, also known as the Congo Conference or West Africa Conference, regulated European colonisation and trade in Africa during the New Imperialism period, and coincided with Germany's sudden emergence as an imperial power.",
+        "description" : "Before the conference, European diplomacy treated African indigenous people in the same manner as the New World natives, forming trading relationships with tribal chiefs. By the mid-19th century, Europeans considered Africa to be disputed territory ripe for exploration, trade, and settlement by their colonists. With the exception of trading posts along the coasts, the continent was essentially ignored.\n\nOwing to the European race for colonies, Germany started launching expeditions of its own, which frightened both British and French statesmen. Hoping to quickly soothe this brewing conflict, King Leopold II convinced France and Germany that common trade in Africa was in the best interests of all three countries. Under support from the British and the initiative of Portugal, Otto von Bismarck, German Chancellor, called on representatives of Austria-Hungary, Belgium, Denmark, France, the United Kingdom, Italy, the Netherlands, Portugal, Spain, Sweden-Norway (union until 1905), the Ottoman Empire and the United States to take part in the Berlin Conference in 1884 to work out joint policy on the African continent.\n\nCalled for by Portugal and organized by Otto von Bismarck, first Chancellor of Germany, its outcome, the General Act of the Berlin Conference, can be seen as the formalization of the Scramble for Africa. The conference ushered in a period of heightened colonial activity by European powers, which eliminated or overrode most existing forms of African autonomy and self-governance.\n\nThe General Act fixed various points, including: a resolution to end slavery by Black and Islamic powers; the 14 signatory powers would have free trade throughout the Congo Basin as well as Lake Niassa, and east of this in an area south of 5° N; the Niger and Congo rivers were made free for ship traffic; a Principle of Effectivity (based on ‘effective occupation’) was introduced to stop powers setting up colonies in name only; and any fresh act of taking possession of any portion of the African coast would have to be notified by the power taking possession, or assuming a protectorate, to the other signatory powers. The act also defined the regions in which each European power had an exclusive right to 'pursue' the legal ownership of land (legal in the eyes of the other European powers).\n\nThe principle of effective occupation stated that powers could acquire rights over colonial lands only if they possessed them or had 'effective occupation': in other words, if they had treaties with local leaders, if they flew their flag there, and if they established an administration in the territory to govern it with a police force to keep order. The colonial power could also make use of the colony economically. This principle became important not only as a basis for the European powers to acquire territorial sovereignty in Africa, but also for determining the limits of their respective overseas possessions, as effective occupation served in some instances as a criterion for settling disputes over the boundaries between colonies. But, as the Berlin Act was limited in its scope to the lands that fronted on the African coast, European powers in numerous instances later claimed rights over lands in the interior without demonstrating the requirement of effective occupation, as articulated in Article 35 of the Final Act.",
+        "startdate" :"1884-05-18",
+        "enddate":"1885-10-19",
+        "timescale": "year",
+        "tags" : ["Trade"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/Berlin_Conference"},{"name": "BBC Radio 4 - The Berlin Conference", "url": "http://www.bbc.co.uk/programmes/b03ffkfd"},{"name": "About.com - The Berlin Conference", "url": "http://geography.about.com/cs/politicalgeog/a/berlinconferenc.htm"}],
+        "events": ["Convention of Constantinople"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.404954,
+52.520007
+        ]
+      }
+    }
+  ]
+}

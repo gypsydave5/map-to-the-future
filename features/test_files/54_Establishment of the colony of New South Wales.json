@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Establishment of the colony of New South Wales",
+        "short_description" : "The colony of New South Wales was founded in 1788. It originally comprised a larger area of the Australian mainland also including Lord Howe Island, New Zealand, Norfolk Island and Van Diemen's Land.",
+        "description" : "The first British settlement was made by what is known in Australian history as the First Fleet; this was led by Captain Arthur Phillip, who assumed the role of governor of the settlement on arrival in 1788 until 1792.After years of chaos, anarchy and the overthrow of Governor William Bligh, a new governor, Lieutenant-Colonel (later Major-General) Lachlan Macquarie, was sent from Britain to reform the settlement in 1809. During his time as governor, Macquarie commissioned the construction of roads, wharves, churches and public buildings, sent explorers out from Sydney and employed a planner to design the street layout of Sydney. Macquarie's legacy is still evident today.During the 19th century, large areas were successively separated to form the British colonies of Tasmania (proclaimed as a separate colony named Van Diemen's Land in 1825), South Australia (1836), Victoria (1851) and Queensland (1859).Responsible government was granted to the New South Wales colony in 1855. Following the Treaty of Waitangi, William Hobson declared British sovereignty over New Zealand in 1840. In 1841, it was separated from the Colony of New South Wales to form the new Colony of New Zealand.Charles Darwin visited Australia in January 1836 and in The Voyage of the Beagle (chapter 19 of the 11th edition) records his hesitations about and fascination with New South Wales, including his speculations about the geological origin and formation of the great valleys, the aboriginal population, the situation of the convicts, and the future prospects of the country.",
+        "startdate" :"1788-12-10",
+        "enddate":"1788-12-10",
+        "timescale": "year",
+        "tags" : [""],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/New_South_Wales#1788_British_settlement"}],
+        "events": ["Treaty of Waitangi"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.20732,
+-33.86785
+        ]
+      }
+    }
+  ]
+}

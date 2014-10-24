@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Pax Britannica",
+        "short_description" : "Pax Britannica (Latin for 'British Peace', modelled after Pax Romana) was the period of relative peace in Europe and the world (1815–1914) during which the British Empire became the global hegemon (dominant power) and adopted the role of global policeman.",
+        "description" : "After losing the American colonies in the American Revolution, Britain turned towards Asia, the Pacific and later Africa with subsequent exploration leading to the rise of the Second British Empire (1783–1815). The industrial revolution began in Great Britain in the late 1700s and new ideas emerged about free markets, such as Adam Smith's The Wealth of Nations (1776). Free trade became a central principle that Britain practiced by the 1840s. It played a key role in Britain's economic growth and financial dominance.\n\nFrom the end of the Napoleonic Wars in 1815 until World War I in 1914, the United Kingdom played the role of global hegemon. Imposition of a 'British Peace' on key maritime trade routes began in 1815 with the annexation of British Ceylon (now Sri Lanka). The global superiority of British military and commerce was aided by a divided and relatively weak continental Europe, and the presence of the Royal Navy on all of the world's oceans and seas. Following the Congress of Vienna the British Empire's economic strength continued to develop through naval dominance and diplomatic efforts to maintain a balance of power in continental Europe.\n\nIn this era of peace, Britain provided services such as suppression of piracy and combating the slave trade. The Slave Trade Act 1807 banned the trade across the British Empire, after which the Royal Navy established the West Africa Squadron and the government negotiated international treaties to combat foreign slave traders. Sea power, however, did not project on land. Land wars fought between the major powers include the Crimean War, the Franco-Austrian War, the Austro-Prussian War and the Franco-Prussian War, as well as numerous conflicts between lesser powers. The Royal Navy prosecuted the First Opium War (1839–1842) and Second Opium War (1856–1860) against Imperial China. The Royal Navy was superior to any other two navies in the world, combined. Only Germany was a potential naval threat.\n\nBritain traded goods and capital extensively with countries around the world, adopting a free trade policy after 1840. The growth of British imperial strength was further underpinned by the steamship and the telegraph, new technologies invented in the second half of the 19th century, allowing it to control and defend the empire. By 1902, the British Empire was linked together by a network of telegraph cables, the so-called All Red Line.\n\nThe Pax Britannica was weakened by the breakdown of the continental order which had been established by the Congress of Vienna. Relations between the Great Powers of Europe were strained to breaking point by issues such as the decline of the Ottoman Empire, which led to the Crimean War, and later the emergence of new nation states in the form of Italy and Germany after the Franco-Prussian War. Both of these two wars involved Europe's largest states and armies. The industrialisation of Germany, the Empire of Japan, and the United States of America further contributed to the decline of British industrial supremacy following the late 19th century.",
+        "startdate" :"1815-06-17",
+        "enddate":"1914-09-02",
+        "timescale": "year",
+        "tags" : ["Political"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/Pax_Britannica"},{"name": "‘Pax Britannica’ by Carl P. Watts ", "url": "http://www.academia.edu/2013776/Pax_Britannica"}],
+        "events": ["First Opium War","Crimean War"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1275,
+51.50722
+        ]
+      }
+    }
+  ]
+}

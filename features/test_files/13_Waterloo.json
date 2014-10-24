@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Waterloo",
+        "short_description" : "The Battle of Waterloo was fought on Sunday, 18 June 1815, near Waterloo in present-day Belgium, then part of the United Kingdom of the Netherlands.",
+        "description" : "A French army under the command of Napoleon was defeated by the armies of the Seventh Coalition, comprising an Anglo-allied army under the command of the Duke of Wellington combined with a Prussian army under the command of Gebhard von Blücher.\n\nUpon Napoleon's return to power in March 1815, many states that had opposed him formed the Seventh Coalition and began to mobilise armies. Two large forces under Wellington and Blücher assembled close to the north-eastern border of France. Napoleon chose to attack in the hope of destroying them before they could join in a coordinated invasion of France with other members of the coalition. Waterloo was the decisive engagement of the Waterloo Campaign and Napoleon's last. According to Wellington, the battle was 'the nearest-run thing you ever saw in your life'. The defeat at Waterloo ended Napoleon's rule as Emperor of the French, and marked the end of his Hundred Days return from exile.\n\nNapoleon delayed giving battle until noon on 18 June to allow the ground to dry. Wellington's army, positioned across the Brussels road on the Mont-Saint-Jean escarpment, withstood repeated attacks by the French, until, in the evening, the Prussians arrived in force and broke through Napoleon's right flank. At that moment, Wellington's Anglo-allied army counter-attacked and drove the French army in disorder from the field. Pursuing coalition forces entered France and restored King Louis XVIII to the French throne. Napoleon abdicated, and travelled to Rochefort intending to flee France for the United States, but was persuaded to surrender to Captain Maitland of HMS Bellerophon, part of the British blockade, and was exiled to Saint Helena where he died in 1821.\n\nThe battlefield is located in Belgium, about 15 kilometres (9.3 mi) south of Brussels, and about 2 kilometres (1.2 mi) from the town of Waterloo. The site of the battlefield today is dominated by a large monument, theLion's Mound. As this mound was constructed from earth taken from the battlefield itself, the contemporary topography of the battlefield near the mound has not been preserved.",
+        "startdate" :"1815-06-18",
+        "enddate":"1815-06-18",
+        "timescale": "year",
+        "tags" : ["Military"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/Battle_of_Waterloo"},{"name": "Waterloo in popular culture", "url": "http://en.wikipedia.org/wiki/Waterloo_in_popular_culture"},{"name": "Timeline of the Napoleonic Era", "url": "http://en.wikipedia.org/wiki/Timeline_of_the_Napoleonic_era"}],
+        "events": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.03015099999993,
+53.474511
+        ]
+      }
+    }
+  ]
+}

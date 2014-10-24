@@ -1,0 +1,27 @@
+
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Acts of Union 1800",
+        "short_description" : "The Acts of Union 1800 (sometimes called the Acts of Union 1801) were two complementary Acts, namely: The Union with Ireland Act 1800, an Act of the Parliament of Great Britain, and The Act of Union (Ireland) 1800, an Act of the Parliament of Ireland",
+        "description" : "Passed on 2 July 1800 and 1 August 1800 respectively, the twin Acts united the Kingdom of Great Britain and theKingdom of Ireland to create the United Kingdom of Great Britain and Ireland. The union came into effect on 1 January 1801. Both Acts, though since amended, still remain in force in the United Kingdom.\n\nIn the Republic of Ireland the Union with Ireland Act 1800 (that passed in Great Britain) was not formally repealed until the passing by the Oireachtas of the Statute Law Revision Act 1983. The Act of Union (Ireland) 1800 (that passed in Ireland) was repealed in 1962.",
+        "startdate" :"1800-07-02",
+        "enddate":"1800-08-01",
+        "timescale": "year",
+        "tags" : ["Political"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/Acts_of_Union_1800"}],
+        "events": ["Slave Trade Act"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.24889,
+53.33306
+        ]
+      }
+    }
+  ]
+}
