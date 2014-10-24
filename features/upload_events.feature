@@ -21,5 +21,5 @@ Feature: Uploading data
         And I am on the homepage
         When I move the slider to 1903
         And I click on the event
-        And I click on the "Linked Event" tab
+        And I click on the "linked-events" tab
         Then I should see "Somewhere in Greenland"
