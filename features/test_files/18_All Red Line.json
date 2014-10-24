@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "All Red Line",
+        "short_description" : "Inaugurated on 31 October 1902, The All Red Line was an informal name for the system of electrical telegraphs that linked much of the British Empire.",
+        "description" : "Some parts of the line were completed considerably earlier. The first transatlantic cable connected Ireland and Newfoundland in 1858, although it later failed. In 1866, the Great Eastern laid out a lasting link from Valentia Island, in Ireland, to Newfoundland. By 1870, Suez was linked to Bombay and from there to Madras, Penang and Singapore. Australia was linked to British telegraph cables directly in 1870, by extending a line from Singapore to Port Darwin, although it ran through the Dutch territory of Java. By 1872, messages could be sent direct from London to Adelaide and Sydney. Australia was linked to New Zealand by cable in 1876.\n\nTo complete the All Red Line, therefore, the final major cable laying project was the trans-Pacific section. A resolution supporting such a project was passed by the First Colonial Conference in 1887 and more detailed plans were approved at the 1894 Colonial Conference in Ottawa which was called specifically on the topic of the cable project. The ‘Pacific Cable Committee’ was formed in 1896 to consider the proposal and in 1901 the ‘Pacific Cable Board’ was formed with eight members: three from Britain, two from Canada, two from Australia and one from New Zealand. Funding for the project was shared between the British, Canadian, New Zealand, New South Wales, Victorian and Queensland governments. In 1902 the Colonia, a newly built cable vessel, began laying the 8000 tonnes of cable needed to complete the Bamfield, Canada, to Fanning Island section of the cable. The final cost was around 2 million pounds.\n\n\n\nOriginally, the British government felt the All Red system should have sea-landings only on British controlled soil for security purposes. Due to this, Britain was actively seeking to acquire Fanning Island to use it as a midpoint of power regeneration between Western Canada and Australia on the trans-Pacific Ocean branch of the system.\n\nIn 1911 the Committee on Imperial Defence stated in a report that the All Red Line was complete. The network had so many redundancies that 49 cuts would be needed to isolate the United Kingdom; 15 for Canada; and 5 for South Africa. Many colonies such as South Africa and India also had many land lines. Britain also possessed the majority of the world's underwater-telegraph deployment and repair equipment and expertise, and a monopoly of the gutta-percha insulation for underwater lines. The 1911 report stated that the Imperial Wireless Chain should only be a ‘valuable reserve’ to the All Red Line, because enemies could interrupt or intercept radio messages. Despite its great cost the telegraph network succeeded in its purpose; British communications remained uninterrupted during World War I, while Britain quickly succeeded in cutting Germany's worldwide network.",
+        "startdate" :"1902-10-31",
+        "enddate":"1902-10-31",
+        "timescale": "year",
+        "tags" : ["Trade"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/All_Red_Line"},{"name": "History of the Atlantic Cable", "url": "http://atlantic-cable.com/Maps/index.htm"},{"name": "The All Red Line: The Annals and Aims of the Pacific Cable Project", "url": "https://archive.org/details/allredlineannals00johnuoft"}],
+        "events": ["Pax Britannica"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1275,
+51.50722
+        ]
+      }
+    }
+  ]
+}
