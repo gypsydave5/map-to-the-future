@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Anglo-Russian Entente",
+        "short_description" : "Signed on August 31, 1907, in St. Petersburg, Russia, the Anglo-Russian Convention of 1907 brought shaky British-Russian relations to the forefront by solidifying boundaries that identified respective control in Persia, Afghanistan, and Tibet.",
+        "description" : "This agreement seemingly ended a long-standing struggle for power that had gone on at the expense of less-developed regions throughout Central Asia. Though these imperial powers had experienced relatively few major conflicts between them over the previous hundred years, an underlying rivalry, otherwise known as “the Great Game”, had exacerbated the situation to such an extent that resolution was sought by the early 20th century. As a consequence of the Anglo-Russian agreement, they crushed any chance of Persian autonomy.\n\nThe idea of a reformed Persian state was not what these powers had in mind; they enjoyed both stability and control in Persia and planned to keep it that way. Overall, the Convention represented a carefully calculated move on each power's part in which they chose to value a powerful alliance over potential sole control over various parts of Central Asia.\n\n\n\n\n\n\n\n",
+        "startdate" :"1907-08-31",
+        "enddate":"1907-08-31",
+        "timescale": "year",
+        "tags" : ["Political"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/Anglo-Russian_Entente"},{"name": "Avalon Project: Anglo-Russian Entente", "url": "http://avalon.law.yale.edu/20th_century/angrusen.asp"}],
+        "events": ["The Great Game","Franco-Russian Alliance"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.2641667,
+59.8944444
+        ]
+      }
+    }
+  ]
+}

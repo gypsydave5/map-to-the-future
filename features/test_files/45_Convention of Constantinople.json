@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Convention of Constantinople",
+        "short_description" : "The Convention of Constantinople was a treaty signed by the United Kingdom, Germany, Austro-Hungary, Spain, France, Italy, the Netherlands, Russian Empire and the Ottoman Empire on October 29, 1888.",
+        "description" : "In the 1880s Britain had recently acquired physical control over the Suez Canal and Egypt. France, which had dominated the Canal and still controlled the majority of shares of Suez Canal Company, hoped to weaken British control and attempted to sway European opinion in favor of internationalizing the Canal. The two powers compromised by neutralizing the canal by this treaty. Article I, guaranteeing passage to all ships during war and peace was in tension with Article X, which allowed the Khedive to take measures for ‘the defence of Egypt and the maintenance of public order.’ The latter clause was used to defend their actions by the British in the Second World War and by Egypt against Israeli shipping after 1948. However, Britain accepted the treaty reluctantly and only with serious reservations.\n\nFrance accepted the reservation, but in accordance with international law at the time, noted that this made the treaty a ‘technically inoperative’ ‘academic declaration’. The reservation was only removed by the Entente Cordiale between Britain and France, and the convention finally came into force in 1904. The Entente stipulated that the functioning of the international supervisory commission described in article 8 would ‘remain in abeyance’. However, for the next forty years, British actions would be largely in the spirit of the abandoned reservation.\n\nOn August 5, 1914 at the beginning of the First World War, Egypt declared that the canal would be open to ships of all nations, but Britain converted its occupation into a British Protectorate, and barred Canal access to enemy ships. Citing the security of the Canal, Britain attempted to maintain its prerogatives in unilateral declarations.\n\nThe signatories comprised all the great European powers at the time, and the treaty was interpreted as a guaranteed right of passage of all ships through the Suez Canal during war and peace.\n\n\n\n",
+        "startdate" :"1888-10-29",
+        "enddate":"1888-10-29",
+        "timescale": "year",
+        "tags" : ["Trade"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/Convention_of_Constantinople"},{"name": "Encyclopaedia Brittanica", "url": "http://www.britannica.com/EBchecked/topic/134065/Constantinople-Convention"},{"name": "Constantinople Convention - PDF format", "url": "http://www-rohan.sdsu.edu/dept/polsciwb/brianl/docs/1888ConstantinopleConventionon.pdf"}],
+        "events": ["Pax Britannica","Battle of the Nile"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.97696,
+41.00527
+        ]
+      }
+    }
+  ]
+}

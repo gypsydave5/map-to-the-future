@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "First Anglo Afghan War",
+        "short_description" : "The First Anglo-Afghan War (also known as Auckland's Folly) was fought between the British East India Company and Afghanistan from 1839 to 1842. It is famous for the killing of 4,500 British and Indian soldiers, plus 12,000 of their camp followers, by Afghan tribal fighters, but the British defeated the Afghans in the concluding engagement.",
+        "description" : "The First Anglo-Afghan War (also known as Auckland's Folly) was fought between the British East India Company and Afghanistan from 1839 to 1842. It is famous for the killing of 4,500 British and Indian soldiers, plus 12,000 of their camp followers, by Afghan tribal fighters, but the British defeated the Afghans in the concluding engagement. It was one of the first major conflicts during the Great Game, the 19th century competition for power and influence in Asia between the United Kingdom and the Russian Empire.\n\nIn the 1830s the British Empire was firmly entrenched in India, but by 1837 Lord Palmerstonand John Hobhouse, fearing the instability of Afghanistan, the Sindh, and the increasing power of the Sikh kingdom to the north, raised the spectre of a possible Russian invasion of India through Afghanistan. The Russian Empire was slowly extending its domain into Central Asia, and this was seen as an encroachment south that might prove fatal for the British Company rule in India. The British sent an envoy to Kabul to form an alliance with Afghanistan's Emir,Dost Mohammad Khan against Russia.\n\nRussia, wanting to increase its presence in South and Central Asia, had formed an alliance with Persia, which had territorial disputes with Afghanistan as Herat had been part of the Safavids before 1709. Lord Auckland's plan was to drive away the besiegers and replace the ruler of Afghanistan with one who was pro-British, Shuja Shah Durrani.\n\nThe British denied that they were invading Afghanistan, claiming they were merely supporting its 'legitimate' Shuja government 'against foreign interference and factious opposition.'\n\n\n\n",
+        "startdate" :"1839-06-12",
+        "enddate":"1842-10-14",
+        "timescale": "year",
+        "tags" : ["War"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/First_Anglo-Afghan_War"},{"name": "First Afghan War (Battle of Ghuznee)", "url": "http://britishbattles.com/first-afghan-war/ghuznee.htm"},{"name": "First Afghan War (Battle of Kabul 1842)", "url": "http://britishbattles.com/first-afghan-war/kabul-1842.htm"}],
+        "events": ["South African Republic"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          ,
+
+        ]
+      }
+    }
+  ]
+}

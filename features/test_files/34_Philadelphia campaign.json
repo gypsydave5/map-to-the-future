@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Philadelphia campaign",
+        "short_description" : "The Philadelphia campaign (1777–1778) was a British initiative in the American Revolutionary War to gain control of Philadelphia, which was then the seat of the Second Continental Congress. ",
+        "description" : "British General William Howe, after unsuccessfully attempting to draw the Continental Army under General George Washington into a battle in northern New Jersey, embarked his army on transports, and landed them at the northern end of Chesapeake Bay. From there, he advanced northward toward Philadelphia. Washington prepared defenses against Howe's movements at Brandywine Creek, but was flanked and beaten back in the Battle of Brandywine on September 11, 1777. After further skirmishes and maneuvers, Howe was able to enter and occupy Philadelphia. Washington then unsuccessfully attacked one of Howe's garrisons at Germantown before retreating to Valley Forge for the winter.\n\nHowe's campaign was controversial because, although he successfully captured the American capital of Philadelphia, he proceeded slowly and did not aid the concurrent campaign of John Burgoyne further north, which ended in disaster at Saratoga for the British, and brought France into the war. General Howe resigned during the occupation of Philadelphia and was replaced by his second-in-command, General Sir Henry Clinton. Clinton evacuated the troops from Philadelphia back to New York City in 1778 in order to increase that city's defenses against a possible Franco-American attack. Washington harried the British army all the way across New Jersey, and successfully forced a battle at Monmouth Court House that was one of the largest battles of the war.\n\nAt the end of the campaign the two armies were roughly in the same positions they were at its beginning.\n\n\n\n\n\n",
+        "startdate" :"1777-02-12",
+        "enddate":"1778-12-22",
+        "timescale": "year",
+        "tags" : ["War"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/Philadelphia_campaign"},{"name": "USHistory.org - Index of the Philadelphia Campaign", "url": "http://www.ushistory.org/March/phila/index.htm"},{"name": "Explore PA History", "url": "http://explorepahistory.com/story.php?storyId=1-9-7"}],
+        "events": ["Saratoga campaign","New York and New Jersey Campaign","Treaty of Paris"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.16379,
+39.95234
+        ]
+      }
+    }
+  ]
+}
