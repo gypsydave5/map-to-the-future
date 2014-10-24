@@ -99,18 +99,25 @@ footer {
   color: #e69524;
 }
 
-@media all and (max-height: 600px) {
-  #date-wrapper {
-
-  }
+@media all and (max-height: 800px) {
   #date-line {
     display: none;
   }
   #date {
+    line-height: 200%;
     margin: auto;
   }
 }
 
+@media all and (max-width: 600px) {
+  #date-line {
+    display: none;
+  }
+  #date {
+    line-height: 200%;
+    margin: auto;
+  }
+}
 
 /*=============
     MAP
@@ -226,4 +233,9 @@ footer {
 
 .leaflet-sidebar.close {
   background-color: transparent;
+}
+
+.spacer {
+  width: 100%;
+  height: 5em;
 }
