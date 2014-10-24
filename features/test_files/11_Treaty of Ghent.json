@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Treaty of Ghent",
+        "short_description" : "The Treaty of Ghent (8 Stat. 218), signed on December 24, 1814 in the Flemish city of Ghent, was the peace treaty that ended the War of 1812 between the United States of Americaand the United Kingdom of Great Britain and Ireland.",
+        "description" : "The treaty restored relations between the two nations to status quo ante bellum — that is, it restored the borders of the two countries to the line before the commencement of hostilities. The Treaty was ratified by Parliament on December 30, 1814 and signed into law by the Prince Regent (the future King George IV). Because of the era's lack of telecommunications, it took weeks for news of the peace treaty to reach the United States. American forces under Andrew Jackson won the Battle of New Orleans on January 8, 1815. The Treaty of Ghent was not in effect until it was ratified by theU.S. Senate unanimously on February 18, 1815.\n\nAfter the abdication of Napoleon in April 1814 British public opinion demanded major gains in the war against the United States. The senior American representative in London told Secretary of State James Monroe:\n\nAfter rejecting Russian proposals to broker peace negotiations, Britain reversed course in 1814. With the defeat of Napoleon the main British goals of stopping American trade with France and impressment of sailors from American ships were dead letters. Negotiations were held in Ghent, Kingdom of the Netherlands, starting in August, 1814. The Americans sent top leaders, including Henry Clay, John Quincy Adams and Albert Gallatin, while the British sent minor officials who kept in close touch with their (much closer) superiors in London.\n\nOn December 24, 1814, the members of the British and American negotiating teams signed and affixed their individual seals to the document. It didn't end the war itself—that required formal ratification by their governments, which came in February 1815.The treaty released all prisoners and restored all captured lands and ships. Returned to the United States were approximately 10,000,000 acres (40,000 km2) of territory, near Lakes Superior and Michigan, and in Maine.American-held areas of Upper Canada (present-day Ontario) were returned to British control. The treaty thus made no significant changes to the prewar boundaries, although the U.S. did gain territory from Spain. Britain promised to return the freed black slaves that they had taken. In actuality, a few years later Britain instead paid the United States $1,204,960 for them. Both nations also promised to work towards an ending of the international slave trade.",
+        "startdate" :"1814-12-24",
+        "enddate":"1814-12-24",
+        "timescale": "year",
+        "tags" : ["Political"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/Treaty_of_Ghent"},{"name": "War of 1812 Timeline", "url": "http://www.pbs.org/wned/war-of-1812/timeline/"},{"name": "Treaty of Ghent association", "url": "http://www.treatyofghent.org/"}],
+        "events": ["Constitutional Act 1791"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.71667,
+        51.05
+        ]
+      }
+    }
+  ]
+}

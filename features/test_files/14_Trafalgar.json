@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Trafalgar",
+        "short_description" : "The Battle of Trafalgar (21 October 1805) was a naval engagement fought by the Royal Navy against the combined fleets of the French and Spanish Navies, during the War of the Third Coalition (August–December 1805) of the Napoleonic Wars (1803–1815).",
+        "description" : "The battle was the most decisive naval victory of the war. Twenty-seven British ships of the line led by Admiral Lord Nelson aboard HMS Victory defeated thirty-three French and Spanish ships of the line under French Admiral Pierre-Charles Villeneuve off the southwest coast of Spain, just west of Cape Trafalgar. The Franco-Spanish fleet lost twenty-two ships, without a single British vessel being lost.\n\nThe British victory spectacularly confirmed the naval supremacy that Britain had established during the eighteenth century and was achieved in part through Nelson's departure from the prevailing naval tactical orthodoxy, which involved engaging an enemy fleet in a single line of battle parallel to the enemy to facilitate signalling in battle and disengagement, and to maximise fields of fire and target areas. Nelson instead divided his smaller force into two columns directed perpendicularly against the larger enemy fleet, with decisive results.\n\nNelson was mortally wounded during the battle, becoming one of Britain's greatest war heroes. The commander of the joint French and Spanish forces, Admiral Villeneuve, was captured along with his shipBucentaure. Spanish Admiral Federico Gravina escaped with the remnant of the fleet and succumbed months later to wounds sustained during the battle.\n\nFollowing the battle, the Royal Navy was never again seriously challenged by the French fleet in a large-scale engagement. Napoleon had already abandoned his plans of invasion before the battle and they were never revived. The battle did not mean, however, that the French naval challenge to Britain was over. First, as the French control over the continent expanded, Britain had to take active steps with the Battle of Copenhagen in 1807 and elsewhere in 1808 to prevent the ships of smaller European navies from falling into French hands. This effort was largely successful, but did not end the French threat as Napoleon instituted a large scale shipbuilding programme that produced a fleet of 80 ships of the line at the time of his fall from power in 1814, with more under construction. In comparison Britain had 99 ships of the line in active commission in 1814, and this was close to the maximum that could be supported. Given a few more years, the French could have realised their plans to commission 150 ships of the line and again challenge the Royal Navy, compensating for the inferiority of their crews with sheer numbers. For almost 10 years after Trafalgar, the Royal Navy maintained a close blockade of French bases and anxiously observed the growth of the French fleet. In the end, Napoleon's Empire was destroyed before the ambitious buildup could be completed.",
+        "startdate" :"1805-10-21",
+        "enddate":"1805-10-21",
+        "timescale": "year",
+        "tags" : ["Military"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/Battle_of_Trafalgar"},{"name": "Educational presentation by Guardian Unlimited", "url": "http://www.theguardian.com/flash/0,5860,1504015,00.html"},{"name": "Nelson's Memorandum – battle plan – in the British Library", "url": "http://www.bl.uk/onlinegallery/onlineex/histtexts/nelson/"}],
+        "events": ["Waterloo"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -125.1258,
+46.16993
+        ]
+      }
+    }
+  ]
+}
