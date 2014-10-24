@@ -1,0 +1,27 @@
+
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Siege of Badajoz",
+        "short_description" : "In the Siege of Badajoz (16 March – 6 April 1812), also called the Third Siege of Badajoz, an Anglo-Portuguese Army, under General Arthur Wellesley (later the Duke of Wellington), besieged Badajoz, Spain and horsed the surrender of theFrench garrison.",
+        "description" : "The siege was one of the bloodiest in the Napoleonic Wars and was considered a costly victory by the British, with some 4,800 Allied soldiers killed in a few short hours of intense fighting during the storming of the breaches as the siege drew to an end. Enraged at the huge amount of casualties they suffered in seizing the city, the troops broke into houses and stores consuming vast quantities of liquor with many of them then going on a rampage. Threatening their officers and ignoring their commands to desist, and even killing several, the troops massacred as many as 4,000 Spanish civilians. It took three days before the men were brought back into order.\n\n\n\n\n\n\n\n\n\n",
+        "startdate" :"1812-03-16",
+        "enddate":"1812-04-06",
+        "timescale": "year",
+        "tags" : ["Military"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/Siege_of_Badajoz_(1812)"},{"name": "About.com - Military History", "url": "http://militaryhistory.about.com/od/battleswars1800s/p/badajoz.htm"},{"name": "WFR Museum", "url": "http://www.wfrmuseum.org.uk/Badajoz.htm"}],
+        "events": ["Peninsular War"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.9876791,
+38.87938
+        ]
+      }
+    }
+  ]
+}

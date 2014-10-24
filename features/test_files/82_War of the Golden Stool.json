@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "War of the Golden Stool",
+        "short_description" : "The War of the Golden Stool, also known the Ashanti Uprising was the final war in a series of conflicts between the British Imperial government of the Gold Coast (Ghana) and the Empire of Ashanti.",
+        "description" : "When the Ashanti began rebelling against British rule, the British attempted to put down the unrest. Furthermore, the British governor, Sir Frederick Mitchell Hodgson, demanded that the Asante turn over to the British the Golden Stool, i.e. the throne and a symbol of Asante sovereignty.\n\nThe war ended with the Ashanti maintaining its de facto independence. Even though the Ashanti were annexed into the British Empire, they ruled themselves with little reference to the colonial power. However, when the British colony of the Gold Coast became the first independent, sub-Saharan African country in 1957, Ashanti was subsumed into the newly created Ghana. This war was the last conflict in Africa in which one of the sides was commanded by a woman.\n\nKumasi was annexed into the British empire; however, the Ashanti still largely governed themselves. They gave little to no deference to colonial authorities. The Ashanti were successful in their pre-war goal to protect the Golden Stool. But, the following year, the British arrested numerous chiefs, including the Queen Mother of Ejisu, Yaa Asantewaa, were arrested and exiled to the Seychelles, not allowing them to return for 25 years. By that time many had died, including Yaa Asantewaa. Kumasi City retains a memorial to this war and several large colonial residences. It and the rest of the former Gold Coast, eventually became part of Ghana.\n\nThe war cost the British and their allies 1,007 fatalities in total. The Ashanti casualties are estimated to be around 2,000. The British never did capture the Golden Stool; it was hidden deep in the forests for the duration of the war. The British continued to seek it until 1920. Shortly after this, it was accidentally uncovered by a team of laborers. They took the golden ornaments that adorned the stool, which made it powerless in the eyes of the Ashanti. An Ashanti court sentenced the laborers to death for their desecration, but British officials intervened, and arranged for their exile instead.\n\n\n\n",
+        "startdate" :"1900-03-01",
+        "enddate":"1900-09-01",
+        "timescale": "year",
+        "tags" : ["Military"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/War_of_the_Golden_Stool"},{"name": "BBC World Service", "url": "http://www.bbc.co.uk/worldservice/africa/features/storyofafrica/4chapter6.shtml"}],
+        "events": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6667,
+1.6167
+        ]
+      }
+    }
+  ]
+}

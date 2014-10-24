@@ -1,0 +1,27 @@
+
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Great Famine of 1876-78",
+        "short_description" : "The Great Famine of 1876–78 (also the Southern India famine of 1876–78 or the Madras famine of 1877) was a famine in India that began in 1876 and affected south and southwestern India (Madras, Mysore, Hyderabad, and Bombay) for a period of two years.",
+        "description" : "In its second year famine also spread north to some regions of the Central Provinces and the North-Western Provinces, and to a small area in the Punjab. The famine ultimately covered an area of 257,000 square miles (670,000 km2) and caused distress to a population totaling 58,500,000. The death toll from this famine is estimated to be in the range of 5.5 million people.\n\nIn part, the Great Famine may have been caused by an intense drought resulting in crop failure in the Deccan Plateau. However, the commodification of grain, and the cultivation of alternate cash crops also may have played a role, as could have the export of grain by the colonial government; during the famine the viceroy, Lord Lytton, oversaw the export to England of a record 6.4 million hundredweight of wheat.\n\nThe famine occurred at a time when the colonial government was attempting to reduce expenses on welfare. Earlier, in the Bihar famine of 1873–74, severe mortality had been avoided by importing rice from Burma. However, the Government of Bengal and its Lieutenant-Governor, Sir Richard Temple, were criticized for excessive expenditure on charitable relief. Sensitive to any renewed accusations of excess in 1876, Temple, who was now Famine Commissioner for the Government of India, insisted not only on a policy of laissez faire with respect to the trade in grain, but also on stricter standards of qualification for relief and on more meager relief rations. Two kinds of relief were offered: 'relief works' for able-bodied men, women, and working children, and gratuitous (or charitable) relief for small children, the elderly, and the indigent.\n\nThe mortality in the famine was in the range of 5.5 million people. The excessive mortality and the renewed questions of 'relief and protection' that were asked in its wake, led directly to the constituting of the Famine Commission of 1880 and to the eventual adoption of the Provisional Famine Code in British India. After the famine, a large number of agricultural laborers and handloom weavers in South India emigrated to British tropical colonies to work as indentured laborers in plantations. The excessive mortality in the famine also neutralized the natural population growth in the Bombay and Madras presidencies during the decade between the first and second censuses of British India in 1871 and 1881 respectively. The famine lives on in the Tamil and other literary traditions. A large number of Kummi folk songs describing this famine have been documented.\n\nThe Great Famine was to have a lasting political impact on events in India. Among the British administrators in India who were unsettled by the official reactions to the famine and, in particular by the stifling of the official debate about the best form of famine relief, were William Wedderburn and A. O. Hume. Less than a decade later, they would found the Indian National Congress and, in turn, influence a generation of Indian nationalists. Among them were Dadabhai Naoroji and Romesh Chunder Dutt for whom the Great Famine would become a cornerstone of the economic critique of the British Raj.\n\n",
+        "startdate" :"1876-01-01",
+        "enddate":"1878-01-01",
+        "timescale": "year",
+        "tags" : ["Culture"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/Great_Famine_of_1876–78"},{"name": "Late Victorian Holocausts", "url": "http://en.wikipedia.org/wiki/Late_Victorian_Holocausts"}],
+        "events": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0839,
+80.27
+        ]
+      }
+    }
+  ]
+}

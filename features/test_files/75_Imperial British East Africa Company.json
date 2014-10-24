@@ -1,0 +1,27 @@
+
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Imperial British East Africa Company",
+        "short_description" : "The Imperial British East Africa Company (IBEAC) was the administrator of British East Africa, which was the forerunner of the East Africa Protectorate, later Kenya.",
+        "description" : "The IBEAC was a commercial association founded to develop African trade in the areas controlled by the British colonial power. Created after the Berlin Treaty of 1885, it was led by William Mackinnon and built upon his company's trading activities in the region, with the encouragement of the British government through the granting of an imperial charter - although it remained unclear what this actually meant. It granted immunity of prosecution to British subjects whilst allowing them the right to raise taxes, impose custom duties, administer justice, make treaties and otherwise act as the government of the area.\n\nMombasa and its harbour were central to its operations, with an administrative office about 50 miles (80 km) south in Shimoni. The company was incorporated in London on 18 April 1888, and granted a royal charter by Queen Victoria on 6 September 1888.\n\nIn the early 1880s, European powers began rushing to obtain unclaimed territories within areas of interest in Africa. One of these areas, the Sultanate of Zanzibar and the interior of Eastern Africa, caught the attention of both Germany and Britain. Hoping to resolve this common interest in a peaceful manner, in 1886, Germany and Britain signed a treaty in which they agreed upon what lands they would exclusively pursue. Germany would lay claim to the coast of present day Tanzania and Britain retained access to the area in which Kenya and Uganda lie.\n\nThe British East Africa Company ultimately proved to be an ineffective attempt at allowing commercial businesses local administrative rights. Inevitably, in 1894, the British government declared a protectorate over Uganda effectively dissolving IBEAC and assuming full responsibility.\n\n\n\n",
+        "startdate" :"1888-04-18",
+        "enddate":"1895-07-01",
+        "timescale": "year",
+        "tags" : ["Trade"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/Imperial_British_East_Africa_Company"},{"name": "Kenyaology", "url": "http://www.kenyalogy.com/eng/info/histo9.html"}],
+        "events": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.05,
+39.6667
+        ]
+      }
+    }
+  ]
+}

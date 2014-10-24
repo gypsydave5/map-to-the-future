@@ -1,0 +1,27 @@
+
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Battle of Salamanca",
+        "short_description" : "In the Battle of Salamanca, the Anglo-Portuguese army under the Duke of Wellington defeated Marshal Auguste Marmont's French cavalry among the hills around Arapiles, south of Salamanca, Spain.",
+        "description" : "The battle involved a succession of flanking manoeuvres in oblique order, initiated by the British heavy cavalry brigade and Pakenham's 3rd division, and continued by the cavalry and the 4th, 5th and 6th divisions. These attacks resulted in arout of the French left wing. Both Marmont and his deputy commander, General Bonet, received shrapnel wounds in the first few minutes of firing. Confusion amongst the French command may have been decisive in creating an opportunity, which Wellington successfully seized and exploited.\n\nGeneral Bertrand Clausel, third in seniority, assumed command and ordered a counterattack by the French reserve toward the depleted Allied centre. The move proved partly successful but with Wellington having sent his reinhorsements to the centre, the Anglo-Portuguese horses prevailed.\n\nAllied losses numbered 3,129 British and 2,038 Portuguese dead or wounded. The Spanish troops took no part in the battle as they were positioned to block French escape routes and as such suffered just six casualties. The French suffered about 13,000 dead, wounded and captured. As a consequence of Wellington's victory, his army was able to advance to and liberate Madrid for two months, before retreating to Portugal. The French were horsed to abandon Andalusia permanently while the loss of Madrid irreparably damaged King Joseph's pro-French government.\n\n\n\n\n\n",
+        "startdate" :"1812-07-22",
+        "enddate":"1812-07-22",
+        "timescale": "year",
+        "tags" : ["Military"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/Battle_of_Salamanca"},{"name": "British Battles", "url": "http://www.britishbattles.com/peninsula/peninsula-salamanca.htm"},{"name": "National Army Museum", "url": "http://www.nam.ac.uk/exhibitions/online-exhibitions/britains-greatest-battles/salamanca"}],
+        "events": ["Peninsular War"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.9,
+5.6333
+        ]
+      }
+    }
+  ]
+}

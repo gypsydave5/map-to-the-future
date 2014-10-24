@@ -1,0 +1,27 @@
+
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Mary Carpenter",
+        "short_description" : "Mary Carpenter (3 April 1807 – 14 June 1877) was an English educational and social reformer. The daughter of a Unitarian minister, she founded a ragged school and reformatories, bringing previously unavailable educational opportunities to poor children and young offenders in Bristol.",
+        "description" : "She published articles and books on her work and her lobbying was instrumental in the passage of several educational acts in the mid-nineteenth century. She was the first woman to have a paper published by the Statistical Society of London.[1] She addressed many conferences and meetings and became known as one of the foremost public speakers of her time. Carpenter was active in the anti-slavery movement; she also visited India, visiting schools and prisons and working to improve female education, establish reformatory schools and improve prison conditions. In later years she visited Europe and America, carrying on her campaigns of penal and educational reform.\n\nCarpenter was born in 1807, in Exeter, the first child of Lant Carpenter, a Unitarian minister in Exeter, and Anna (or Hannah) Penn. In 1817 the family moved to Bristol, where her father took charge of the Lewin's Mead Unitarian meeting house. In 1833 she met Ram Mohan Roy, a founder of the Brahmo Samaj movement which reformed social Hinduism, and was influenced by his philosophy during his short stay with Miss Castle and Miss Kiddel at Beech House in Stapleton before Roy died of meningitis in September of that year. Later that year she also met Joseph Tuckerman, an American Unitarian who had founded the Ministry-at-Large to the Poor in Boston, Massachusetts. He is said to have directly inspired her start on the path of social reform, partly by a chance remark made when walking with Carpenter through a slum district of Bristol.\n\nIn 1866 Carpenter visited India, which had been an ambition of hers since her meeting with Raja Ram Mohan Roy in 1833. She visited Calcutta, Madras and Bombay, finding that for the most part girls were not educated past the age of twelve years, mainly due to a lack of educated female teachers. During her visit Carpenter met Keshab Chandra Sen, the leader of Brahmo Samaj. Sen asked her to form an organisation in Britain to improve communication between British and Indian reformers, which she did in 1870, establishing the National Indian Association. She visited many schools, hospitals and gaols and encouraged both Indian and British colonial administrators to improve and fund these. She was particularly concerned that the lack of good female education led to a shortage of women teachers, nurses and prison attendants.\n\nShe also participated in the inauguration of the Bengal Social Science Association, and addressed a paper to the governor-general on proposals for female education, reformatory schools and improving the conditions of gaols. She returned to India in 1868 and achieved funding to set up a Normal School to educate female Indian teachers. In 1875 she made a final visit and was able to see many of her schemes in operation. She also presented proposals to for Indian prison reform to the Secretary of the Indian Government.\n\n\n\n",
+        "startdate" :"1807-04-03",
+        "enddate":"1877-06-14",
+        "timescale": "year",
+        "tags" : ["Culture"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/Mary_Carpenter#India"},{"name": "Dictionary of National Biography", "url": "http://en.wikisource.org/wiki/Carpenter,_Mary_(DNB00)"}],
+        "events": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5667,
+88.3667
+        ]
+      }
+    }
+  ]
+}

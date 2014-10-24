@@ -1,0 +1,27 @@
+
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Suez Canal",
+        "short_description" : "The Suez Canal is an artificial sea-level waterway in Egypt, connecting the Mediterranean Sea and the Red Sea. Opened in November 1869 after 10 years of construction, it allows ships to travel between Europe and eastern Asia without navigating around Africa.",
+        "description" : "In 1854 and 1856 Ferdinand de Lesseps obtained a concession from Sa'id Pasha, the Khedive of Egypt and Sudan, to create a company to construct a canal open to ships of all nations. The company was to operate the canal for 99 years from its opening. De Lesseps had used his friendly relationship with Sa'id, which he had developed while he was a French diplomat in the 1830s. As stipulated in the concessions, de Lesseps convened the International Commission for the piercing of the isthmus of Suez (Commission Internationale pour le percement de l'isthme des Suez) consisting of 13 experts from seven countries, among them John Robinson McClean, later President of the Institution of Civil Engineers in London, and again Negrelli, to examine the plans of Linant de Bellefonds and to advise on the feasibility of and the best route for the canal. After surveys and analyses in Egypt and discussions in Paris on various aspects of the canal, where many of Negrelli's ideas prevailed, the commission produced a unanimous report in December 1856 containing a detailed description of the canal complete with plans and profiles.The Suez Canal Company (Compagnie universelle du canal maritime de Suez) came into being on 15 December 1858 and work started on the shore of the future Port Said on 25 April 1859.\n\nThe canal opened on 17 November 1869. Although numerous technical, political, and financial problems had been overcome, the final cost was more than double the original estimate. The opening was performed by Khedive Isma'il Pasha of Egypt and Sudan, and at Ismail's invitation French Empress Eugenie in the Imperial yacht Aigle piloted by Napoléon Coste, who was bestowed by the Khedive the Ottoman Order of the Medjidie. The first ship through the canal was the British P&O liner Delta. Although L'Aigle was officially the first vessel through the canal, HMS Newport, captained by George Nares, passed through it first. On the night before the canal was due to open, Captain Nares navigated his vessel, in total darkness and without lights, through the mass of waiting ships until it was in front of L'Aigle. When dawn broke the French were horrified to find that the Royal Navy was first in line and that it would be impossible to pass them. Nares received both an official reprimand and an unofficial vote of thanks from the Admiralty for his actions in promoting British interests and for demonstrating such superb seamanship.\n\nThe canal had an immediate and dramatic effect on world trade. Combined with the American transcontinental railroad completed six months earlier, it allowed the world to be circled in record time. It played an important role in increasing European colonisation of Africa. The construction of the canal was one of the reasons for the Panic of 1873, because goods from the Far East were carried in sailing vessels around the Cape of Good Hope and were stored in British warehouses. As sailing vessels were not adaptable for use through the canal, because the prevailing winds of the Mediterranean blow from west to east, British entrepôt trade suffered. External debts forced Said Pasha's successor, Isma'il Pasha, to sell his country's share in the canal for £4,000,000 (about £85.9 million in 2013) to the United Kingdom in 1875, but French shareholders still held the majority. Prime Minister Benjamin Disraeli was accused by William Ewart Gladstone of undermining Britain's constitutional system, because he had not referred to, or obtained consent from Parliament when purchasing the shares with funding from the Rothschilds.\n\nThe Convention of Constantinople in 1888 declared the canal a neutral zone under the protection of the British, who had occupied Egypt and Sudan at the request of Khedive Tewfiq to suppress the Urabi Revolt against his rule. They defended the strategically important passage against a major Ottoman attack in 1915, during the First World War. Under the Anglo-Egyptian Treaty of 1936, the UK retained control over the canal. In 1951 Egypt repudiated the treaty, and in October 1954 the UK agreed to remove its troops. Withdrawal was completed on 18 July 1956.\n\n\n\n",
+        "startdate" :"1869-11-17",
+        "enddate":"1869-11-17",
+        "timescale": "year",
+        "tags" : ["Trade"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/Suez_Canal"},{"name": "Suez Canal Authority", "url": "http://www.suezcanal.gov.eg"},{"name": "Encylopedia of the Orient", "url": "http://i-cias.com/e.o/suez_can.htm"}],
+        "events": ["Convention of Constantinople","Battle of the Nile"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.705,
+32.3442
+        ]
+      }
+    }
+  ]
+}

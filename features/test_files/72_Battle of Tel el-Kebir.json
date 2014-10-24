@@ -1,0 +1,27 @@
+
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Battle of Tel el-Kebir",
+        "short_description" : "The Battle of Tel el-Kebir or el-Tal el-Kebir was fought between the Egyptian army and the British military. After discontented Egyptian officers rebelled in 1882, the United Kingdom reacted to protect its financial and expansionist interests in the country particularly the Suez Canal.",
+        "description" : "On May 20, a combined Anglo-French fleet arrived at Alexandria. At the same time, Egyptian troops were reinforcing the coastal defenses of the city in anticipation of an attack. These events heightened tension in Alexandria, and eventually triggered violent riots with loss of life on both sides. As a result of the riots, an ultimatum was sent to the Egyptian government demanding they order Urabi's officers in Alexandria to dismantle their coast defense batteries. The Egyptian government refused. Meanwhile, tension increased between Britain and France over the crisis, as most of the losses had been non-French, and the principal European beneficiaries of the revolution would be the French. Thus, the French government refused to support this ultimatum and decided against armed intervention.\n\nWhen the ultimatum was ignored, British Admiral Seymour gave the order for the British fleet to bombard the Egyptian gun emplacements in Alexandria. On July 11 at 7:00 am, the first shell was fired at Fort Adda by HMS Alexandra (1875) and by 7:10, the entire fleet was engaged. The coastal defenses returned fire soon after, with minimal effect and minimal casualties to the British fleet. No British ships were sunk. On July 13, a large British naval force landed in the city. Despite heavy resistance from the garrison for several hours, the overwhelming superiority of the smaller British forces eventually forced the Egyptian troops to withdraw from the city.\n\nUrabi had retreated in the battle, and with no organised forces left to him, he and his National Party's officials surrendered to the cavalry. Wolseley and his senior officers arrived in Cairo by train the next day. Khedive Tawfiq was formally reinstated twelve days later. Urabi was later sentenced to death, but for fear of sparking further uprisings, the sentence was commuted and he was exiled to Ceylon (now Sri Lanka). The British subsequently granted training and new investment under British tutelage to Egypt as a means of mollifying Urabi's National Party.\n\nHowever, the financing, training, and infrastructure improving granted by the British government included guarantees and concessions made by Tawfiq which were meant to protect British and European lives and property. Amongst these guarantees including a British military presence which marked the start of a permanent British military garrison in Egypt, including the appointment of British Army officers as commanders of the Egyptian Army. The latter, which had been the centrality of Egyptian government since the medieval time of the Mamlukes, was reorganized, disciplined according to British standards, reformed of corruption, and slowly given British trained Egyptian officers and non-commissioned officers.\n\nAlthough strict British military occupation of Egypt ended in 1937 as the result of the Treaty of December 1936 by which British forces withdrew to the Canal Zone and to the naval base in Alexandria, the British and Egyptian relationship established through the Khedive and the Egyptian Army lasted until 1954. Nonetheless, with the withdrawal of British military and influence from Egypt and the region as a result of pressure by the United States of America and the Soviet Union, the British trained officer corps of Egypt retained its traditional role as the centrality of Egyptian government well into the 21st century, thereby providing a continuity of government noticeably absent in other Arabic nations.\n\n",
+        "startdate" :"1882-09-13",
+        "enddate":"1882-09-13",
+        "timescale": "year",
+        "tags" : ["Military"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/Battle_of_Tel_el-Kebir"},{"name": "On War", "url": "http://onwar.com/aced/chrono/c1800s/yr80/fegypt1882b.htm"}],
+        "events": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.5456,
+31.7781
+        ]
+      }
+    }
+  ]
+}

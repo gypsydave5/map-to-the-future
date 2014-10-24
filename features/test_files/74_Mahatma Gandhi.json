@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Mahatma Gandhi",
+        "short_description" : "Mohandas Karamchand Gandhi (2 October 1869 – 30 January 1948) was the preeminent leader of Indian independence movement in British-ruled India.",
+        "description" : "Employing nonviolent civil disobedience, Gandhi led India to independence and inspired movements for civil rights and freedom across the world. The honorific Mahatma (Sanskrit: 'high-souled', 'venerable')—applied to him first in 1914 in South Africa—is now used worldwide. He is also called Bapu (Gujarati: endearment for 'father', 'papa') in India.\n\nBorn and raised in a Hindu merchant caste family in coastal Gujarat, western India, and trained in law at the Inner Temple, London, Gandhi first employed nonviolent civil disobedience as an expatriate lawyer in South Africa, in the resident Indian community's struggle for civil rights. After his return to India in 1915, he set about organising peasants, farmers, and urban labourers to protest against excessive land-tax and discrimination. Assuming leadership of the Indian National Congress in 1921, Gandhi led nationwide campaigns for easing poverty, expanding women's rights, building religious and ethnic amity, ending untouchability, but above all for achieving Swaraj or self-rule.\n\nGandhi famously led Indians in challenging the British-imposed salt tax with the 400 km (250 mi) Dandi Salt March in 1930, and later in calling for the British to Quit India in 1942. He was imprisoned for many years, upon many occasions, in both South Africa and India. Gandhi attempted to practise nonviolence and truth in all situations, and advocated that others do the same. He lived modestly in a self-sufficient residential community and wore the traditional Indian dhoti and shawl, woven with yarn hand spun on a charkha. He ate simple vegetarian food, and also undertook long fasts as the means to both self-purification and social protest.\n\nGandhi's vision of a free India based on religious pluralism, however, was challenged in the early 1940s by a new Muslim nationalism which was demanding a separate Muslim homeland carved out of India. Eventually, in August 1947, Britain granted independence, but the British Indian Empire was partitioned into two dominions, a Hindu-majority India and Muslim Pakistan. As many displaced Hindus, Muslims, and Sikhs made their way to their new lands, religious violence broke out, especially in the Punjab and Bengal. Eschewing the official celebration of independence in Delhi, Gandhi visited the affected areas, attempting to provide solace. In the months following, he undertook several fasts unto death to promote religious harmony. The last of these, undertaken on 12 January 1948 at age 78, also had the indirect goal of pressuring India to pay out some cash assets owed to Pakistan. Some Indians thought Gandhi was too accommodating. Among them was Nathuram Godse, a Hindu nationalist, who assassinated Gandhi on 30 January 1948 by firing three bullets into his chest at point-blank range.\n\nIndians widely describe Gandhi as the father of the nation. His birthday, 2 October, is commemorated as Gandhi Jayanti, a national holiday, and world-wide as the International Day of Nonviolence.\n\n",
+        "startdate" :"1869-10-02",
+        "enddate":"1948-01-20",
+        "timescale": "year",
+        "tags" : ["Culture"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/Mahatma_Gandhi"},{"name": "Gandhi Heritage Portal", "url": "https://www.gandhiheritageportal.org"}],
+        "events": ["Government of India Act"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.2167,
+72.6833
+        ]
+      }
+    }
+  ]
+}

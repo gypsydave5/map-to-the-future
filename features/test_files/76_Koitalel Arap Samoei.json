@@ -1,0 +1,27 @@
+
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Koitalel Arap Samoei",
+        "short_description" : "Koitalel Arap Samoei (1860 – October 19, 1905) was an Orkoiyot, the supreme chief of the Nandi people of Kenya, who led the Nandi resistance against the British colonial rule.",
+        "description" : "Koitalel Arap Samoei followed his father Kimnyole as the Orkoiyot and was enthroned in 1885. When British colonials began building the Uganda Railway through the Nandi area, he led an eleven-year resistance movement against the railway. On October 19, 1905, he was invited by British Col. Richard Meinertzhagen under the guise of negotiating a truce, and was instead murdered along with his companions.\n\n\n\n\n\n\n\n\n\n",
+        "startdate" :"1860-01-01",
+        "enddate":"1905-01-01",
+        "timescale": "year",
+        "tags" : ["Military"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/Koitalel_Arap_Samoei"},{"name": "East African", "url": "http://www.theeastafrican.co.ke/magazine/-/434746/498556/-/155uvka/-/index.html"}],
+        "events": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3863,
+77.7009
+        ]
+      }
+    }
+  ]
+}

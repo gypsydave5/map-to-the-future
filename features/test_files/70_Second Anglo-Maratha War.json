@@ -1,0 +1,27 @@
+
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Second Anglo-Maratha War",
+        "short_description" : "The Second Anglo-Maratha War (1803–1805) was the second conflict between the British East India Company and the Maratha Empire in India.",
+        "description" : "The Second Anglo-Maratha War (1803–1805) was the second conflict between the British East India Company and the Maratha Empire in India.The overarching ambition of Raghunathrao, Peshwa Baji Rao II's father, and the latter's own incompetence since coming into his inheritance, had long caused much internecine intrigue within the Maratha confederacy; Peshwa Baji Rao II no longer commanded the deference his predecessors had.\n\nIn October 1802, Peshwa Baji Rao II was defeated by Yashwantrao Holkar, ruler of Indore, at the Battle of Poona. He fled to British protection, and in December the same year concluded the Treaty of Bassein with the British East India Company, ceding territory for the maintenance of a subsidiary force and agreeing to treaty with no other power. The British also had to check the French influence in India.\n\nThe Marathas were the only major power left outside British control. With the fall of Mysore as a serious threat to British expansion in the south, Major-general Arthur Wellesley turned attention towards the Marathas. The Maratha empire at that time consisted of a confederacy of five big chiefs, viz the Peshwa at Poona, Gaekwad of Baroda, Sindhia of Gwalior, Holkar of Indore,Bhonsle of Nagpur,and Veni Singh Kiledar of Gavilgarh. The Maratha chiefs were engaged in internal quarrels among themselves. Wellesley had repeatedly offered a subsidiary treaty to the Peshwa and Sindhia but Nana Fadnavis refused strongly. However in 1802 when Holkar defeated the combined armies of Peshwa and Sindhia, Peshwa Baji Rao II signed the Subsidiary treaty at Bassein in 1802.\n\nThis act on the part of the Peshwa, their nominal overlord, horrified and disgusted the Maratha chieftains; in particular, the Scindia rulers of Gwalior and the Bhonslerulers of Nagpur and Berar contested the agreement.\n\nn September 1803, Scindia forces lost to Lord Gerard Lake at Delhi and to Lord Arthur Wellesley at Assaye. British artillery pounded ancient ruins used by Scindia forces as forward operating bases, eroding their control. A few months later in November, Lake defeated another Scindia force at Laswari, followed by Wellesley's victory over Bhonsle,Veni Singh forces at Argaon (now Adgaon) on 29 November 1803. The Holkar rulers of Indore belatedly joined the fray and compelled theBritish to make peace. Wellesley, who went on to defeat Napoleon at Waterloo, would later remark that Assaye was tougher than Waterloo.\n\n",
+        "startdate" :"1803",
+        "enddate":"1805",
+        "timescale": "year",
+        "tags" : ["War"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/Second_Anglo-Maratha_War"}],
+        "events": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.887396,
+20.245126
+        ]
+      }
+    }
+  ]
+}

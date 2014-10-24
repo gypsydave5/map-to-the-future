@@ -1,0 +1,27 @@
+
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Gertrude Bell",
+        "short_description" : "Gertrude Margaret Lowthian Bell, CBE (14 July 1868 – 12 July 1926) was an English writer, traveller, political officer, administrator, archaeologist and spy.",
+        "description" : "Bell explored, mapped, and became highly influential to British imperial policy-making due to her skill and contacts, built up through extensive travels in Greater Syria, Mesopotamia, Asia Minor, and Arabia. Along with T. E. Lawrence, Bell helped establish the Hashemite dynasties in what is today Jordan as well as in Iraq.\n\nShe played a major role in establishing and helping administer the modern state of Iraq, utilising her unique perspective from her travels and relations with tribal leaders throughout the Middle East. During her lifetime she was highly esteemed and trusted by British officials and given an immense amount of power for a woman at the time. She has been described as 'one of the few representatives of His Majesty's Government remembered by the Arabs with anything resembling affection'.\n\nBell was born on 14 July 1868 in Washington Hall, County Durham, England – now known as Dame Margaret Hall – to a family whose wealth enabled her travels. She is described as having 'reddish hair and piercing blue-green eyes, with her mother's bow shaped lips and rounded chin, her father’s oval face and pointed nose'. Her personality was characterised by energy, intellect, and a thirst for adventure which shaped her path in life. Her grandfather was the ironmaster Sir Isaac Lowthian Bell, an industrialist and a Liberal Member of Parliament, in Benjamin Disraeli's second term. His role in British policy-making exposed Gertrude at a young age to international matters and most likely encouraged her curiosity for the world, and her later involvement in international politics.\n\nGertrude Bell is remembered in Iraq in the twenty-first century. The British diplomat, travel writer and Member of Parliament Rory Stewart wrote that: 'When I served as a British official in southern Iraq in 2003, I often heard Iraqis compare my female colleagues to "Gertrude Bell." It was generally casual flattery, and yet the example of Bell and her colleagues was unsettling. More than ten biographies have portrayed her as the ideal Arabist, political analyst, and administrator.'\n\n\n\n",
+        "startdate" :"1868-07-14",
+        "enddate":"1926-07-12",
+        "timescale": "year",
+        "tags" : ["Culture"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/Gertrude_Bell"},{"name": "Gertrude Bell Project", "url": "http://www.gerty.ncl.ac.uk"},{"name": "National Pubic Radio", "url": "http://www.npr.org/templates/story/story.php?storyId=5552563"}],
+        "events": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.325,
+44.422
+        ]
+      }
+    }
+  ]
+}

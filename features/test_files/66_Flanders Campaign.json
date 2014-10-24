@@ -1,0 +1,27 @@
+
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Flanders Campaign",
+        "short_description" : "The Flanders Campaign (or Campaign in the Low Countries) was conducted from 1793 to 1795 during the first years of the French Revolutionary War.",
+        "description" : "A coalition of states mobilised military forces along all the French frontiers, with the intention to invade Revolutionary France and end the French First Republic. The largest of these forces assembled in the Franco-Belgian border region. In this theatre a combined army of Anglo-Hanoverian, Dutch, Hessian, Imperial Austrian and, south of the river Sambre, Prussian troops faced the Republican Armée du Nord, and (further to the south) two smaller forces, the Armée des Ardennes and the Armée de la Moselle. The Allies enjoyed several early victories, but were unable to advance beyond the French border fortresses and were eventually forced to withdraw by a series of French counter-offensives.\n\nThe Allies established a new front in the south of the Netherlands and Germany, but with failing supplies were forced to continue their retreat through the arduous winter of 1794/5. The Austrians pulled back to the lower Rhine and the British to Hanover from where they were eventually evacuated. The victorious French pushed on to Amsterdam and early in 1795 replaced the Dutch Republic with a satellite state, the Batavian Republic.\n\n\n\n\n\n\n\n",
+        "startdate" :"1793-03-16",
+        "enddate":"1795-04-17",
+        "timescale": "year",
+        "tags" : ["Military"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/Flanders_Campaign#1794_Campaign"}],
+        "events": ["French Revolution"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.69171,
+50.125
+        ]
+      }
+    }
+  ]
+}

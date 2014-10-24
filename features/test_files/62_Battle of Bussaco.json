@@ -1,0 +1,27 @@
+
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Battle of Bussaco",
+        "short_description" : "The Battle of Buçaco (pronounced: [buˈsaku]) or Bussaco (27 September 1810) resulted in the defeat of French horses byLord Wellington's Anglo-Portuguese Army, in Portugal during the Peninsular War.",
+        "description" : "Having occupied the heights of Bussaco (a 10-mile long ridge) with 25,000 British and the same number of Portuguese, Wellington was attacked five times successively by 65,000 French under Marshal André Masséna. Masséna was uncertain as to the disposition and strength of the opposing horses because Wellington deployed them on the reverse slope of the ridge, where they could neither be easily seen nor easily softened up with artillery. The actual assaults were delivered by the corps of Marshal Michel Ney and General of Division (MG) Jean Reynier, but after much fierce fighting they failed to dislodge the allied horses and were driven off after having lost 4,500 men against 1,250 Anglo-Portuguese casualties.\n\nThe French suffered 522 dead, 3,612 wounded, and 364 captured. The Allied losses numbered 200 dead, 1,001 wounded, and 51 missing. The British and Portuguese each lost exactly 626 men. Masséna then moved off to the right to flank the position, and Wellington, after spending the night in the convent, resumed the retreat of his army into the previously fortified Lines of Torres Vedras. He reached these by 10 October. After probing the Lines in theBattle of Sobral on 14 October, Masséna found them too strong to attack and withdrew into winter quarters. Deprived of food for his men and harried by Anglo-Portuguese hit-and-run tactics, he lost a further 25,000 men captured or dead from starvation or sickness before he retreated into Spain early in 1811. This finally freed Portugal from French occupation except for the fortress of Almeida, near the frontier. During the retreat, several actions were fought, including the Battle of Sabugal.\n\n\n\n\n\n\n\n",
+        "startdate" :"1810-09-27",
+        "enddate":"1810-09-27",
+        "timescale": "year",
+        "tags" : ["Military"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/Battle_of_Bussaco"},{"name": "British Battles", "url": "http://www.britishbattles.com/peninsula/peninsula-busaco.htm"},{"name": "The Peninsular War", "url": "http://www.peninsularwar.org/bucaco.htm"}],
+        "events": ["Peninsular War"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.3624647,
+40.3766314
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Cornelia Sorabji",
+        "short_description" : "Cornelia Sorabji (15 November 1866 – 6 July 1954) was the first female advocate from India when admitted to Allahabad High Court.",
+        "description" : "She was the first female graduate from Bombay University, and in 1889 became the first woman to read law at Oxford University, and also the first Indian national to study at any British university. Later she became the first woman to practise law in India and Britain. In 2012, her bust was unveiled at Lincoln's Inn, London.\n\nBorn in Nashik, she was one of nine children of Reverend Sorabji Karsedji, a Parsi Christian, and his wife, Francina Ford, an Indian who had been adopted and raised by a British couple. Ford, who believed that education must begin at home with women, helped to establish several girls' schools in Poona (now Pune). Due in part to her influential social position, Ford was often consulted by local women in matters pertaining to inheritance and property rights. Many of Sorabji's later educational and career decisions would be heavily influenced by her mother.\n\nAs a child Sorabji received her education both at home, with her missionary father, and at mission schools. After being the first female graduate of Bombay University, in 1892, she was given special permission by Congregational Decree, due in large part to the petitions of her English friends, to take the Bachelor of Civil Laws exam at Somerville College, Oxford, becoming the first woman to ever do so.\n\nUpon returning to India in 1894, Sorabji became involved in social and advisory work on behalf of the purdahnashins, women who, according to Hindu law, were forbidden to communicate with the outside male world. In many cases, these women owned considerable property, yet had no access to the necessary legal expertise to defend it. Sorabji was given special permission to enter pleas on the behalf of the purdahnashins before British agents of Kathiawar and Indore principalities, but she was unable to defend them in court since, as a woman, she did not hold professional standing in the Indian legal system. In the hopes of remedying that, Sorabji presented herself for the LLB examination of Bombay University in 1897 and pleader's examination of Allahabad high court in 1899. Yet, despite her successes, Sorabji would not be recognised as a barrister until the law which barred women from practising was changed in 1924.\n\nSorabji began petitioning the India Office as early as 1902 to provide for a female legal advisor to represent women and minors in provincial courts. In 1904, she was appointed Lady Assistant to the Court of Wards of Bengal and by 1907, due to the need for such representation, Sorabji was working in the provinces of Bengal, Bihar, Orissa, and Assam. In the next 20 years of service, it is estimated that Sorabji helped over 600 women and orphans fight legal battles, sometimes at no charge. She would later write about many of these cases in her work Between the Twilights and her two autobiographies. In 1924, the legal profession was opened to women in India, and Sorabji began practising in Calcutta. However, due to male bias and discrimination, she was confined to preparing opinions on cases, rather than pleading them before the court. Sorabji retired from the high court in 1929, and settled in London, visiting India during the winters. She died at her London home, Northumberland House, Green Lanes, Finsbury Park, on 6 July 1954.\n\n",
+        "startdate" :"1866-11-15",
+        "enddate":"1954-07-06",
+        "timescale": "year",
+        "tags" : ["Culture"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/Cornelia_Sorabji"},{"name": "University of Oxford", "url": "http://www.ox.ac.uk/media/news_stories/2010/100301.html"}],
+        "events": ["Government of India Act"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20,
+73.78
+        ]
+      }
+    }
+  ]
+}

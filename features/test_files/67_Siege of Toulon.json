@@ -1,0 +1,27 @@
+
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Siege of Toulon",
+        "short_description" : "After the arrest of the Girondist deputies on the 31 May 1793, there followed a series of insurrections within the French cities of Lyon, Avignon, Nîmes and Marseille.",
+        "description" : "In Toulon, the revolutionaries evicted the existing Jacobinfaction but were soon supplanted by the more numerous royalists. Upon the announcement of the recapture of Marseille and of the reprisals which had taken place there at the hands of the revolutionaries, the royalist forces, directed by the Baron d'Imbert, called for aid from the Anglo-Spanish fleet. On 28 August, Admiral Sir Samuel Hoodof the Royal Navy and Admiral Juan de Lángara of the Spanish Navy, committed a force of 13,000 British, Spanish,Neapolitan and Piedmontese troops to the French royalists' cause. This was a serious blow to the arms of the republic, as it was a key naval arsenal of the country. If France were to lose this port, there was no hope for her naval ambitions. Which would mean by proxy that any ambition to challenge the Allies, and specifically the British, for control of the seas would be out of the question. Not only that, but its loss could set a dangerous precedent for other areas that menaced the republic with revolt. The survival of the Republic was at stake. On 1 October, Baron d'Imbert proclaimed the young Louis XVII to be king of France, and hoisted the French royalist flag of the fleur de lys, delivering the town of Toulon to the British navy.\n\nThe troops of the army said to be of the 'Carmagnoles', under the command of General Jean François Carteaux, arrived at Toulon on 8 September, after those troops had recovered Avignon and Marseille, and then Ollioules. They joined up with the 6,000 men of the Alpine Maritime Army, commanded by General Jean François Cornu de La Poype, who had just taken La Valette-du-Var, and sought to take the forts of Mount Faron, which dominated the city to the East. They were reinforced by 3,000 sailors under the orders of Admiral de Saint Julien, who refused to serve the British with his chief, Trogoff. A further 5,000 soldiers under General La Poype were attached to the army to retake Toulon from the Army of Italy.\n\nThe Chief of Artillery, commander Elzear Auguste Donmartin, having been wounded at Ollioules, had the young captain Napoleon Bonaparte imposed upon him by the special representatives of the Convention and Napoleon's friends —Augustin Robespierre and Antoine Christophe Saliceti. Bonaparte had been in the area escorting a convoy of powder wagons en route to Nice and had stopped in to pay his respects to his fellow Corsican, Saliceti. Bonaparte had been present in the army since the Avignon insurrection (July, 1793), and was imposed on Donmartin in this way despite the mutual antipathy between the two men.\n\nDespite the mutual dislike between Bonaparte and his commanding officer, the young artillery officer was able to muster an artillery force that was worthy of a siege of Toulon and the fortresses that were quickly built by England in its immediate environs. He was able to requisition equipment and cannon from the surrounding area. Guns were taken from Marseilles, Avignon and the Army of Italy. The local populace, which was eager to prove its loyalty to the republic which it had recently rebelled against, was blackmailed into supplying the besieging force with animals and supplies. His activity resulted in the acquisition of 100 guns for the force. With the help of his friends, the deputies Saliceti and Augustin Robespierre, who held power of life and death, he was able to compel retired artillery officers from the area to re-enlist. The problem of manning the guns was not remedied by this solution alone, and under Bonaparte's intensive training he instructed much of the infantry in the practice of employing, deploying and firing the artillery that his efforts had recently acquired.\n\nHowever, in spite of this effort, Bonaparte was not as confident about this operation as was later his custom. The officers serving with him in the siege were incompetent, and he was becoming concerned about the needless delays due to these officers' mistakes. He was so concerned that he wrote a letter of appeal to the Committee of Public Safety requesting assistance. To deal with his superiors who were wanting in skill, he proposed the appointment of a general for command of the artillery, succeeding himself, so that '... (they could) command respect and deal with a crowd of fools on the staff with whom one has constantly to argue and lay down the law in order to overcome their prejudices and make them take steps which theory and practice alike have shown to be axiomatic to any trained officer of this corps'.\n\n",
+        "startdate" :"1793-09-18",
+        "enddate":"1793-12-18",
+        "timescale": "year",
+        "tags" : ["Military"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/Siege_of_Toulon"}],
+        "events": ["French Revolution"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.93333,
+43.11667
+        ]
+      }
+    }
+  ]
+}

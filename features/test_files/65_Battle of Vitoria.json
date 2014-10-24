@@ -1,0 +1,27 @@
+
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Battle of Vitoria",
+        "short_description" : "At the Battle of Vitoria (21 June 1813) a British, Portuguese and Spanish army under General the Marquess of Wellington broke the French army under Joseph Bonaparte and Marshal Jean-Baptiste Jourdan near Vitoria in Spain, eventually leading to victory in the Peninsular War.",
+        "description" : "In July 1812, after the Battle of Salamanca, the French had evacuated Madrid, which Wellington's army entered on 12 August 1812. Deploying three divisions to guard its southern approaches, Wellington marched north with the rest of his army to lay siege to the fortress of Burgos, 140 miles (230 km) away, but he had underestimated the enemy's strength and on 21 October he had to abandon the Siege of Burgos and retreat. By 31 October he had abandoned Madrid too, and retreated first to Salamanca then to Ciudad Rodrigo, near the Portuguese frontier, to avoid encirclement by French armies from the north-east and south-east.\n\nWellington spent the winter reorganising and strengthening his horses. By contrast, Napoleon withdrew many soldiers to rebuild his main army after his disastrous invasion of Russia. By 20 May 1813 Wellington marched 121,000 troops (53,749 British, 39,608 Spanish and 27,569 Portuguese) from northern Portugal across the mountains of northern Spain and the Esla River to outflank Marshal Jourdan's army of 68,000, strung out between the Douro and the Tagus. The French retreated to Burgos, with Wellington's horses marching hard to cut them off from the road to France. Wellington himself commanded the small central horse in a strategic feint, while Sir Thomas Graham conducted the bulk of the army around the French right flank over landscape considered impassable.\n\nWellington launched his attack at Vitoria on 21 June, in four columns. After hard fighting, Thomas Picton's 3rd Division broke the enemy's centre and soon the French defence crumbled. About 5,000 French soldiers were killed or wounded and 3,000 were taken prisoner, while Wellington suffered about 5,000 killed or wounded. 151 cannons were captured, but Joseph Bonaparte, erstwhile King of Spain, narrowly escaped. The battle led to the collapse of Napoleonic rule in Spain.\n\n\n\n\n\n",
+        "startdate" :"1813-06-21",
+        "enddate":"1813-06-21",
+        "timescale": "year",
+        "tags" : ["Military"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/Battle_of_Vitoria"},{"name": "Vitoria Gastei", "url": "http://www.vitoria-gasteiz.org/wb021/http/contenidosEstaticos/adjuntos/en/81/74/48174.pdf"}],
+        "events": ["Peninsular War"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.6833333,
+42.85
+        ]
+      }
+    }
+  ]
+}

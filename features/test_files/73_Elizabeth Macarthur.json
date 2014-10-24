@@ -1,0 +1,27 @@
+
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Elizabeth Macarthur",
+        "short_description" : "Elizabeth Macarthur (14 August 1766 – 9 February 1850) was an Anglo-Australian pastoralist and merchant. Her contribution was essential to the success of the enterprise and establishing New South Wales as a reliable supplier of quality wool",
+        "description" : "Macarthur was born in Bridgerule, Devon, England, the daughter of provincial farmers, Richard and Grace Veale, of Cornish origin. Her father died when she was 7; her mother remarried when she was 11, leaving Elizabeth in the care of her grandfather John and friends. Elizabeth married Plymouth soldier John Macarthur in 1788. With her newborn son Edward, she accompanied John and his regiment, the New South Wales Corps, to the recently established colony of New South Wales in 1790, travelling as part of the Second Fleet.\n\nElizabeth was the first soldier's wife to arrive in New South Wales. Being educated, articulate and well read, her letters provide an important record of the infant convict town of Sydney and colonial life. She enjoyed a privileged position in society and 'held court amongst officers of the New South Wales Corps, naval officers and members of the colonial administration'. John was made Commandant at Parramatta and received land grants near there, at Rosehill, naming his property Elizabeth Farm after his wife. John became paymaster to the New South Wales Corps and director of public works. Elizabeth's respectability and charm was in contrast to her husbands disputatious nature and meant that she and her children retained a good social standing despite John's many controversial actions in the following years. However, Governor Phillip was the only governor she associated with, as her husband's business activities and actions later were 'too controversial for any governor to seek the company of the Macarthur family'. Elizabeth's work centred on her family, the education of her children and the management of a modest household. From nine pregnancies, seven children survived childhood. Her sons, Edward, John, James and William, made worthy contributions to colonial governance, agriculture, politics and trade. Her eldest daughter Elizabeth remained unmarried, despite at least two 'offers' declined by her parents. Her younger daughters Mary and Emmeline married into colonial families. Elizabeth died in 1850, having first been estranged from her husband as his melancholia and paranoia deepened, and then surviving him by sixteen years. She was an Anglican.\n\nBetween 1801 and 1805, John was living in England, first avoiding an arrest warrant for his role in the Rum rebellion of January 1808, and then because he refused to accept the terms for his return to New South Wales which were that he promise to be of good behaviour, etc. During this period, Elizabeth oversaw the family estates at Parramatta, Camden, Seven Hills and Pennant Hills. This included the management of household and business accounts, the employment of convict labour, the supervision of wool washing, baling and transport and the selection of rams and breeding to improve the flock. While John expressed his gratitude and admiration in her ability to cope, her irregular and inadequate correspondence was of constant concern. Nonetheless, her contribution was essential to the success of the enterprise and establishing New South Wales as a reliable supplier of quality wool. In England, John used his flair to promote the Australian wool industry while Elizabeth used her organisational ability and application to produce the wool.\n\n\n\n\n\n",
+        "startdate" :"1766-08-14",
+        "enddate":"1850-02-09",
+        "timescale": "year",
+        "tags" : ["Trade"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/Elizabeth_Macarthur"},{"name": "Australian Dictionary of National Biography", "url": "http://adb.anu.edu.au/biography/macarthur-elizabeth-2387"}],
+        "events": ["Treaty of Waitangi"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.8272,
+151.017
+        ]
+      }
+    }
+  ]
+}
