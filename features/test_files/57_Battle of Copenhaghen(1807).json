@@ -1,0 +1,27 @@
+
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Battle of Copenhaghen(1807)",
+        "short_description" : "The Second Battle of Copenhagen (or the Bombardment of Copenhagen) (16 August – 5 September 1807) was a British bombardment of Copenhagen in order to seize the Dano-Norwegian fleet, during the Napoleonic Wars. The attack gave rise to the term to Copenhagenize.",
+        "description" : "Despite the defeat and loss of many ships in the first Battle of Copenhagen in 1801, Denmark-Norway, possessing Schleswig-Holstein and Iceland, still maintained a considerable navy. The majority of the Danish army under the Crown Prince was at this time defending the southern border against possible attack from the French. There was concern in Britain that Napoleon might try to force Denmark to close the Baltic Sea to British ships, perhaps by marching French troops into Zealand. The British believed that access to the Baltic was 'vitally important to Britain' for trade as well as a major source of necessary raw materials for building and maintaining warships, and that it gave the Royal Navy access to help Britain's allies Sweden and (before Tilsit) Russia against France.The British thought that after Prussia had been defeated in December 1806, Denmark's independence looked increasingly under threat from France. George Canning's predecessor as Foreign Secretary, Lord Howick, had tried unsuccessfully to persuade Denmark into a secret alliance with Britain and Sweden.",
+        "startdate" :"1807-08-16",
+        "enddate":"1807-09-05",
+        "timescale": "year",
+        "tags" : ["War"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/Battle_of_Copenhagen_(1807)"},{"name": "List of ships captured during the Battle of Copenhagen", "url": "http://en.wikipedia.org/wiki/List_of_ships_captured_in_the_19th_century#Battle_of_Copenhagen"}],
+        "events": ["Peninsula War"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.568337,
+55.676097
+        ]
+      }
+    }
+  ]
+}

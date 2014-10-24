@@ -1,0 +1,27 @@
+.json
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Assassination of Archduke Franz Ferdinand of Austria",
+        "short_description" : "On 28 June 1914, Archduke Franz Ferdinand of Austria, heir presumptive to the Austro-Hungarian throne, and his wife,Sophie, Duchess of Hohenberg, were shot dead in Sarajevo by Gavrilo Princip, one of a group of six assassins (five Serbsand one Bosniak) coordinated by Danilo Ilić, a Bosnian Serb and a member of the Black Hand secret society. The political objective of the assassination was to break off Austria-Hungary's south-Slav provinces so they could be combined into aYugoslavia.",
+        "description" : "Under the 1878 Treaty of Berlin, Austria-Hungary received the mandate to occupy and administer the Ottoman Vilayet of Bosnia while the Ottoman Empire retained official sovereignty. Under this same treaty, the Great Powers (Austria-Hungary, Britain, France, Germany, Italy, the Ottoman Empire, and Russian Empire) gave official recognition to the Principality of Serbia as a fully sovereign state, which four years later transformed into a kingdom under Prince Milan IV Obrenović who thus became King Milan I Obrenović. Serbia's monarchs at the time from the royal House of Obrenović that maintained close relations with Austria-Hungary were content to reign within the borders set by the treaty.",
+        "startdate" :"1914-06-28",
+        "enddate":"1914-06-28",
+        "timescale": "year",
+        "tags" : ["Political"],
+        "links": [{"name": "Wikipedia", "url": "http://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand_of_Austria"},{"name": "World War I", "url": "http://en.wikipedia.org/wiki/World_War_I"}],
+        "events": ["World War I"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.8476,
+18.3564
+        ]
+      }
+    }
+  ]
+}
