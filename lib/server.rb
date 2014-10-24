@@ -1,8 +1,6 @@
 require 'sinatra/base'
 require 'data_mapper'
 require './lib/datamapper_setup'
-require 'haml'
-
 
 ENV['TZ'] = 'utc'
 
@@ -16,7 +14,7 @@ class MapToTheFuture < Sinatra::Base
 
   get '/upload' do
     @events = Event.all
-    haml :upload
+    erb :upload
   end
 
   get '/test_layout' do

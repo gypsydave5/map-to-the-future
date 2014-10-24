@@ -1,0 +1,27 @@
+!!!
+%head
+%body
+  %p GeoJSON file:
+  %form{method: "POST", enctype: 'multipart/form-data'}
+    %input{type: 'file', name: 'geoJSON'}
+    %input{type: 'submit', value: 'Submit'}
+
+  %p Add a new event:
+  %form{method: "POST", action: "upload/formpost" }
+    %input{type: 'text', name: 'title', placeholder: "Event name", required: true}
+    %input{type: 'text', name: 'short_description', placeholder: "Three line event summary", required: true}
+    %textarea{ cols: '50', rows: '20', name: 'description', required: 'true', placeholder: 'Describe the event' }
+    %input{type: 'text', name: 'longitude', placeholder: "Event longitude", required: true}
+    %input{type: 'text', name: 'latitude', placeholder: "Event latitude", required: true}
+    %input{type: 'text', name: 'timescale', placeholder: "Timescale, ie: year", required: true}
+    %input{type: 'text', name: 'startdate', placeholder: "Start date", required: true}
+    %input{type: 'text', name: 'enddate', placeholder: "End date"}
+    %input{type: 'text', name: 'tags', placeholder: "Tags ie: political, cultural", required: true}
+    %select{name: 'linkedevents[]', multiple: true}
+      -@events.each do |event|
+        %option{value: event.id}
+          =event.title
+    %input{type: 'text', name: 'link-name', placeholder: "title for the link, ie. Wikipedia"}
+    %input{type: 'text', name: 'link-url', placeholder: "url for the link, ie. http://wikipedia.com"}
+    %input{type: 'submit', value: 'Publish'}
+

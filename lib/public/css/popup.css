@@ -5,7 +5,7 @@
 #map .tabs-ui {
   position:relative;
   min-height:250px;
-  width:300px;
+  width:350px;
   clear:both;
   margin:0;
   }
@@ -111,9 +111,9 @@
 }
 
 .leaflet-container h1 {
-    padding: 2px 0;
+    padding: 0;
     color: #e69524;
-    font-size: 1.5em;
+    font-size: 1.2em;
     line-height: 1em;
     font-weight: bold;
 }
@@ -125,10 +125,11 @@
   text-transform: uppercase;
   font-style: italic;
   font-size: 0.8em;
+  line-height: 1em;
 }
 
 .leaflet-container p {
-  font-size: 1em;
+  font-size: 0.9em;
 }
 
 .leaflet-container .sidebar-caller {

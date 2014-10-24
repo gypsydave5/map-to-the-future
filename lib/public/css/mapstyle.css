@@ -48,7 +48,7 @@ html {
 }
 
 .navbar-brand {
-  padding-left: 3.5em;
+  padding-left: 1%;
 }
 
 .navbar-brand img {
@@ -84,16 +84,16 @@ footer {
 
 #date-line {
   display: block;
-  margin: 0.8em 5px 0.8em 5px;
+  margin: 0.8em 5px 0.8em 15px;
   text-align: center;
-  font-size: 0.6em;
+  font-size: 0.8em;
   line-height: 0.5em;
   color: #e69524;
 }
 
 #date {
+  margin: 0.1em 5px 0.8em 15px;
   font-weight: bold;
-  /*margin: 0.8em 5px 0 5px;*/
   line-height: 1.2em;
   font-size: 2.2em;
   color: #e69524;
@@ -122,6 +122,43 @@ footer {
   position: absolute;
   right: 0;
   top: 0;
+}
+
+/*=================
+    ZOOM BUTTONS
+=================*/
+
+#map div.leaflet-top.leaflet-left {
+  top: 5em;
+  left: 1%;
+}
+
+#map .leaflet-control-zoom {
+  border: none;
+  background:#464D6E;
+  color: white;
+}
+
+#map .leaflet-control-zoom-out {
+  color: white;
+}
+
+#map .leaflet-control-zoom-in {
+  color: white;
+}
+
+#map .leaflet-control-zoom-out:hover {
+  background-image: url(images/icons-000000@2x.png);
+  background: black;
+  opacity: 0.1;
+  color: white;
+}
+
+#map .leaflet-control-zoom-in:hover {
+  background-image: url(images/icons-000000@2x.png);
+  background: black;
+  opacity: 0.1;
+  color: white;
 }
 
 /*=============

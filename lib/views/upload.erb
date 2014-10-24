@@ -1,27 +1,27 @@
-!!!
-%head
-%body
-  %p GeoJSON file:
-  %form{method: "POST", enctype: 'multipart/form-data'}
-    %input{type: 'file', name: 'geoJSON'}
-    %input{type: 'submit', value: 'Submit'}
-
-  %p Add a new event:
-  %form{method: "POST", action: "upload/formpost" }
-    %input{type: 'text', name: 'title', placeholder: "Event name", required: true}
-    %input{type: 'text', name: 'short_description', placeholder: "Three line event summary", required: true}
-    %textarea{ cols: '50', rows: '20', name: 'description', required: 'true', placeholder: 'Describe the event' }
-    %input{type: 'text', name: 'longitude', placeholder: "Event longitude", required: true}
-    %input{type: 'text', name: 'latitude', placeholder: "Event latitude", required: true}
-    %input{type: 'text', name: 'timescale', placeholder: "Timescale, ie: year", required: true}
-    %input{type: 'text', name: 'startdate', placeholder: "Start date", required: true}
-    %input{type: 'text', name: 'enddate', placeholder: "End date"}
-    %input{type: 'text', name: 'tags', placeholder: "Tags ie: political, cultural", required: true}
-    %select{name: 'linkedevents[]', multiple: true}
-      -@events.each do |event|
-        %option{value: event.id}
-          =event.title
-    %input{type: 'text', name: 'link-name', placeholder: "title for the link, ie. Wikipedia"}
-    %input{type: 'text', name: 'link-url', placeholder: "url for the link, ie. http://wikipedia.com"}
-    %input{type: 'submit', value: 'Publish'}
-
+  <p>GeoJSON file:</p>
+  <form enctype='multipart/form-data' method='POST'>
+    <input name='geoJSON' type='file'>
+    <input type='submit' value='Submit'>
+  </form>
+  <p>Add a new event:</p>
+  <form action='upload/formpost' method='POST'>
+    <input name='title' placeholder='Event name' required type='text'>
+    <input name='short_description' placeholder='Three line event summary' required type='text'>
+    <textarea cols='50' name='description' placeholder='Describe the event' required='true' rows='20'></textarea>
+    <input name='longitude' placeholder='Event longitude' required type='text'>
+    <input name='latitude' placeholder='Event latitude' required type='text'>
+    <input name='timescale' placeholder='Timescale, ie: year' required type='text'>
+    <input name='startdate' placeholder='Start date' required type='text'>
+    <input name='enddate' placeholder='End date' type='text'>
+    <input name='tags' placeholder='Tags ie: political, cultural' required type='text'>
+    <select multiple name='linkedevents[]'>
+      <% @events.each do |event| %>
+        <option value=<%= event.id %>>
+          <%= event.title %>
+        </option>
+      <% end %>
+    </select>
+    <input name='link-name' placeholder='title for the link, ie. Wikipedia' type='text'>
+    <input name='link-url' placeholder='url for the link, ie. http://wikipedia.com' type='text'>
+    <input type='submit' value='Publish'>
+  </form>

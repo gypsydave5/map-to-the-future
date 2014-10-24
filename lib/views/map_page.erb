@@ -1,128 +1,108 @@
-<!DOCTYPE html>
-<html lang="en">
-
-
-  <body>
-    <script id="popup-template" type="text/x-handlebars-template">
-      <div class="tabs-ui" id={{id}} >
-        <div class="tab">
-          <input type="radio" id="title" name="tab-group" checked="true" />
-          <label for='title'>Event</label>
-          <div class="content">
-            <h1>{{title}}</h1>
-            <h2>{{date}}</h2>
-            <p>{{short_description}}</p>
-            <a data-id={{id}} class='sidebar-caller'><p>Read more...</p></a>
-          </div>
-        </div>
-        <div class="tab">
-          <input type="radio" id="linked-events" name="tab-group" />
-          <label for='linked-events'>Linked Events</label>
-          <div class="content">
-            <ul>
-              {{#each events}}
-              <li>{{{link}}}</li>
-              {{/each}}
-            </ul>
-          </div>
-        </div>
-        <div class="tab">
-          <input type="radio" id="read more" name="tab-group" />
-          <label for='read more'>Sources</label>
-          <div class='content'>
-            <ul>
-              {{#each links}}
-              <li>{{{link}}}</li>
-              {{/each}}
-              <li>test</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </script>
-
-    <div id='sidebar'>
-      <h1> Welcome to Map to the Future </h1>
-      <h2> Explore historical events... on a map!</h2>
-      <p>
-      Drag the slider at the bottom to change the date and you will see different historical events appear on the map.
-      </p>
-      <p>
-      Click on the event to find out more information.
-      </p>
-      <p>
-      We have currently included historical events linked to the the British Empire, ranging from the late 18th Century to the early 20th century.
-      </p>
-      <p>
-      Now it is time for you to go back and forth in history !
-      </p>
-    </div>
-    <div class="navbar" role="navigation">
-      <div class="container">
-        <a class="navbar-brand" href="/">
-          <img src="/images/mapToTheFutureGrad.png" alt="Map to The Future">
-        </a>
+<script id="popup-template" type="text/x-handlebars-template">
+  <div class="tabs-ui" id={{id}} >
+    <div class="tab">
+      <input type="radio" id="title" name="tab-group" checked="true" />
+      <label for='title'>Event</label>
+      <div class="content">
+        <h1>{{title}}</h1>
+        <h2>{{date}}</h2>
+        <p>{{short_description}}</p>
+        <a data-id={{id}} class='sidebar-caller'><p>Read more...</p></a>
       </div>
     </div>
+    <div class="tab">
+      <input type="radio" id="linked-events" name="tab-group" />
+      <label for='linked-events'>Linked Events</label>
+      <div class="content">
+        <ul>
+          {{#each events}}
+          <li>{{{link}}}</li>
+          {{/each}}
+        </ul>
+      </div>
+    </div>
+    <div class="tab">
+      <input type="radio" id="read more" name="tab-group" />
+      <label for='read more'>Sources</label>
+      <div class='content'>
+        <ul>
+          {{#each links}}
+          <li>{{{link}}}</li>
+          {{/each}}
+          <li>test</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</script>
 
-    <section id="map"></section>
+<div id='sidebar'>
+  <h1> Welcome to Map to the Future </h1>
+  <h2> Explore historical events... on a map!</h2>
+  <p> Drag the slider at the bottom to change the date and you will see different historical events appear on the map.  </p>
+  <p> Click on the event to find out more information.</p>
+  <p> We have currently included historical events linked to the the British Empire, ranging from the late 18th Century to the early 20th century.</p>
+  <p>Now it is time for you to go back and forth in history!</p>
+</div>
 
-    
+<section id="map"></section>
 
-    <script type='text/javascript' src="scripts/map_box.js"></script>
-    <script type='text/javascript' src="./javascript/leaflet-sidebar-master/src/L.Control.Sidebar.js"></script>
-    <script>
+<footer>
+  <div class="footer-element" id="date-wrapper">
+    <div id="date-line">
+      <p>Current Date:</p>
+    </div>
+    <div id="date">
+      <p>1845</p>
+    </div>
+  </div>
+  <div class="footer-element" id="slider"></div>
+</footer>
 
-    </script>
-    <script>
-      $('document').ready( function(){
-        $( "#slider" ).slider({
-          programmatic: false,
-          min: new Date("1770").getFullYear(),
-          max: new Date("1920").getFullYear(),
-          step: 1,
-          value: new Date("1845").getFullYear(),
-          create: function(event, ui){
-            // $('#date').text((new Date($("#slider").slider("option", "value"))));
-            getMapData("year", "1845", eventLayer);
-          },
-          slide: function(event, ui) {
-            $('#date').text(ui.value);
-            eventLayer.clearLayers();
-          },
-          change: function(event, ui){
-            if (event.originalEvent){
-              getMapData("year", ui.value, eventLayer);
-              } else if($(this).slider("option", "programmatic")) {
-              getMapData("year", ui.value, eventLayer);
-              };
-            $('#date').text(ui.value);
-          }
-        });
-      });
+<script type='text/javascript' src="scripts/map_box.js"></script>
+<script type='text/javascript' src="./javascript/leaflet-sidebar-master/src/L.Control.Sidebar.js"></script>
 
-    </script>
-    <script>
+<script>
+  $('document').ready( function(){
+    $( "#slider" ).slider({
+      programmatic: false,
+      min: new Date("1770").getFullYear(),
+      max: new Date("1920").getFullYear(),
+      step: 1,
+      value: new Date("1845").getFullYear(),
+      create: function(event, ui){
+        // $('#date').text((new Date($("#slider").slider("option", "value"))));
+        getMapData("year", "1845", eventLayer);
+      },
+      slide: function(event, ui) {
+        $('#date').text(ui.value);
+        eventLayer.clearLayers();
+      },
+      change: function(event, ui){
+        if (event.originalEvent){
+          getMapData("year", ui.value, eventLayer);
+          } else if($(this).slider("option", "programmatic")) {
+          getMapData("year", ui.value, eventLayer);
+          };
+        $('#date').text(ui.value);
+      }
+    });
+  });
+</script>
 
-        var sidebar = L.control.sidebar('sidebar', {
-            closeButton: true,
-            position: 'right'
-
-        });
-        map.addControl(sidebar);
-
-        setTimeout(function () {
-            sidebar.show();
-        }, 500);
-
-        map.on('click', function () {
-            sidebar.hide();
-        })
-
-        L.DomEvent.on(sidebar.getCloseButton(), 'click', function () {
-            console.log('Close button clicked.');
-        });
-
-    </script>
-  </body>
-</html>
+<script>
+    var sidebar = L.control.sidebar('sidebar', {
+        closeButton: true,
+        position: 'right'
+    });
+    map.addControl(sidebar);
+    setTimeout(function () {
+        sidebar.show();
+    }, 500);
+    map.on('click', function () {
+        sidebar.hide();
+    })
+    L.DomEvent.on(sidebar.getCloseButton(), 'click', function () {
+        console.log('Close button clicked.');
+    });
+</script>
