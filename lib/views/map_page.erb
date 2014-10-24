@@ -45,7 +45,7 @@
         </div>
         <div class="tab">
           <input type="radio" id="read more" name="tab-group" />
-          <label for='read more'>Read more</label>
+          <label for='read more'>Sources</label>
           <div class='content'>
             <ul>
               {{#each links}}
@@ -90,7 +90,7 @@
           <p>Current Date:</p>
         </div>
         <div id="date">
-          <p>1790</p>
+          <p>1845</p>
         </div>
       </div>
       <div class="footer-element" id="slider"></div>
@@ -105,13 +105,13 @@
       $('document').ready( function(){
         $( "#slider" ).slider({
           programmatic: false,
-          min: new Date("1583").getFullYear(),
-          max: new Date("1997").getFullYear(),
+          min: new Date("1770").getFullYear(),
+          max: new Date("1920").getFullYear(),
           step: 1,
-          value: new Date("1790").getFullYear(),
+          value: new Date("1845").getFullYear(),
           create: function(event, ui){
             // $('#date').text((new Date($("#slider").slider("option", "value"))));
-            getMapData("year", "1790", eventLayer);
+            getMapData("year", "1845", eventLayer);
           },
           slide: function(event, ui) {
             $('#date').text(ui.value);
