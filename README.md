@@ -7,7 +7,7 @@ Map to the Future is a map displaying historical events, with a slider that allo
 
 Each historical event is represented by a marker, and can be clicked to display a pop up providing additional information and links about the event.
 
-The website allows to upload your own historical events.
+The website allows you to upload your own historical events.
 
 ![GREAT SCOTT!](https://github.com/gypsydave5/map-to-the-future/blob/master/lib/public/images/mapToTheFuture.png)
 
@@ -39,4 +39,8 @@ During the two weeks it took us to create the app, we used Agile techniques:
 - Mapbox
 - Leaflet
 - JQuery
+
+####Launching the app
+
+http://map-to-the-future.herokuapp.com/
 
