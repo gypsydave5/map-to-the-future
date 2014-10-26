@@ -14,17 +14,16 @@ The website allows you to upload your own historical events.
 #### The Team
 
 This was our final project at Makers Academy, created by:
- - Dave Wickes (GypsyDave)
+ - Dave Wickes ([GypsyDave5](https://github.com/gypsydave5))
  - Tatiana Soukiassian (binaryberry)
  - Merve Silk (Mervodactyl)
  - Lovis Schultze (NineInchNade)
 
-During the two weeks it took us to create the app, we used Agile techniques:
+During the two weeks it took us to create the app, we used agile techniques such as:
 - Kanban
 - Retrospective
 - Pair Programming
 - Compulsory morning hug!
-
 
 ####Technologies Used
 
@@ -39,8 +38,9 @@ During the two weeks it took us to create the app, we used Agile techniques:
 - Mapbox
 - Leaflet
 - JQuery
+- jQueryUI
 
 ####Launching the app
 
-http://map-to-the-future.herokuapp.com/
+A version of the app with sample data is currently live on [Heroku](http://map-to-the-future.herokuapp.com/).
 
