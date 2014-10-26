@@ -15,7 +15,7 @@ The website allows you to upload your own historical events.
 
 This was our final project at Makers Academy, created by:
  - Dave Wickes ([GypsyDave5](https://github.com/gypsydave5))
- - Tatiana Soukiassian ([binaryberry[(https://github.com/binaryberry))
+ - Tatiana Soukiassian ([binaryberry](https://github.com/binaryberry))
  - Merve Silk ([Mervodactyl](https://github.com/Mervodactyl))
  - Lovis Schultze ([NineInchNade](https://github.com/NineInchNade))
 
