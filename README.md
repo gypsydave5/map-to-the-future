@@ -19,6 +19,8 @@ This was our final project at Makers Academy, created by:
  - Merve Silk ([Mervodactyl](https://github.com/Mervodactyl))
  - Lovis Schultze ([NineInchNade](https://github.com/NineInchNade))
 
+![MAP](http://gypsydave5.github.io/images/readme/map-to-the-future-1.png)
+
 During the two weeks it took us to create the app, we used agile techniques such as:
 - Kanban
 - Retrospective
